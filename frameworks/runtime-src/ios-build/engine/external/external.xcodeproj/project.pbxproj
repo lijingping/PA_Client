@@ -1,0 +1,3320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6607D914BDF04CF6B1374F20 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F550BFEE66ED42E597A95EC0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B81EF184820143309D232A65 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		EB6C423FDF824D779BC25A22 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6609BED459864E27B3630F60 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4891F60B6EE042FD8CD2BD01 /* CMake Rules */,
+			);
+			dependencies = (
+				BECBDD64B2FA44C6ACED1AD3 /* PBXTargetDependency */,
+				14DF26F38F924E728D3F8EA4 /* PBXTargetDependency */,
+				57EE466282F9456FBA4CB981 /* PBXTargetDependency */,
+				CDEE480239AA468C9AE4E5FB /* PBXTargetDependency */,
+				F0C374A85CAA48C59CAEFB4B /* PBXTargetDependency */,
+				EFCB74805F5E4F3A9E2BEB3A /* PBXTargetDependency */,
+				C822C0A9D677414E9AB7D711 /* PBXTargetDependency */,
+				CE70DD5F514F4E0280F439C9 /* PBXTargetDependency */,
+				02C7DCF92ACA4EE4A0497605 /* PBXTargetDependency */,
+				70A164C53B484A4FAD75731E /* PBXTargetDependency */,
+				B7F4BF4F2D564C1088E4084F /* PBXTargetDependency */,
+				FED53B841DEB4B2C876600C4 /* PBXTargetDependency */,
+				441780CB3B814BC3B9C8E08C /* PBXTargetDependency */,
+				4D4B1890726948EA9F42BB88 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		019264F39E3D4961A2D6D14E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 0F3680FE744F48AD8F4876DC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		0D1C85A7B86B41F99D111B64 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 95C141445C2B452AADF9CB53 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/CMakeLists.txt */; };
+		100B46B6AD1F4D59AE49AA9F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 686C3E7DA42947F781A62BCE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		16A71B30EAE8422EBC8E3B5B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CD9442E831404ECC85E072B5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */; };
+		19DF62865482437D8E449D29 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 8415E3E6B46B48A0B106A362 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		1C33C80F08C8421DBEC77B16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */ = {isa = PBXBuildFile; fileRef = FBD9C3E970614A178E58D972 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */; };
+		1F31F6838EB94FC48C50D987 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 69C8E9080DE84CE0BC37DFAC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		1F34883B57A846BB861BF80C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */ = {isa = PBXBuildFile; fileRef = 524B3BE302D645B585E874F7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */; };
+		22EC273CD0B54D07A2FADC96 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C75151694AF54CE796616354 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/CMakeLists.txt */; };
+		22F6AD9A789A4B3E8CF86912 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 670477C179BD4DB9921C400E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		25917900953148338147C1F0 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = E0E46BE53DBB4046801E63DB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		2865BE06C89F4127B86EE2CA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 09096E013134493CA86901AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */; };
+		294F25E9C2CE4E6A85B5B206 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 1621215D48154963B95B8FA7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		314949FF71EB48DCB9F5EC27 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */ = {isa = PBXBuildFile; fileRef = B445C25582DA4DB2A64F5556 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */; };
+		33CCC93C36A04E2A99A6F42D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */ = {isa = PBXBuildFile; fileRef = E80B542ED77046D7B67A9D18 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */; };
+		33E9411BBE7441A9ACE7169A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */ = {isa = PBXBuildFile; fileRef = 8DEEEBE02010499A941715C8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */; };
+		3556CDFCA90F4AECB2B4D46F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */ = {isa = PBXBuildFile; fileRef = 34C624C3CFD346338A09F821 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */; };
+		3871210D518B4A13A5E2C293 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 1BFC54CA24D741ADA0D6A1CB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		38ED7EFF635841CDB3C7C2CB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = E8A7A959820840428BBCB4EE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		3A84A2492A984ED1B4AB2654 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 258C9920D14A4350B5333462 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourAlloc.cpp */; };
+		3EC621A0E86C4607A7DD076D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CB78AEE248F6412DA4DCB0E3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/CMakeLists.txt */; };
+		454678C0422843E2833950BC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */ = {isa = PBXBuildFile; fileRef = 3D54B53C217143FD921D7088 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */; };
+		47505D613758402099E1ED73 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 36CFD1ADABE84ED99650C4E7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMesh.cpp */; };
+		4920A69C103E4336AD2AFD4F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AB7908DA0E7F41E1937637E2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */; };
+		4C1DB28A29614B70A920A666 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4886DAA2540743F9AA49381B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */; };
+		4DA262C586104D5C931AA1A1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 05FAEA35372943849E494D55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/fastlz/fastlz.c */; };
+		50F08ACC9A9E459C9F99BBA5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = E84BEDF3FB87482C9A46BCB2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/empty.cpp */; };
+		59DF486F2FA94AFFB4C9D5DC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 39A2F8AE2C9D4C8A85D8773A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/CMakeLists.txt */; };
+		5B1D259C62934E54927FFACD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B298112CC4AE41BCB816E87A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+		5B8B702E1BA849CABEC0C3CF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 19B94B59882E4E4D9D314ED7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */; };
+		5DF5436AC9294B94A15ABC40 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = E9878ECC4165458A9FFE8B16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		6460C102B97F4E52975BC8C2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = C5DF76B12824470F9583A91D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/common/shapes.cc */; };
+		65B1D2B0CE3B4F418BC54AC8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B5B509D949B34FD2952EC71C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		71DC18BF172A409C9ECBE84A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 668E6CDE62E54D40909E88FB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/CMakeLists.txt */; };
+		74228595F05940128528DDFA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */ = {isa = PBXBuildFile; fileRef = E9ADE3127F284A5CABEB6FD9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */; };
+		758FA49649ED485CA1B70A9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */ = {isa = PBXBuildFile; fileRef = 7C170D3841734DFF9F562EAA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */; };
+		7880972015EE43D083BDABB6 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = A5C51F94F3C34D05AE41E4B1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/md5.c */; };
+		7B3BC98F07494D189DD2D2C5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = AABFD1812B9B4E5CA0AD6D6C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/edtaa3func.cpp */; };
+		7E571944AFD842329F63C4E6 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 389E60A000D246F19C844FA9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/unzip.cpp */; };
+		8476798A1802410898CCBB57 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = D714E6648ED9403F838534B2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		862244E9953949E192D9B93C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 49874971376E4042B1D7BB26 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep_context.cc */; };
+		8B13932585144145A69B157B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 7E4DC591867645E9AF52BD91 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourCommon.cpp */; };
+		8B13B3B59F904F8787BACD4A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = C3588A2ACA16430D8C865C40 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DebugDraw.cpp */; };
+		92EB7AB72F9042BF9C840990 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */ = {isa = PBXBuildFile; fileRef = 5669C1D5F9D3450F9555E74F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */; };
+		937FCBF11F4B40A399BBD4C3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 30330B4E02C146529798F228 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/CMakeLists.txt */; };
+		968F6291749545E4B1B0BDC8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */ = {isa = PBXBuildFile; fileRef = 9F03E730BB71431DBF3267A5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */; };
+		98B1FEF2C5AB4D4A9152C5A0 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = AB4247E03C914860AEBFC168 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/cdt.cc */; };
+		9BEBD63A1CC74D8596A49CAB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */ = {isa = PBXBuildFile; fileRef = C7A81D25E5FF48FABF130BC1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */; };
+		A46A16A3EE6D400DAD9A2682 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */ = {isa = PBXBuildFile; fileRef = 6FAF9031C24C4B55B29B498A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */; };
+		A4C52BAA7AD34682B8EEAC28 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8F18CCBE61FB462A8189A426 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		AB84DE0946EF462D8866D359 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 8DF73B51ECDE4A9EA8B4D602 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		ADBA468974924B0CAF2A5510 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */ = {isa = PBXBuildFile; fileRef = 40B6BF62A68A4B35A039C838 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */; };
+		B1AC71BB68954814BDF9494D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 862A759C35164622A348F79E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTF.c */; };
+		B28E6B272501449E9F5A310F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */ = {isa = PBXBuildFile; fileRef = 81EBE6B284A24550B4D43677 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */; };
+		B6D6653915514A20B157636C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */ = {isa = PBXBuildFile; fileRef = EC6DC5B5E88D417C941A2AF8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */; };
+		B82B76E6B5AE43D4B167DABF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EF9B54161D2F47F3A942D7C4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/CMakeLists.txt */; };
+		B8814141A5904A49B675740C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 47717F4D47204B5ABE171919 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNode.cpp */; };
+		B8BEFFED6567447E872B8D48 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */ = {isa = PBXBuildFile; fileRef = 81B8D181B4934D9286AF0C16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */; };
+		B8F57908C9EC48CE9F3C5BB5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5CC0B9A4C3874823A25C2F8A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/CMakeLists.txt */; };
+		BB9DEE27ECEE4CB2BCB1836A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F9530ABAB77441F4BCB2E33C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/CMakeLists.txt */; };
+		BE3C83906F1F400A8DB9616D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C31D6A1A2D554CD3AB2E01AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/Info.plist */; };
+		C10C2FD98BB94CDFBFFCEF02 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */ = {isa = PBXBuildFile; fileRef = 44474A66EB374681A26C7270 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */; };
+		CA5E593182C7416C8610E86E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 35A1129C05A647E8B3227F55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		CEFF78618A3B4DEFB9C00B8D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = B18B256B57CF44FDA31FA5EE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/xxhash.c */; };
+		D2585302566E4A8BAB5E4A3C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = F56029F1BD8046718D1A5422 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		D466684ECC094A3C852C30E9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */ = {isa = PBXBuildFile; fileRef = B7D41C9339DC4E499A01F40D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */; };
+		D7461AA51EAC43AA9E246B7B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 5CF9CCF0B3A640798C8B8BEF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep.cc */; };
+		D8317C0202924D75A59CC654 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */ = {isa = PBXBuildFile; fileRef = 2FFAEA0E5E694BA392CA45FF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */; };
+		D89E551D0292487F9C80F0EF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */ = {isa = PBXBuildFile; fileRef = 8040BC702C4C4B4BB86EFA22 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */; };
+		DDD0C628A37748C4A4B04454 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9F54FCCD89754B5F907DED38 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		E1BA15555FF8407E8AFA2C71 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = D101199C52F1458FBA633103 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi.cpp */; };
+		E2B78FCEC5CB459588935516 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 546630E7CBFB4F16A1DAD04C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/tinyxml2.cpp */; };
+		EEBD6036DB6C4BBA86BE3CFA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 98E6F75E6EE84C1186CB9C98 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/xxtea.cpp */; };
+		F5B0F83C90294542B2FED5E5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = D5E28A0B12C1446CABF0E8C3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		F73EE279E6AB48FC93FB0284 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = D3E74891C10541B685FEAB1A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi_mem.cpp */; };
+		F8B4275A96314179A8D7EA2D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 6FFFC6371E0147A59B6A1E7F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		F8BBCE658881427287E7A2BF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = BAB06E509FFB41A99C1562AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		F923F1A181DB44B3AA6CF580 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = DAECAD444D48464DBEE1F5F1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/advancing_front.cc */; };
+		F963EF44118C4B749ABF1058 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = BA22D6B749DA412782704436 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		F97F56125B604AE1AE1A2BA6 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 5150EF0DE72B48BEA4E5CB4B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		FB42A144123E4F25809409DC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E8EB130A73C6408DA14B2D82 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0A777F78336B47A8BEB4E32A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6F6BACCCF67C4E5D9C26623F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8A1416F381164519B7510C0A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B6444B97384149BB9FA9894A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6304D541EB4884BFF51FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23D71F26C274B18A245F0C6;
+			remoteInfo = ext_xxtea;
+		};
+		14AD5FC2EC604F1FB85F13FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18831E3785624471933E134C;
+			remoteInfo = ext_luasocket;
+		};
+		1A3AC2ACBD4E4053AD58F037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCAA4FC201B4FEAA97A6234;
+			remoteInfo = ext_xxhash;
+		};
+		2F393D47D7124E5CA974DA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23D71F26C274B18A245F0C6;
+			remoteInfo = ext_xxtea;
+		};
+		3BA26B3FD25F430E99DE9120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5422D0278EBC400895D9F918;
+			remoteInfo = ext_recast;
+		};
+		477F17B2B0754DE5BA1D0C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC99AA2F2DA4473082E4705D;
+			remoteInfo = ext_clipper;
+		};
+		50A1CB9553F14AE5B96BA4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCAA4FC201B4FEAA97A6234;
+			remoteInfo = ext_xxhash;
+		};
+		5136E56AEE0047FA80B91DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE183CBC0104491F9341C853;
+			remoteInfo = ext_edtaa3func;
+		};
+		51B8D9B3F9874E6685CBE8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DC3168E76547238DB9112A;
+			remoteInfo = ext_unzip;
+		};
+		5F8769DBF92946259821F0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1ADD9A08B734DABB51C824E;
+			remoteInfo = ext_md5;
+		};
+		6CD58BC92E1644E6AD4F147A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8ABDEA1B07420FA0246513;
+			remoteInfo = ext_convertUTF;
+		};
+		730C1342002B4CADA032A88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6607D914BDF04CF6B1374F20;
+			remoteInfo = ZERO_CHECK;
+		};
+		8452C15054E945AFBE82025E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6607D914BDF04CF6B1374F20;
+			remoteInfo = ZERO_CHECK;
+		};
+		8644B8D9AE574CBFB5D8BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5422D0278EBC400895D9F918;
+			remoteInfo = ext_recast;
+		};
+		87E58037321E4473B29E5003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE183CBC0104491F9341C853;
+			remoteInfo = ext_edtaa3func;
+		};
+		9FCA8B6E26D643578BBC4E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC99AA2F2DA4473082E4705D;
+			remoteInfo = ext_clipper;
+		};
+		A141D5F0CB1843AAAAEC4D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312E261F282341BEBB722887;
+			remoteInfo = ext_tolua;
+		};
+		A3CB2CA6AF994B6F8F41BC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5724533E049484CA016F82D;
+			remoteInfo = ext_tinyxml2;
+		};
+		BA161DCED0294B2C88C93315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8ABDEA1B07420FA0246513;
+			remoteInfo = ext_convertUTF;
+		};
+		C4993345CA024870A4EE9955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2400E577239E4CDF9A9D4FE4;
+			remoteInfo = external;
+		};
+		C940056F77444706B5A3C92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACCCBB1C945D42AD881CE88D;
+			remoteInfo = ext_poly2tri;
+		};
+		CF67D024218C485784866DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACCCBB1C945D42AD881CE88D;
+			remoteInfo = ext_poly2tri;
+		};
+		D035967DE93040909D66DFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5724533E049484CA016F82D;
+			remoteInfo = ext_tinyxml2;
+		};
+		DEF6A921EB6C41439EBCEC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DC3168E76547238DB9112A;
+			remoteInfo = ext_unzip;
+		};
+		E60AB589B8694AA0BAFA4BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C13DBB0084D88AF59298A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1ADD9A08B734DABB51C824E;
+			remoteInfo = ext_md5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FAEA35372943849E494D55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		09096E013134493CA86901AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		094650AE003B46B2989F39D4 /* ext_tolua */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tolua.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3680FE744F48AD8F4876DC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		1621215D48154963B95B8FA7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		19B94B59882E4E4D9D314ED7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		1B344D0469B2487B8E26D4A6 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFC54CA24D741ADA0D6A1CB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		258C9920D14A4350B5333462 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		2FFAEA0E5E694BA392CA45FF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = lua/luasocket/io.c; sourceTree = SOURCE_ROOT; };
+		30330B4E02C146529798F228 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		34C624C3CFD346338A09F821 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer.c; path = lua/luasocket/buffer.c; sourceTree = SOURCE_ROOT; };
+		35A1129C05A647E8B3227F55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		36CFD1ADABE84ED99650C4E7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		389E60A000D246F19C844FA9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		39A2F8AE2C9D4C8A85D8773A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D54B53C217143FD921D7088 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timeout.c; path = lua/luasocket/timeout.c; sourceTree = SOURCE_ROOT; };
+		40B6BF62A68A4B35A039C838 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_is.c; path = lua/tolua/tolua_is.c; sourceTree = SOURCE_ROOT; };
+		44474A66EB374681A26C7270 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = options.c; path = lua/luasocket/options.c; sourceTree = SOURCE_ROOT; };
+		444CED713B064D6289458656 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47717F4D47204B5ABE171919 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		4886DAA2540743F9AA49381B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lua/tolua/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		49874971376E4042B1D7BB26 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		4AF2D94BEF9142DE9D4E7FD9 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A5398600504467A5C3E2A7 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5150EF0DE72B48BEA4E5CB4B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		524B3BE302D645B585E874F7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = select.c; path = lua/luasocket/select.c; sourceTree = SOURCE_ROOT; };
+		546630E7CBFB4F16A1DAD04C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		5669C1D5F9D3450F9555E74F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = serial.c; path = lua/luasocket/serial.c; sourceTree = SOURCE_ROOT; };
+		56F3173C4091433C929D91FF /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		590A7DFDF1824DADA0D79D20 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1182375D0B43E39BF55DB2 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC0B9A4C3874823A25C2F8A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5CF9CCF0B3A640798C8B8BEF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		65A18ECA315C47109B6BBE67 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		668E6CDE62E54D40909E88FB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		670477C179BD4DB9921C400E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		686C3E7DA42947F781A62BCE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		69C8E9080DE84CE0BC37DFAC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		6FAF9031C24C4B55B29B498A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inet.c; path = lua/luasocket/inet.c; sourceTree = SOURCE_ROOT; };
+		6FFFC6371E0147A59B6A1E7F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		70F82BBF257B4FE0AE24CB87 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170D3841734DFF9F562EAA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_map.c; path = lua/tolua/tolua_map.c; sourceTree = SOURCE_ROOT; };
+		7C57F394989B466786A228A2 /* ext_luasocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_luasocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4DC591867645E9AF52BD91 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		8040BC702C4C4B4BB86EFA22 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = auxiliar.c; path = lua/luasocket/auxiliar.c; sourceTree = SOURCE_ROOT; };
+		81B8D181B4934D9286AF0C16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mime.c; path = lua/luasocket/mime.c; sourceTree = SOURCE_ROOT; };
+		81EBE6B284A24550B4D43677 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udp.c; path = lua/luasocket/udp.c; sourceTree = SOURCE_ROOT; };
+		8415E3E6B46B48A0B106A362 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		862A759C35164622A348F79E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		8DEEEBE02010499A941715C8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_event.c; path = lua/tolua/tolua_event.c; sourceTree = SOURCE_ROOT; };
+		8DF73B51ECDE4A9EA8B4D602 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		8F18CCBE61FB462A8189A426 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/CMakeFiles/external.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		95C141445C2B452AADF9CB53 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		98E6F75E6EE84C1186CB9C98 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		9F03E730BB71431DBF3267A5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket.c; path = lua/luasocket/luasocket.c; sourceTree = SOURCE_ROOT; };
+		9F54FCCD89754B5F907DED38 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		A5C51F94F3C34D05AE41E4B1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		AABFD1812B9B4E5CA0AD6D6C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		AB4247E03C914860AEBFC168 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		AB7908DA0E7F41E1937637E2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lua/luasocket/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B18B256B57CF44FDA31FA5EE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		B298112CC4AE41BCB816E87A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		B445C25582DA4DB2A64F5556 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = except.c; path = lua/luasocket/except.c; sourceTree = SOURCE_ROOT; };
+		B5B509D949B34FD2952EC71C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		B7D41C9339DC4E499A01F40D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = usocket.c; path = lua/luasocket/usocket.c; sourceTree = SOURCE_ROOT; };
+		BA22D6B749DA412782704436 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		BAB06E509FFB41A99C1562AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		C31D6A1A2D554CD3AB2E01AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		C3588A2ACA16430D8C865C40 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		C5DF76B12824470F9583A91D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		C75151694AF54CE796616354 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7A81D25E5FF48FABF130BC1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket_scripts.c; path = lua/luasocket/luasocket_scripts.c; sourceTree = SOURCE_ROOT; };
+		C8FE49A4478A46B7A82BCA48 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB78AEE248F6412DA4DCB0E3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CD9442E831404ECC85E072B5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D101199C52F1458FBA633103 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		D3E74891C10541B685FEAB1A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		D5E28A0B12C1446CABF0E8C3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		D714E6648ED9403F838534B2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		DAECAD444D48464DBEE1F5F1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		E0E46BE53DBB4046801E63DB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../runtime-src/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		E51628CC895F4C4A8B215398 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80B542ED77046D7B67A9D18 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_push.c; path = lua/tolua/tolua_push.c; sourceTree = SOURCE_ROOT; };
+		E84BEDF3FB87482C9A46BCB2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		E85CC661DA404155BC06838A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E8A7A959820840428BBCB4EE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		E8EB130A73C6408DA14B2D82 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E9878ECC4165458A9FFE8B16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		E9ADE3127F284A5CABEB6FD9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tcp.c; path = lua/luasocket/tcp.c; sourceTree = SOURCE_ROOT; };
+		EC6DC5B5E88D417C941A2AF8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_to.c; path = lua/tolua/tolua_to.c; sourceTree = SOURCE_ROOT; };
+		EF9B54161D2F47F3A942D7C4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F56029F1BD8046718D1A5422 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		F9530ABAB77441F4BCB2E33C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FBD9C3E970614A178E58D972 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unix.c; path = lua/luasocket/unix.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01AFD7C26BF141148FCCF739 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C51F94F3C34D05AE41E4B1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0382B59C783349D1878C310A /* external */ = {
+			isa = PBXGroup;
+			children = (
+				399FF38E967B460498F4DD76 /* Source Files */,
+				084B44F4D56B4B43A080C043 /* Resources */,
+				39A2F8AE2C9D4C8A85D8773A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		084B44F4D56B4B43A080C043 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F18CCBE61FB462A8189A426 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0FED92EC5E014944BA641A5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5150EF0DE72B48BEA4E5CB4B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		139B8CBC00E54ACB8E9D0E32 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				39483866B3174B0E871A527A /* Source Files */,
+				4E1CD541D4D34AC793F66383 /* Resources */,
+				CD9442E831404ECC85E072B5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		13B719C88BCB487E90132FEA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABFD1812B9B4E5CA0AD6D6C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		18A2D3384D024E0085770C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B344D0469B2487B8E26D4A6 /* ext_clipper */,
+				56F3173C4091433C929D91FF /* ext_convertUTF */,
+				70F82BBF257B4FE0AE24CB87 /* ext_edtaa3func */,
+				7C57F394989B466786A228A2 /* ext_luasocket */,
+				4AF2D94BEF9142DE9D4E7FD9 /* ext_md5 */,
+				5B1182375D0B43E39BF55DB2 /* ext_poly2tri */,
+				590A7DFDF1824DADA0D79D20 /* ext_recast */,
+				C8FE49A4478A46B7A82BCA48 /* ext_tinyxml2 */,
+				094650AE003B46B2989F39D4 /* ext_tolua */,
+				E51628CC895F4C4A8B215398 /* ext_unzip */,
+				50A5398600504467A5C3E2A7 /* ext_xxhash */,
+				444CED713B064D6289458656 /* ext_xxtea */,
+				65A18ECA315C47109B6BBE67 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19109D15B3C343508A820F8A /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				51804DE71ADC41FB8D791F18 /* Source Files */,
+				C103689D56E1444F8A0DFC90 /* Resources */,
+				95C141445C2B452AADF9CB53 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		2EB72259EA35483FA10A14E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B509D949B34FD2952EC71C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		32549DCFCB224B45ACA3411A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69C8E9080DE84CE0BC37DFAC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		349C45E33B014A35A4205CC0 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				13B719C88BCB487E90132FEA /* Source Files */,
+				2EB72259EA35483FA10A14E7 /* Resources */,
+				E8EB130A73C6408DA14B2D82 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		39483866B3174B0E871A527A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				09096E013134493CA86901AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		399FF38E967B460498F4DD76 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84BEDF3FB87482C9A46BCB2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3A27819B4F3C4619A40E1CCF /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				9268AFD342F3474285ADB53F /* Source Files */,
+				6C9114821F8E4E8CAA06F920 /* Resources */,
+				EF9B54161D2F47F3A942D7C4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		45E012DEEDE943C088D36326 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				5D291F16E1654A85B922FAAD /* Source Files */,
+				49F38115EF9544CFAE78DB02 /* Resources */,
+				30330B4E02C146529798F228 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		49F38115EF9544CFAE78DB02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0E46BE53DBB4046801E63DB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C67C0448E834CCBAC68FD46 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				4CD97A52EB964E4197307B1E /* Source Files */,
+				32549DCFCB224B45ACA3411A /* Resources */,
+				C75151694AF54CE796616354 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		4CD97A52EB964E4197307B1E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18B256B57CF44FDA31FA5EE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4E1CD541D4D34AC793F66383 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35A1129C05A647E8B3227F55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51804DE71ADC41FB8D791F18 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				862A759C35164622A348F79E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTF.c */,
+				D714E6648ED9403F838534B2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5B451D75D1D94E6B9FCC7111 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D101199C52F1458FBA633103 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi.cpp */,
+				D3E74891C10541B685FEAB1A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi_mem.cpp */,
+				389E60A000D246F19C844FA9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5D291F16E1654A85B922FAAD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5DF76B12824470F9583A91D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/common/shapes.cc */,
+				DAECAD444D48464DBEE1F5F1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/advancing_front.cc */,
+				AB4247E03C914860AEBFC168 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/cdt.cc */,
+				5CF9CCF0B3A640798C8B8BEF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep.cc */,
+				49874971376E4042B1D7BB26 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		62E7F9BBEBE44B52A6F7E56A /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				5B451D75D1D94E6B9FCC7111 /* Source Files */,
+				0FED92EC5E014944BA641A5E /* Resources */,
+				CB78AEE248F6412DA4DCB0E3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		677F0C6DC5694B7FBF4D0416 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				917FA28726E743098FC375DC /* Source Files */,
+				F05340BBF57E4F46AD7982B7 /* Resources */,
+				5CC0B9A4C3874823A25C2F8A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		6C9114821F8E4E8CAA06F920 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B298112CC4AE41BCB816E87A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F28DA9E345E4BC6BB561638 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19B94B59882E4E4D9D314ED7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7644EC0600AA49AFBF1B6EAD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		77B6CD62D123435DBEBB0490 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DEEEBE02010499A941715C8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */,
+				40B6BF62A68A4B35A039C838 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */,
+				7C170D3841734DFF9F562EAA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */,
+				E80B542ED77046D7B67A9D18 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */,
+				EC6DC5B5E88D417C941A2AF8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8520EA1CAA1A4F4B9F1D948B = {
+			isa = PBXGroup;
+			children = (
+				DA74F553FA7842548DE55D8F /* External */,
+				C07424835620470C848FAFE7 /* ALL_BUILD */,
+				18A2D3384D024E0085770C83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C81D3694EF4B09939B0139 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BFC54CA24D741ADA0D6A1CB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		917FA28726E743098FC375DC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				546630E7CBFB4F16A1DAD04C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9268AFD342F3474285ADB53F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				98E6F75E6EE84C1186CB9C98 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9C6394BA1C0B41E185A73321 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAB06E509FFB41A99C1562AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6317EDAC9AA4D29AFFDB626 /* ext_tolua */ = {
+			isa = PBXGroup;
+			children = (
+				77B6CD62D123435DBEBB0490 /* Source Files */,
+				6F28DA9E345E4BC6BB561638 /* Resources */,
+				4886DAA2540743F9AA49381B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */,
+			);
+			name = ext_tolua;
+			sourceTree = "<group>";
+		};
+		B133152A92044DD8BB7C7891 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8040BC702C4C4B4BB86EFA22 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */,
+				34C624C3CFD346338A09F821 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */,
+				B445C25582DA4DB2A64F5556 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */,
+				6FAF9031C24C4B55B29B498A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */,
+				2FFAEA0E5E694BA392CA45FF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */,
+				9F03E730BB71431DBF3267A5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */,
+				C7A81D25E5FF48FABF130BC1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */,
+				81B8D181B4934D9286AF0C16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */,
+				44474A66EB374681A26C7270 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */,
+				524B3BE302D645B585E874F7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */,
+				5669C1D5F9D3450F9555E74F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */,
+				E9ADE3127F284A5CABEB6FD9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */,
+				3D54B53C217143FD921D7088 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */,
+				81EBE6B284A24550B4D43677 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */,
+				FBD9C3E970614A178E58D972 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */,
+				B7D41C9339DC4E499A01F40D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C07424835620470C848FAFE7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7644EC0600AA49AFBF1B6EAD /* CMake Rules */,
+				E85CC661DA404155BC06838A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C103689D56E1444F8A0DFC90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F54FCCD89754B5F907DED38 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8A09CD857034610988D2003 /* ext_luasocket */ = {
+			isa = PBXGroup;
+			children = (
+				B133152A92044DD8BB7C7891 /* Source Files */,
+				DB61CA4D438447DD86492C24 /* Resources */,
+				AB7908DA0E7F41E1937637E2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */,
+			);
+			name = ext_luasocket;
+			sourceTree = "<group>";
+		};
+		DA74F553FA7842548DE55D8F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				0382B59C783349D1878C310A /* external */,
+				FCC097723EAA4E5A82CA6AFB /* ext_recast */,
+				677F0C6DC5694B7FBF4D0416 /* ext_tinyxml2 */,
+				4C67C0448E834CCBAC68FD46 /* ext_xxhash */,
+				3A27819B4F3C4619A40E1CCF /* ext_xxtea */,
+				139B8CBC00E54ACB8E9D0E32 /* ext_clipper */,
+				349C45E33B014A35A4205CC0 /* ext_edtaa3func */,
+				19109D15B3C343508A820F8A /* ext_convertUTF */,
+				45E012DEEDE943C088D36326 /* ext_poly2tri */,
+				E97E6F79D2F94F0699EA7457 /* ext_md5 */,
+				A6317EDAC9AA4D29AFFDB626 /* ext_tolua */,
+				C8A09CD857034610988D2003 /* ext_luasocket */,
+				62E7F9BBEBE44B52A6F7E56A /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		DB61CA4D438447DD86492C24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C31D6A1A2D554CD3AB2E01AA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E97E6F79D2F94F0699EA7457 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				01AFD7C26BF141148FCCF739 /* Source Files */,
+				88C81D3694EF4B09939B0139 /* Resources */,
+				668E6CDE62E54D40909E88FB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		F05340BBF57E4F46AD7982B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA22D6B749DA412782704436 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F3A97C3E93CD4C5E86810646 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3588A2ACA16430D8C865C40 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DebugDraw.cpp */,
+				6FFFC6371E0147A59B6A1E7F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				258C9920D14A4350B5333462 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourAlloc.cpp */,
+				7E4DC591867645E9AF52BD91 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourCommon.cpp */,
+				36CFD1ADABE84ED99650C4E7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMesh.cpp */,
+				670477C179BD4DB9921C400E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				E8A7A959820840428BBCB4EE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				47717F4D47204B5ABE171919 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNode.cpp */,
+				0F3680FE744F48AD8F4876DC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				D5E28A0B12C1446CABF0E8C3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				E9878ECC4165458A9FFE8B16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				8415E3E6B46B48A0B106A362 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				F56029F1BD8046718D1A5422 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				8DF73B51ECDE4A9EA8B4D602 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				686C3E7DA42947F781A62BCE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				1621215D48154963B95B8FA7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				05FAEA35372943849E494D55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FCC097723EAA4E5A82CA6AFB /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				F3A97C3E93CD4C5E86810646 /* Source Files */,
+				9C6394BA1C0B41E185A73321 /* Resources */,
+				F9530ABAB77441F4BCB2E33C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18831E3785624471933E134C /* ext_luasocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FDDBEACCC34465086D62380 /* Build configuration list for PBXNativeTarget "ext_luasocket" */;
+			buildPhases = (
+				D9501CC4B72244A88F75D70A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_luasocket;
+			productName = ext_luasocket;
+			productReference = 7C57F394989B466786A228A2 /* ext_luasocket */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2400E577239E4CDF9A9D4FE4 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800DEAA357C7421DBFAA81ED /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				75E5290947DC4D70AE0E8D8C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00EA58BF53D147CDA33E4AF5 /* PBXTargetDependency */,
+				7C7C36957F00475184D3428D /* PBXTargetDependency */,
+				21B20449364D4FE987D75D9B /* PBXTargetDependency */,
+				827B5AC686E94E37BB16C3DD /* PBXTargetDependency */,
+				BA2EAF1ED7CC4B6688E444DB /* PBXTargetDependency */,
+				22AA2949981F4422A225202C /* PBXTargetDependency */,
+				DFBAC354EABC4A2FBFB50B5F /* PBXTargetDependency */,
+				ED77C5C309234E6C98A361AC /* PBXTargetDependency */,
+				1DD4715B718241C58A51A78C /* PBXTargetDependency */,
+				C08EAB6913234EAE8EF11093 /* PBXTargetDependency */,
+				A5A7212BA0D74BF283C5595F /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 65A18ECA315C47109B6BBE67 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		30DC3168E76547238DB9112A /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56B366C49FE443692BD5470 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				E9D19EC7833743C6821DD156 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = E51628CC895F4C4A8B215398 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		312E261F282341BEBB722887 /* ext_tolua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B94B8420EFC45D883D3A366 /* Build configuration list for PBXNativeTarget "ext_tolua" */;
+			buildPhases = (
+				8B66AD65FC53474F826E47FD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tolua;
+			productName = ext_tolua;
+			productReference = 094650AE003B46B2989F39D4 /* ext_tolua */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5422D0278EBC400895D9F918 /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15535C2F85B040B28BAB745A /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				DCE167395714449BB62F8CEF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 590A7DFDF1824DADA0D79D20 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A8ABDEA1B07420FA0246513 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA67ADEE523F4D82B5FE1B2D /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				7EB840A8FED140C9A2E7CC03 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 56F3173C4091433C929D91FF /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9BCAA4FC201B4FEAA97A6234 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0365C38A251407FB4F7EED6 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				E19E7E21811D4D7BB9E240C9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 50A5398600504467A5C3E2A7 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACCCBB1C945D42AD881CE88D /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13955309AEFD44A98C55D3FB /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				A9F18D7300E9430E9E069E5D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 5B1182375D0B43E39BF55DB2 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE183CBC0104491F9341C853 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE8AE08DDF5443FA7D9F87D /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				22402D5C92D64B84A4308C4F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = 70F82BBF257B4FE0AE24CB87 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C23D71F26C274B18A245F0C6 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CE5D393D6341AC99DD1FE0 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				5657917982064D6A899D1A06 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 444CED713B064D6289458656 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC99AA2F2DA4473082E4705D /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA2B6D5E6034E0EB8ED0AF9 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				DB4AFD8DB7DE46C8A605D254 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 1B344D0469B2487B8E26D4A6 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1ADD9A08B734DABB51C824E /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C202DA7880BB46A49A5F55E5 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				D687BC2FD10943C9AB2AC5DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 4AF2D94BEF9142DE9D4E7FD9 /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5724533E049484CA016F82D /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D01716A16847DE8A4C70AA /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				66CD305E7CC44A3BABF93C3E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = C8FE49A4478A46B7A82BCA48 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5C13DBB0084D88AF59298A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 18479E9992A242358B7637CC /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0A777F78336B47A8BEB4E32A /* Debug */,
+				B6444B97384149BB9FA9894A /* Release */,
+				6F6BACCCF67C4E5D9C26623F /* MinSizeRel */,
+				8A1416F381164519B7510C0A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8520EA1CAA1A4F4B9F1D948B;
+			projectDirPath = "../../../../cocos2d-x/external";
+			projectRoot = "";
+			targets = (
+				EB6C423FDF824D779BC25A22 /* ALL_BUILD */,
+				6607D914BDF04CF6B1374F20 /* ZERO_CHECK */,
+				DC99AA2F2DA4473082E4705D /* ext_clipper */,
+				9A8ABDEA1B07420FA0246513 /* ext_convertUTF */,
+				AE183CBC0104491F9341C853 /* ext_edtaa3func */,
+				18831E3785624471933E134C /* ext_luasocket */,
+				F1ADD9A08B734DABB51C824E /* ext_md5 */,
+				ACCCBB1C945D42AD881CE88D /* ext_poly2tri */,
+				5422D0278EBC400895D9F918 /* ext_recast */,
+				F5724533E049484CA016F82D /* ext_tinyxml2 */,
+				312E261F282341BEBB722887 /* ext_tolua */,
+				30DC3168E76547238DB9112A /* ext_unzip */,
+				9BCAA4FC201B4FEAA97A6234 /* ext_xxhash */,
+				C23D71F26C274B18A245F0C6 /* ext_xxtea */,
+				2400E577239E4CDF9A9D4FE4 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB979B156A54E0AADC9DBEF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4891F60B6EE042FD8CD2BD01 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B81EF184820143309D232A65 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DA0722183C2F4EDF814313F4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22402D5C92D64B84A4308C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3BC98F07494D189DD2D2C5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657917982064D6A899D1A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBD6036DB6C4BBA86BE3CFA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CD305E7CC44A3BABF93C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B78FCEC5CB459588935516 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E5290947DC4D70AE0E8D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F08ACC9A9E459C9F99BBA5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB840A8FED140C9A2E7CC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC71BB68954814BDF9494D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTF.c */,
+				8476798A1802410898CCBB57 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B66AD65FC53474F826E47FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E9411BBE7441A9ACE7169A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */,
+				ADBA468974924B0CAF2A5510 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */,
+				758FA49649ED485CA1B70A9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */,
+				33CCC93C36A04E2A99A6F42D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */,
+				B6D6653915514A20B157636C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F18D7300E9430E9E069E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6460C102B97F4E52975BC8C2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/common/shapes.cc */,
+				F923F1A181DB44B3AA6CF580 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/advancing_front.cc */,
+				98B1FEF2C5AB4D4A9152C5A0 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/cdt.cc */,
+				D7461AA51EAC43AA9E246B7B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep.cc */,
+				862244E9953949E192D9B93C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D687BC2FD10943C9AB2AC5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7880972015EE43D083BDABB6 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9501CC4B72244A88F75D70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89E551D0292487F9C80F0EF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */,
+				3556CDFCA90F4AECB2B4D46F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */,
+				314949FF71EB48DCB9F5EC27 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */,
+				A46A16A3EE6D400DAD9A2682 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */,
+				D8317C0202924D75A59CC654 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */,
+				968F6291749545E4B1B0BDC8 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */,
+				9BEBD63A1CC74D8596A49CAB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */,
+				B8BEFFED6567447E872B8D48 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */,
+				C10C2FD98BB94CDFBFFCEF02 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */,
+				1F34883B57A846BB861BF80C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */,
+				92EB7AB72F9042BF9C840990 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */,
+				74228595F05940128528DDFA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */,
+				454678C0422843E2833950BC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */,
+				B28E6B272501449E9F5A310F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */,
+				1C33C80F08C8421DBEC77B16 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */,
+				D466684ECC094A3C852C30E9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AFD8DB7DE46C8A605D254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2865BE06C89F4127B86EE2CA /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE167395714449BB62F8CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B13B3B59F904F8787BACD4A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DebugDraw.cpp */,
+				F8B4275A96314179A8D7EA2D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				3A84A2492A984ED1B4AB2654 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourAlloc.cpp */,
+				8B13932585144145A69B157B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourCommon.cpp */,
+				47505D613758402099E1ED73 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMesh.cpp */,
+				22F6AD9A789A4B3E8CF86912 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				38ED7EFF635841CDB3C7C2CB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				B8814141A5904A49B675740C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/Detour/DetourNode.cpp */,
+				019264F39E3D4961A2D6D14E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				F5B0F83C90294542B2FED5E5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				5DF5436AC9294B94A15ABC40 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				19DF62865482437D8E449D29 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				D2585302566E4A8BAB5E4A3C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				AB84DE0946EF462D8866D359 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				100B46B6AD1F4D59AE49AA9F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				294F25E9C2CE4E6A85B5B206 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				4DA262C586104D5C931AA1A1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19E7E21811D4D7BB9E240C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF78618A3B4DEFB9C00B8D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D19EC7833743C6821DD156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BA15555FF8407E8AFA2C71 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi.cpp */,
+				F73EE279E6AB48FC93FB0284 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/ioapi_mem.cpp */,
+				7E571944AFD842329F63C4E6 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00EA58BF53D147CDA33E4AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6607D914BDF04CF6B1374F20 /* ZERO_CHECK */;
+			targetProxy = 730C1342002B4CADA032A88F /* PBXContainerItemProxy */;
+		};
+		02C7DCF92ACA4EE4A0497605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8ABDEA1B07420FA0246513 /* ext_convertUTF */;
+			targetProxy = 6CD58BC92E1644E6AD4F147A /* PBXContainerItemProxy */;
+		};
+		14DF26F38F924E728D3F8EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2400E577239E4CDF9A9D4FE4 /* external */;
+			targetProxy = C4993345CA024870A4EE9955 /* PBXContainerItemProxy */;
+		};
+		1DD4715B718241C58A51A78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACCCBB1C945D42AD881CE88D /* ext_poly2tri */;
+			targetProxy = C940056F77444706B5A3C92E /* PBXContainerItemProxy */;
+		};
+		21B20449364D4FE987D75D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5724533E049484CA016F82D /* ext_tinyxml2 */;
+			targetProxy = D035967DE93040909D66DFA8 /* PBXContainerItemProxy */;
+		};
+		22AA2949981F4422A225202C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC99AA2F2DA4473082E4705D /* ext_clipper */;
+			targetProxy = 477F17B2B0754DE5BA1D0C90 /* PBXContainerItemProxy */;
+		};
+		441780CB3B814BC3B9C8E08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18831E3785624471933E134C /* ext_luasocket */;
+			targetProxy = 14AD5FC2EC604F1FB85F13FF /* PBXContainerItemProxy */;
+		};
+		4D4B1890726948EA9F42BB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DC3168E76547238DB9112A /* ext_unzip */;
+			targetProxy = DEF6A921EB6C41439EBCEC4F /* PBXContainerItemProxy */;
+		};
+		57EE466282F9456FBA4CB981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5422D0278EBC400895D9F918 /* ext_recast */;
+			targetProxy = 3BA26B3FD25F430E99DE9120 /* PBXContainerItemProxy */;
+		};
+		70A164C53B484A4FAD75731E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACCCBB1C945D42AD881CE88D /* ext_poly2tri */;
+			targetProxy = CF67D024218C485784866DF1 /* PBXContainerItemProxy */;
+		};
+		7C7C36957F00475184D3428D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5422D0278EBC400895D9F918 /* ext_recast */;
+			targetProxy = 8644B8D9AE574CBFB5D8BC36 /* PBXContainerItemProxy */;
+		};
+		827B5AC686E94E37BB16C3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCAA4FC201B4FEAA97A6234 /* ext_xxhash */;
+			targetProxy = 50A1CB9553F14AE5B96BA4F1 /* PBXContainerItemProxy */;
+		};
+		A5A7212BA0D74BF283C5595F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DC3168E76547238DB9112A /* ext_unzip */;
+			targetProxy = 51B8D9B3F9874E6685CBE8BA /* PBXContainerItemProxy */;
+		};
+		B7F4BF4F2D564C1088E4084F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1ADD9A08B734DABB51C824E /* ext_md5 */;
+			targetProxy = 5F8769DBF92946259821F0B0 /* PBXContainerItemProxy */;
+		};
+		BA2EAF1ED7CC4B6688E444DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23D71F26C274B18A245F0C6 /* ext_xxtea */;
+			targetProxy = 0E6304D541EB4884BFF51FDC /* PBXContainerItemProxy */;
+		};
+		BECBDD64B2FA44C6ACED1AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6607D914BDF04CF6B1374F20 /* ZERO_CHECK */;
+			targetProxy = 8452C15054E945AFBE82025E /* PBXContainerItemProxy */;
+		};
+		C08EAB6913234EAE8EF11093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1ADD9A08B734DABB51C824E /* ext_md5 */;
+			targetProxy = E60AB589B8694AA0BAFA4BF8 /* PBXContainerItemProxy */;
+		};
+		C822C0A9D677414E9AB7D711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC99AA2F2DA4473082E4705D /* ext_clipper */;
+			targetProxy = 9FCA8B6E26D643578BBC4E10 /* PBXContainerItemProxy */;
+		};
+		CDEE480239AA468C9AE4E5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5724533E049484CA016F82D /* ext_tinyxml2 */;
+			targetProxy = A3CB2CA6AF994B6F8F41BC0B /* PBXContainerItemProxy */;
+		};
+		CE70DD5F514F4E0280F439C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE183CBC0104491F9341C853 /* ext_edtaa3func */;
+			targetProxy = 5136E56AEE0047FA80B91DB5 /* PBXContainerItemProxy */;
+		};
+		DFBAC354EABC4A2FBFB50B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE183CBC0104491F9341C853 /* ext_edtaa3func */;
+			targetProxy = 87E58037321E4473B29E5003 /* PBXContainerItemProxy */;
+		};
+		ED77C5C309234E6C98A361AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8ABDEA1B07420FA0246513 /* ext_convertUTF */;
+			targetProxy = BA161DCED0294B2C88C93315 /* PBXContainerItemProxy */;
+		};
+		EFCB74805F5E4F3A9E2BEB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23D71F26C274B18A245F0C6 /* ext_xxtea */;
+			targetProxy = 2F393D47D7124E5CA974DA9F /* PBXContainerItemProxy */;
+		};
+		F0C374A85CAA48C59CAEFB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCAA4FC201B4FEAA97A6234 /* ext_xxhash */;
+			targetProxy = 1A3AC2ACBD4E4053AD58F037 /* PBXContainerItemProxy */;
+		};
+		FED53B841DEB4B2C876600C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312E261F282341BEBB722887 /* ext_tolua */;
+			targetProxy = A141D5F0CB1843AAAAEC4D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04073F0DDF8343F2BE615D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		092FA0B0D39042BAAD3C1541 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		09CF78E81E50416386C741D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		112CA08E477640ACA9AD83A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/build";
+			};
+			name = RelWithDebInfo;
+		};
+		133B7093C0F3445EADC25AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1BAF9EFB354544B6B5AB3C41 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		27674941AF974C1AA56A0DD7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		281B404BD4094B0CA9474332 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		29D4E5119AF24A739B54B762 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2A78EC52463C4B6DAAE0E2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_luasocket;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D22BCB69DB74251AA5A9447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3E4A8CC153C64C4BACF74148 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E4DCCAC194F435ABDC81FF8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		407A2A3859E049FAB3D6E54A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4233898F5481412E8895D50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		45FB012EFBCB4EE5BE6E237D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4DFBA1672655440A96FA5E72 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/build";
+			};
+			name = MinSizeRel;
+		};
+		4F999360DEBC47D88A95C4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		503D5E53CE6C4D0CB1B95812 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		56D18554B4204D75AAB917A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5ABF880518DB4158A2A25296 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5AC5ECE3A8D84A1CBAFE24F3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5B03C5AA57DD4795AB9EF6DB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_luasocket;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5F63191F0E594D629373FC2B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FFFD9643DAE435AB7D77CE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		60134CA6E3D64A539EC887F5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		64B965F0398041E8AF2395E5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6C5FCBB308C14077A01EB001 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		73E9A88AFCC341729A3C5983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		741EA6F344B749A393AEDB7B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		75D3907C33DE4C458E353A8D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		76A32EA66E7F4A14AE00EA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7794D4B1484D400C8876914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_luasocket;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		790FB04B8FAA4E3A961B501B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_luasocket;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7985003560A94CF093D93631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D0B0370D89841B79CB87100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7FE5D12413514087AD4E0427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/build";
+			};
+			name = Release;
+		};
+		821C25B5DBC843D6BE64C3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8447CDCAACB44F7C859F017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8F0FFB730F3E4507855E6B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		92E56C4C3C1549698A34253B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		940BD9CAD2054277BEA1AFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		96C00ED997634B6EA1EA2994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/tinyxml2/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/edtaa3func/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A01CE70328134A6C839E74E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A63D394211D74DC9AD3D1B74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A75BABA94CCC494CBF074218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AA71E50816CC4D318ED3E778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/ConvertUTF/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AB149ECE74C74FDB8E4A3473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AD0545D929B44221AB419C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/unzip/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B049616F65964E379BFB60B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/recast/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B0E7CCE09F4E41F3A5E7EA72 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B5002BD96F8E4855A48F8F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BB1D5F8909E74641BDD2CB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C1DDBAC95813423096B34D1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CDA4FFB5826A4A6598AE76AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D3844608CFF3417F8A1F93A6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/poly2tri/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D45F5977FCF64F958B08F1CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7BF05C5D48C4140A4B0CA16 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E32E897AE5BE4A3B9B97943F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/build";
+			};
+			name = Debug;
+		};
+		F18A8FC82EC04038B5A39169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F229DC67973F4A099BED2177 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F589C6FDAFBA4047A9DF1B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FBC8D1738F0E415F8837448A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FCC713B07D23468D86BE57EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/md5/..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D01716A16847DE8A4C70AA /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B7093C0F3445EADC25AD7 /* Debug */,
+				8F0FFB730F3E4507855E6B30 /* Release */,
+				1BAF9EFB354544B6B5AB3C41 /* MinSizeRel */,
+				741EA6F344B749A393AEDB7B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13955309AEFD44A98C55D3FB /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F999360DEBC47D88A95C4F7 /* Debug */,
+				7985003560A94CF093D93631 /* Release */,
+				D3844608CFF3417F8A1F93A6 /* MinSizeRel */,
+				3E4A8CC153C64C4BACF74148 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		15535C2F85B040B28BAB745A /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B049616F65964E379BFB60B4 /* Debug */,
+				04073F0DDF8343F2BE615D8B /* Release */,
+				5AC5ECE3A8D84A1CBAFE24F3 /* MinSizeRel */,
+				29D4E5119AF24A739B54B762 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18479E9992A242358B7637CC /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32E897AE5BE4A3B9B97943F /* Debug */,
+				7FE5D12413514087AD4E0427 /* Release */,
+				4DFBA1672655440A96FA5E72 /* MinSizeRel */,
+				112CA08E477640ACA9AD83A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DE8AE08DDF5443FA7D9F87D /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8447CDCAACB44F7C859F017D /* Debug */,
+				09CF78E81E50416386C741D6 /* Release */,
+				5ABF880518DB4158A2A25296 /* MinSizeRel */,
+				3E4DCCAC194F435ABDC81FF8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B94B8420EFC45D883D3A366 /* Build configuration list for PBXNativeTarget "ext_tolua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0B0370D89841B79CB87100 /* Debug */,
+				B5002BD96F8E4855A48F8F90 /* Release */,
+				F229DC67973F4A099BED2177 /* MinSizeRel */,
+				75D3907C33DE4C458E353A8D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6609BED459864E27B3630F60 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1D5F8909E74641BDD2CB31 /* Debug */,
+				76A32EA66E7F4A14AE00EA2E /* Release */,
+				FBC8D1738F0E415F8837448A /* MinSizeRel */,
+				64B965F0398041E8AF2395E5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70CE5D393D6341AC99DD1FE0 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB149ECE74C74FDB8E4A3473 /* Debug */,
+				4233898F5481412E8895D50C /* Release */,
+				D45F5977FCF64F958B08F1CC /* MinSizeRel */,
+				5F63191F0E594D629373FC2B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FDDBEACCC34465086D62380 /* Build configuration list for PBXNativeTarget "ext_luasocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A78EC52463C4B6DAAE0E2EE /* Debug */,
+				7794D4B1484D400C8876914F /* Release */,
+				5B03C5AA57DD4795AB9EF6DB /* MinSizeRel */,
+				790FB04B8FAA4E3A961B501B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		800DEAA357C7421DBFAA81ED /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C00ED997634B6EA1EA2994 /* Debug */,
+				73E9A88AFCC341729A3C5983 /* Release */,
+				503D5E53CE6C4D0CB1B95812 /* MinSizeRel */,
+				45FB012EFBCB4EE5BE6E237D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA67ADEE523F4D82B5FE1B2D /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA71E50816CC4D318ED3E778 /* Debug */,
+				940BD9CAD2054277BEA1AFD3 /* Release */,
+				281B404BD4094B0CA9474332 /* MinSizeRel */,
+				092FA0B0D39042BAAD3C1541 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ACA2B6D5E6034E0EB8ED0AF9 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821C25B5DBC843D6BE64C3A8 /* Debug */,
+				A01CE70328134A6C839E74E1 /* Release */,
+				5FFFD9643DAE435AB7D77CE2 /* MinSizeRel */,
+				92E56C4C3C1549698A34253B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B56B366C49FE443692BD5470 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D18554B4204D75AAB917A5 /* Debug */,
+				AD0545D929B44221AB419C9D /* Release */,
+				60134CA6E3D64A539EC887F5 /* MinSizeRel */,
+				6C5FCBB308C14077A01EB001 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0365C38A251407FB4F7EED6 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F589C6FDAFBA4047A9DF1B67 /* Debug */,
+				F18A8FC82EC04038B5A39169 /* Release */,
+				B0E7CCE09F4E41F3A5E7EA72 /* MinSizeRel */,
+				27674941AF974C1AA56A0DD7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C202DA7880BB46A49A5F55E5 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC713B07D23468D86BE57EE /* Debug */,
+				3D22BCB69DB74251AA5A9447 /* Release */,
+				A63D394211D74DC9AD3D1B74 /* MinSizeRel */,
+				D7BF05C5D48C4140A4B0CA16 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F550BFEE66ED42E597A95EC0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA4FFB5826A4A6598AE76AD /* Debug */,
+				A75BABA94CCC494CBF074218 /* Release */,
+				C1DDBAC95813423096B34D1E /* MinSizeRel */,
+				407A2A3859E049FAB3D6E54A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5C13DBB0084D88AF59298A /* Project object */;
+}

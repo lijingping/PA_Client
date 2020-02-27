@@ -1,0 +1,492 @@
+The target system is: iOS -  - 
+The host system is: Darwin - 19.3.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+note: Using new build system
+note: Planning build
+note: Constructing build description
+2020-02-27 17:44:05.619 xcodebuild[48872:216365]  iPhoneConnect: 📱<DVTiOSDevice (0x7ff1545f5110), iPhone 5s plus, iPhone, 12.4.5 (16G161), 78f30c96ffec7b369a4fc0a5778e8edc5d0782b5> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "Could not locate device support files." UserInfo={DeviceType=iPhone6,2, NSLocalizedDescription=Could not locate device support files., NSLocalizedRecoverySuggestion=This iPhone 5s (Model A1457, A1518, A1528, A1530) is running iOS 12.4.5 (16G161), which may not be supported by this version of Xcode.}) {
+    DeviceType = "iPhone6,2";
+    NSLocalizedDescription = "Could not locate device support files.";
+    NSLocalizedRecoverySuggestion = "This iPhone 5s (Model A1457, A1518, A1528, A1530) is running iOS 12.4.5 (16G161), which may not be supported by this version of Xcode.";
+}
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC')
+
+CreateBuildDirectory /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    builtin-create-build-directory /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+
+MkDir /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    /bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CMakeCCompilerId.c -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest/CompilerIdC normal arm64 (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    export IPHONEOS_DEPLOYMENT_TARGET=12.3
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -miphoneos-version-min=12.3 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest.dSYM /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest/CompilerIdC (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    /bin/sh -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC
+    /usr/bin/touch -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX')
+
+CreateBuildDirectory /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    builtin-create-build-directory /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+
+MkDir /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    /bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/all-product-headers.yaml (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.3 -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+2020-02-27 17:44:10.475 xcodebuild[49043:217153]  iPhoneConnect: 📱<DVTiOSDevice (0x7fa3546dd9a0), iPhone 5s plus, iPhone, 12.4.5 (16G161), 78f30c96ffec7b369a4fc0a5778e8edc5d0782b5> unable to mount developer disk image, (Error Domain=com.apple.dtdevicekit Code=601 "Could not locate device support files." UserInfo={DeviceType=iPhone6,2, NSLocalizedDescription=Could not locate device support files., NSLocalizedRecoverySuggestion=This iPhone 5s (Model A1457, A1518, A1528, A1530) is running iOS 12.4.5 (16G161), which may not be supported by this version of Xcode.}) {
+    DeviceType = "iPhone6,2";
+    NSLocalizedDescription = "Could not locate device support files.";
+    NSLocalizedRecoverySuggestion = "This iPhone 5s (Model A1457, A1518, A1528, A1530) is running iOS 12.4.5 (16G161), which may not be supported by this version of Xcode.";
+}
+
+Ld /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX normal arm64 (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    export IPHONEOS_DEPLOYMENT_TARGET=12.3
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -miphoneos-version-min=12.3 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest.dSYM /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    /bin/sh -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest (in target: CompilerIdCXX)
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX
+    /usr/bin/touch -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/3.17.0-rc1/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_26653 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_26653 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64
+write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64/cmTC_26653.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64/testCCompiler.o testCCompiler.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64/testCCompiler.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64/testCCompiler.dia -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64/testCCompiler.o
+
+Libtool Debug/libcmTC_26653.a normal arm64
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26653.build/Objects-normal/arm64/cmTC_26653.LinkFileList -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/libcmTC_26653.a
+
+** BUILD SUCCEEDED **
+
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_f22d3 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_f22d3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64
+write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/cmTC_f22d3.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.o
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: aarch64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios12.3.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -fembed-bitcode=marker -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu cyclone -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0 -dependency-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources/arm64 -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fdebug-compilation-dir /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=ios-12.3.0 -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.dia -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.0 (clang-1000.11.45.5) default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources"
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+Libtool Debug/libcmTC_f22d3.a normal arm64
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/cmTC_f22d3.LinkFileList -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/libcmTC_f22d3.a
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_f22d3 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_f22d3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/cmTC_f22d3.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.o]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: aarch64-apple-darwin19.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios12.3.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -fembed-bitcode=marker -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu cyclone -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0 -dependency-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources/arm64 -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fdebug-compilation-dir /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=ios-12.3.0 -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.dia -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/CMakeCCompilerABI.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.0 (clang-1000.11.45.5) default target x86_64-apple-darwin19.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Libtool Debug/libcmTC_f22d3.a normal arm64]
+  ignore line: [    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_f22d3.build/Objects-normal/arm64/cmTC_f22d3.LinkFileList -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/libcmTC_f22d3.a]
+  ignore line: []
+  ignore line: [** BUILD SUCCEEDED **]
+  ignore line: []
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b0477 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_b0477 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64
+write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64/cmTC_b0477.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64/testCXXCompiler.o testCXXCompiler.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64/testCXXCompiler.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64/testCXXCompiler.dia -c /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64/testCXXCompiler.o
+
+Libtool Debug/libcmTC_b0477.a normal arm64
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b0477.build/Objects-normal/arm64/cmTC_b0477.LinkFileList -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/libcmTC_b0477.a
+
+** BUILD SUCCEEDED **
+
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_85e6c -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_85e6c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64
+write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/cmTC_85e6c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.o
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: aarch64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios12.3.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -fembed-bitcode=marker -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu cyclone -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0 -dependency-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources/arm64 -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fdeprecated-macro -fdebug-compilation-dir /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=ios-12.3.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.0 (clang-1000.11.45.5) default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources"
+ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+Libtool Debug/libcmTC_85e6c.a normal arm64
+    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/cmTC_85e6c.LinkFileList -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/libcmTC_85e6c.a
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_85e6c -configuration Debug -hideShellScriptEnvironment && User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_85e6c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/cmTC_85e6c.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.3 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources/arm64 -I/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: aarch64-apple-darwin19.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios12.3.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -fembed-bitcode=marker -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu cyclone -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0 -dependency-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources/arm64 -I /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources -F/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fdeprecated-macro -fdebug-compilation-dir /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=ios-12.3.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.0 (clang-1000.11.45.5) default target x86_64-apple-darwin19.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Libtool Debug/libcmTC_85e6c.a normal arm64]
+  ignore line: [    cd /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.3.1.sdk -L/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug -filelist /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_85e6c.build/Objects-normal/arm64/cmTC_85e6c.LinkFileList -o /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/CMakeFiles/CMakeTmp/Debug/libcmTC_85e6c.a]
+  ignore line: []
+  ignore line: [** BUILD SUCCEEDED **]
+  ignore line: []
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

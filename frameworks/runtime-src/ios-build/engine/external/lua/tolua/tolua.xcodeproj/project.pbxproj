@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6607D914BDF04CF6B1374F20 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4C49140D9CEA420E957BD738 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1DEE2BEEE197464AB8803EF2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		EB6C423FDF824D779BC25A22 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E91F34A820ED45D886F5E123 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5A5C8BF3C26E4B89A7E44E81 /* CMake Rules */,
+			);
+			dependencies = (
+				D453CC7D04904066A9C1F15A /* PBXTargetDependency */,
+				B3D713E3EDEE4F0F894BC180 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		44C7842ED33C4A61BCD87708 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */ = {isa = PBXBuildFile; fileRef = DE8C899D9C834720A03CFDF2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */; };
+		68839AB002A641ADA71416E7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ABDCA17EB50847EBB3DCE502 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */; };
+		753FB13E874447BBB67C975C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */ = {isa = PBXBuildFile; fileRef = 4A20601C37B747BD862B722F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */; };
+		7B2BD16C9FB64D93AB6F63E1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */ = {isa = PBXBuildFile; fileRef = DE53B568915844169FCEEC9A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */; };
+		84BD232ECB83452EBA162EC5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */ = {isa = PBXBuildFile; fileRef = 92A9BC7C58B6458D885FC445 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */; };
+		C5A5A85773C34A3B8A78A18E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */ = {isa = PBXBuildFile; fileRef = 4D374D62681E4939AE091C8A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */; };
+		E31D010348AD4736B687EE52 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = DEFB59FAE9B44EAB94B17626 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2CF88E01B8EC4534A4BC74DA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6C6A8B1BFB36487A93C83574 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B755201E6A964663A65030AD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		FC81CD913729414DB870CB1E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0F503914EFAB4F3B9B06FA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D312F8B7E0614635801B6C62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6607D914BDF04CF6B1374F20;
+			remoteInfo = ZERO_CHECK;
+		};
+		B0BA0FC9C2C44EAEB155BC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D312F8B7E0614635801B6C62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6607D914BDF04CF6B1374F20;
+			remoteInfo = ZERO_CHECK;
+		};
+		B5316D281BF14B85B4DEDED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D312F8B7E0614635801B6C62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312E261F282341BEBB722887;
+			remoteInfo = ext_tolua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A20601C37B747BD862B722F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_to.c; path = tolua_to.c; sourceTree = SOURCE_ROOT; };
+		4D374D62681E4939AE091C8A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_push.c; path = tolua_push.c; sourceTree = SOURCE_ROOT; };
+		92A9BC7C58B6458D885FC445 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_is.c; path = tolua_is.c; sourceTree = SOURCE_ROOT; };
+		AA725D51C63445109CAE8C62 /* ext_tolua */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tolua.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDCA17EB50847EBB3DCE502 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEB7AACF8E144ED58AD7A78D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DE53B568915844169FCEEC9A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_map.c; path = tolua_map.c; sourceTree = SOURCE_ROOT; };
+		DE8C899D9C834720A03CFDF2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tolua_event.c; path = tolua_event.c; sourceTree = SOURCE_ROOT; };
+		DEFB59FAE9B44EAB94B17626 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../../runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		39F79DA888D143D9A48506E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA725D51C63445109CAE8C62 /* ext_tolua */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC1F3C912154483A5357F99 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5B3FFF5D4E5D49A2B27505D4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C899D9C834720A03CFDF2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */,
+				92A9BC7C58B6458D885FC445 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */,
+				DE53B568915844169FCEEC9A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */,
+				4D374D62681E4939AE091C8A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */,
+				4A20601C37B747BD862B722F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6B491AFFAB534300990B1701 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				88D20861389E47E3A3A7C977 /* ext_tolua */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		88D20861389E47E3A3A7C977 /* ext_tolua */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FFF5D4E5D49A2B27505D4 /* Source Files */,
+				DF47A2B143194CBABD487984 /* Resources */,
+				ABDCA17EB50847EBB3DCE502 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */,
+			);
+			name = ext_tolua;
+			sourceTree = "<group>";
+		};
+		A965A51FCC2941E7921E4C3A = {
+			isa = PBXGroup;
+			children = (
+				6B491AFFAB534300990B1701 /* External */,
+				CD92E1632D6C42C2BD9D1353 /* ALL_BUILD */,
+				39F79DA888D143D9A48506E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD92E1632D6C42C2BD9D1353 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3BC1F3C912154483A5357F99 /* CMake Rules */,
+				CEB7AACF8E144ED58AD7A78D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DF47A2B143194CBABD487984 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEFB59FAE9B44EAB94B17626 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312E261F282341BEBB722887 /* ext_tolua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAE7A36AFCE4F77923F62EF /* Build configuration list for PBXNativeTarget "ext_tolua" */;
+			buildPhases = (
+				95565468BF06445DB56FEC49 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71D884EA726F4916B98EACDC /* PBXTargetDependency */,
+			);
+			name = ext_tolua;
+			productName = ext_tolua;
+			productReference = AA725D51C63445109CAE8C62 /* ext_tolua */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D312F8B7E0614635801B6C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = B68D26A4E574420695B45575 /* Build configuration list for PBXProject "tolua" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6C6A8B1BFB36487A93C83574 /* Debug */,
+				FC81CD913729414DB870CB1E /* Release */,
+				B755201E6A964663A65030AD /* MinSizeRel */,
+				2CF88E01B8EC4534A4BC74DA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A965A51FCC2941E7921E4C3A;
+			projectDirPath = "../../../../../../cocos2d-x/external/lua/tolua";
+			projectRoot = "";
+			targets = (
+				EB6C423FDF824D779BC25A22 /* ALL_BUILD */,
+				6607D914BDF04CF6B1374F20 /* ZERO_CHECK */,
+				312E261F282341BEBB722887 /* ext_tolua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DEE2BEEE197464AB8803EF2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		263F01DB2AEC454BBBBBA053 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5A5C8BF3C26E4B89A7E44E81 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		BB078F2E284E4D95AD17D273 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95565468BF06445DB56FEC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C7842ED33C4A61BCD87708 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_event.c */,
+				84BD232ECB83452EBA162EC5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_is.c */,
+				7B2BD16C9FB64D93AB6F63E1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_map.c */,
+				C5A5A85773C34A3B8A78A18E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_push.c */,
+				753FB13E874447BBB67C975C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/tolua_to.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71D884EA726F4916B98EACDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6607D914BDF04CF6B1374F20 /* ZERO_CHECK */;
+			targetProxy = B0BA0FC9C2C44EAEB155BC34 /* PBXContainerItemProxy */;
+		};
+		B3D713E3EDEE4F0F894BC180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312E261F282341BEBB722887 /* ext_tolua */;
+			targetProxy = B5316D281BF14B85B4DEDED2 /* PBXContainerItemProxy */;
+		};
+		D453CC7D04904066A9C1F15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6607D914BDF04CF6B1374F20 /* ZERO_CHECK */;
+			targetProxy = 0F503914EFAB4F3B9B06FA6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0379408C938E4A3AA7E66634 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/build";
+			};
+			name = RelWithDebInfo;
+		};
+		24C37F0E3CB64859B53BA27F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2EA9F18594FB4CEF98C87245 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/build";
+			};
+			name = MinSizeRel;
+		};
+		473FBB98490B4DD59425869F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		60C70915C8C54DDFA5A03475 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		852C78C5867F4299811E38FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		957CFDA8398C4BCC8D05F485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/build";
+			};
+			name = Release;
+		};
+		9A1B1EF305DA40E784955EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A1AE40A8FC114662B292E177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ABAA86E710CD40849654C366 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC44FA2FE028434EA135B6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BA7A256C4DCD40A1B41B96AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D943DC9DF841458DA787F7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD81FD564871482586A21898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua/build";
+			};
+			name = Debug;
+		};
+		F09398E54F674527B8CD16FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/../luajit/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/tolua/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tolua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F5722233103143508BB51148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build/engine/external/lua/tolua";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C49140D9CEA420E957BD738 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44FA2FE028434EA135B6DF /* Debug */,
+				852C78C5867F4299811E38FA /* Release */,
+				BA7A256C4DCD40A1B41B96AD /* MinSizeRel */,
+				60C70915C8C54DDFA5A03475 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B68D26A4E574420695B45575 /* Build configuration list for PBXProject "tolua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD81FD564871482586A21898 /* Debug */,
+				957CFDA8398C4BCC8D05F485 /* Release */,
+				2EA9F18594FB4CEF98C87245 /* MinSizeRel */,
+				0379408C938E4A3AA7E66634 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E91F34A820ED45D886F5E123 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D943DC9DF841458DA787F7EE /* Debug */,
+				F5722233103143508BB51148 /* Release */,
+				24C37F0E3CB64859B53BA27F /* MinSizeRel */,
+				ABAA86E710CD40849654C366 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFAE7A36AFCE4F77923F62EF /* Build configuration list for PBXNativeTarget "ext_tolua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1B1EF305DA40E784955EEE /* Debug */,
+				A1AE40A8FC114662B292E177 /* Release */,
+				473FBB98490B4DD59425869F /* MinSizeRel */,
+				F09398E54F674527B8CD16FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D312F8B7E0614635801B6C62 /* Project object */;
+}
