@@ -1,4 +1,4 @@
-import org.gradle.internal.os.OperatingSystem;
+
 
 apply plugin: 'com.android.application'
 
@@ -36,6 +36,7 @@ android {
     externalNativeBuild {
         cmake {
             path "../../../../CMakeLists.txt"
+            version "3.10.2"
         }
     }
 
@@ -73,7 +74,7 @@ android {
 }
 
 def getCocosCommandPath() {
-    if (OperatingSystem.current().isWindows()) {
+    if (org.gradle.internal.os.OperatingSystem.current().isWindows()) {
         return 'cocos.bat'
     }
     else {
