@@ -26,6 +26,7 @@
 #include "scripting/lua-bindings/manual/CCLuaEngine.h"
 #include "cocos2d.h"
 #include "scripting/lua-bindings/manual/lua_module_register.h"
+#include "lua-bindings/lua_pomelo_auto.hpp"
 
 // #define USE_AUDIO_ENGINE 1
 
@@ -90,6 +91,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     //register custom function
     //LuaStack* stack = engine->getLuaStack();
     //register_custom_function(stack->getLuaState());
+
+    register_all_pomelo(L);
     
 #if CC_64BITS
     FileUtils::getInstance()->addSearchPath("src/64bit");

@@ -554,9 +554,14 @@
 		B7339F4641D84AE6BDE63182 /* CCRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 169428593C454367A7856C9E /* CCRef.cpp */; };
 		B792BAFEF52247638B79B283 /* GuiConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF9BD9B01A924E8ABC362740 /* GuiConstants.lua */; };
 		B7C1B87057B04E7B88F51BF3 /* lua_cocos2dx_navmesh_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 990E546EAF314B94859D7549 /* lua_cocos2dx_navmesh_auto.cpp */; };
+		B807B1EB2411042C00AF30EB /* libpomelo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B807B1EA2411042C00AF30EB /* libpomelo2.a */; };
+		B807B1EF2411061600AF30EB /* CCPomelo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B807B1EE2411061600AF30EB /* CCPomelo.cpp */; };
 		B81EB5246E4C484DAEC86147 /* CCPUOnCollisionObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35C24D03B9BA4796B24F1183 /* CCPUOnCollisionObserverTranslator.cpp */; };
 		B849DAD268ED4A64BC871B61 /* CCEventDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D4320085234674BCE5F67C /* CCEventDispatcher.cpp */; };
 		B857CA16103242069F99E781 /* CCPUOnVelocityObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09FFED6B70004B8E9FEA817E /* CCPUOnVelocityObserver.cpp */; };
+		B8A286E92411092400C88ED1 /* lua_pomelo_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8A286E52411092400C88ED1 /* lua_pomelo_auto.cpp */; };
+		B8A286EA2411092400C88ED1 /* lua_pomelo_auto_api.lua in Resources */ = {isa = PBXBuildFile; fileRef = B8A286E72411092400C88ED1 /* lua_pomelo_auto_api.lua */; };
+		B8A286EB2411092400C88ED1 /* CCPomelo.lua in Resources */ = {isa = PBXBuildFile; fileRef = B8A286E82411092400C88ED1 /* CCPomelo.lua */; };
 		B95155C24B274932A34E2AA1 /* CCActionTimeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE576F08D1A74FF3BD096A1C /* CCActionTimeline.cpp */; };
 		B9A2BD6D73F44376A6F2D8FF /* CCPUForceFieldAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61EA634023745D7BC1992D0 /* CCPUForceFieldAffector.cpp */; };
 		B9CFB19DEA174DBA8FC9ACBC /* CCActionTimelineCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D777EBECFCAA40BB9FB3B82C /* CCActionTimelineCache.cpp */; };
@@ -2495,10 +2500,18 @@
 		B726161CC3714C88B6EE42F3 /* UIImageView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UIImageView.cpp; path = "frameworks/cocos2d-x/cocos/ui/UIImageView.cpp"; sourceTree = SOURCE_ROOT; };
 		B7402B4281E2439FAB980FCF /* CCBundle3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCBundle3D.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCBundle3D.cpp"; sourceTree = SOURCE_ROOT; };
 		B79BFB0A4673405FBF5407BC /* CCComponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCComponent.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		B807B1EA2411042C00AF30EB /* libpomelo2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpomelo2.a; path = "frameworks/cocos2d-x/cocos/libpomelo2/prebuilt/libpomelo2.a"; sourceTree = "<group>"; };
+		B807B1EC241105EC00AF30EB /* lua_module_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lua_module_register.h; path = "frameworks/runtime-src/Classes/lua_module_register.h"; sourceTree = "<group>"; };
+		B807B1ED2411061600AF30EB /* CCPomelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPomelo.h; path = "frameworks/runtime-src/Classes/CCPomelo.h"; sourceTree = "<group>"; };
+		B807B1EE2411061600AF30EB /* CCPomelo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCPomelo.cpp; path = "frameworks/runtime-src/Classes/CCPomelo.cpp"; sourceTree = "<group>"; };
 		B81A31D1F6AA4FB79A9CAFA1 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "frameworks/cocos2d-x/external/unzip/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		B85B3B8456084BFB83FA66B8 /* CCSkeletonNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCSkeletonNode.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCSkeletonNode.cpp"; sourceTree = SOURCE_ROOT; };
 		B8901A67BF1B4F1089D870CD /* Vec2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vec2.h; path = "frameworks/cocos2d-x/cocos/math/Vec2.h"; sourceTree = SOURCE_ROOT; };
 		B890E08848EC4313A68818F0 /* CCPhysicsWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPhysicsWorld.h; path = "frameworks/cocos2d-x/cocos/physics/CCPhysicsWorld.h"; sourceTree = SOURCE_ROOT; };
+		B8A286E42411092400C88ED1 /* lua_pomelo_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua_pomelo_auto.hpp; sourceTree = "<group>"; };
+		B8A286E52411092400C88ED1 /* lua_pomelo_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pomelo_auto.cpp; sourceTree = "<group>"; };
+		B8A286E72411092400C88ED1 /* lua_pomelo_auto_api.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lua_pomelo_auto_api.lua; sourceTree = "<group>"; };
+		B8A286E82411092400C88ED1 /* CCPomelo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCPomelo.lua; sourceTree = "<group>"; };
 		B8B30BB3E89D4320BF0EB5AD /* CCTransitionPageTurn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTransitionPageTurn.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCTransitionPageTurn.cpp"; sourceTree = SOURCE_ROOT; };
 		B8C821A0A4264C2A8FC3B97B /* CCParticle3DAffector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCParticle3DAffector.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/CCParticle3DAffector.cpp"; sourceTree = SOURCE_ROOT; };
 		B8D332559E9C45AD8429E1F9 /* libext_xxtea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2881,6 +2894,17 @@
 		FF01A4A3F81C4D78B1D90A94 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCActionFrameEasing.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCActionFrameEasing.cpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		B807B1E6241103C800AF30EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B807B1EB2411042C00AF30EB /* libpomelo2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		02CBFD76715C4A70A6799503 /* 3d */ = {
 			isa = PBXGroup;
@@ -3188,6 +3212,10 @@
 		1F301DC754074CE88B394C2B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B8A286E32411092400C88ED1 /* lua-bindings */,
+				B807B1EE2411061600AF30EB /* CCPomelo.cpp */,
+				B807B1ED2411061600AF30EB /* CCPomelo.h */,
+				B807B1EC241105EC00AF30EB /* lua_module_register.h */,
 				C6AB6F604A1646B8BAF1FDFD /* AppDelegate.cpp */,
 				1AB3224ED25A42949A563558 /* AppDelegate.h */,
 			);
@@ -3882,6 +3910,7 @@
 				C26A11C5BC2C459AB8E74E90 /* Internal */,
 				81B9AC46BA88405CB5C20D71 /* External */,
 				059A7D58D78A49ACBC939DD0 /* Products */,
+				B807B1E92411042B00AF30EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4631,6 +4660,34 @@
 				29F820EBEFC64ADAAB7481A6 /* CCNavMeshUtils.h */,
 			);
 			name = navmesh;
+			sourceTree = "<group>";
+		};
+		B807B1E92411042B00AF30EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B807B1EA2411042C00AF30EB /* libpomelo2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A286E32411092400C88ED1 /* lua-bindings */ = {
+			isa = PBXGroup;
+			children = (
+				B8A286E42411092400C88ED1 /* lua_pomelo_auto.hpp */,
+				B8A286E52411092400C88ED1 /* lua_pomelo_auto.cpp */,
+				B8A286E62411092400C88ED1 /* api */,
+			);
+			name = "lua-bindings";
+			path = "frameworks/runtime-src/Classes/lua-bindings";
+			sourceTree = "<group>";
+		};
+		B8A286E62411092400C88ED1 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B8A286E72411092400C88ED1 /* lua_pomelo_auto_api.lua */,
+				B8A286E82411092400C88ED1 /* CCPomelo.lua */,
+			);
+			path = api;
 			sourceTree = "<group>";
 		};
 		BAD0DD1B957447ED87DD61FC /* ActionTimeline */ = {
@@ -5702,6 +5759,7 @@
 				66929479735847229CD1A78A /* CopyFiles */,
 				F2C337A9C21748C1B78453B5 /* CopyFiles */,
 				CCC464F7BD54492B97D31D88 /* Sources */,
+				B807B1E6241103C800AF30EB /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -5927,6 +5985,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC7A41F4E6EA47DAA4C28D82 /* Images.xcassets in Resources */,
+				B8A286EA2411092400C88ED1 /* lua_pomelo_auto_api.lua in Resources */,
+				B8A286EB2411092400C88ED1 /* CCPomelo.lua in Resources */,
 				CD601DA147894F1694B968CF /* LaunchScreen.storyboard in Resources */,
 				539C734C813047C797B3A6C4 /* LaunchScreenBackground.png in Resources */,
 			);
@@ -6631,6 +6691,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B807B1EF2411061600AF30EB /* CCPomelo.cpp in Sources */,
+				B8A286E92411092400C88ED1 /* lua_pomelo_auto.cpp in Sources */,
 				AF5CEB03AAB6476ABDAF0432 /* AppDelegate.cpp in Sources */,
 				2DE531EAE8E5478991164D1F /* AppController.mm in Sources */,
 				C4933997CCBB4BDD87612569 /* RootViewController.mm in Sources */,
@@ -7938,7 +8000,7 @@
 				);
 				INFOPLIST_FILE = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/proj.ios_mac/ios/Info.plist";
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/frameworks/cocos2d-x/cocos/libpomelo2/prebuilt";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
@@ -8026,7 +8088,7 @@
 				PRODUCT_NAME = PA_Client;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/openssl/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/uv/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -8842,7 +8904,7 @@
 				);
 				INFOPLIST_FILE = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/proj.ios_mac/ios/Info.plist";
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/frameworks/cocos2d-x/cocos/libpomelo2/prebuilt";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
@@ -8930,7 +8992,7 @@
 				PRODUCT_NAME = PA_Client;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/openssl/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/uv/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -9424,7 +9486,7 @@
 				);
 				INFOPLIST_FILE = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/proj.ios_mac/ios/Info.plist";
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/frameworks/cocos2d-x/cocos/libpomelo2/prebuilt";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "   '-std=gnu99'  ";
 				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
@@ -9506,7 +9568,7 @@
 				PRODUCT_NAME = PA_Client;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/openssl/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/uv/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -9615,7 +9677,7 @@
 				);
 				INFOPLIST_FILE = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/proj.ios_mac/ios/Info.plist";
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/frameworks/cocos2d-x/cocos/libpomelo2/prebuilt";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
@@ -9703,7 +9765,7 @@
 				PRODUCT_NAME = PA_Client;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/ios-build";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/Box2D/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/chipmunk/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/freetype2/include/ios/freetype2 /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/bullet/include/bullet /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/jpeg/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/openssl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/uv/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/webp/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/curl/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/png/include/ios /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/glsl-optimizer/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luajit/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/openssl/include /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/deps/uv/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
