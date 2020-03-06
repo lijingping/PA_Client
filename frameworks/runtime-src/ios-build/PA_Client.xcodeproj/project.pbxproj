@@ -58,7 +58,6 @@
 		01B4CF0441484346B28A1EC6 /* lua_cocos2dx_csloader_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDA6CABEC634D24AE5638A1 /* lua_cocos2dx_csloader_auto.cpp */; };
 		01C4C7E6D88E4B5FB571B922 /* CCFileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6208CEE425E4910A58112C2 /* CCFileUtils.cpp */; };
 		028762B2D17C4477A87B27FB /* DepthStencilState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0611606F9A974F2F9937BEE8 /* DepthStencilState.cpp */; };
-		029A90ADAC9E423ABCC76929 /* 3dConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = D90779B1D0CA46F8997AFECC /* 3dConstants.lua */; };
 		034343C44B6147F89A2E0A66 /* CCPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4892EA4C62CE4979B5C592ED /* CCPlane.cpp */; };
 		039CDCFEE20B4039855D884C /* Lua_web_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3A045282746A2A069E679 /* Lua_web_socket.cpp */; };
 		05483D685A96492C812A802F /* CCParticleBatchNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A30AD03FA19649539AF61A50 /* CCParticleBatchNode.cpp */; };
@@ -86,7 +85,6 @@
 		0D33F90B5BD1494A8319FF55 /* AudioCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEB4DF4834F745C8918E4C4E /* AudioCache.mm */; };
 		0E07B27C6B154A4299623FB9 /* CCAsyncTaskPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8D9BB92E0487CB7D3A18B /* CCAsyncTaskPool.cpp */; };
 		0E1C8BDAB6944B5DBA7C3788 /* shapes.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2F0855957394A24A7578825 /* shapes.cc */; };
-		0E9D286253C9466198794D35 /* CocoStudio.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2900AC37518840499A4A6358 /* CocoStudio.lua */; };
 		0F5BED1BDB1944E99FC11F90 /* timeout.c in Sources */ = {isa = PBXBuildFile; fileRef = A899BD03DAA042DABC14284F /* timeout.c */; };
 		0F9EC960CFD640D38441DC86 /* CCPUTextureAnimatorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15022E1A2EAF486E8F1921E7 /* CCPUTextureAnimatorTranslator.cpp */; };
 		102C23C5A11D4005A4682A7A /* CCPUOnClearObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B262FE4ECFFA4EA4A3297AE1 /* CCPUOnClearObserverTranslator.cpp */; };
@@ -110,12 +108,10 @@
 		15A5FA6BA2F244E5B235ED82 /* Manifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF696EB926A4CBA8B92DB87 /* Manifest.cpp */; };
 		15F76EC62B2C4E3BBD77DE10 /* CCPUDoAffectorEventHandlerTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8744596124AA46F98564DF1B /* CCPUDoAffectorEventHandlerTranslator.cpp */; };
 		1640EED19C84479F97CA7571 /* lua_cocos2dx_studio_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4BAD11D4E478D8B0E51FF /* lua_cocos2dx_studio_auto.cpp */; };
-		179E7AA24C4E4B108B29E8E7 /* StudioConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C1B27958E804D81B7CDA519 /* StudioConstants.lua */; };
 		17C09F4926994A2B9746B7ED /* ListViewReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A581BF47A8F48378AE31819 /* ListViewReader.cpp */; };
 		181085D155D14EA4BD5EE0AA /* SpriteReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313634C07D50405494D0D137 /* SpriteReader.cpp */; };
 		182ABF6F795C476B9B4827D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB15D61A10C6448C87F8D3B7 /* main.m */; };
 		18D0B0E5AA204E2FB60182E7 /* cdt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8DC97B75D564462CB8410720 /* cdt.cc */; };
-		18DAD71B1A1943A4B6DDC1F3 /* device.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2747612886D04F0EB79F1BBC /* device.lua */; };
 		197E83D178304A88A001F3FE /* CCTableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A198E548AC4933A9A99205 /* CCTableView.cpp */; };
 		19B444EB5EF1422186E1328B /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4FBEC069F4831A3005C6E /* HttpClient.cpp */; };
 		19C9A73A4CF548B98A6F7EE6 /* CCPUColorAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 779526961A9B4BFE944B4ACE /* CCPUColorAffectorTranslator.cpp */; };
@@ -138,11 +134,9 @@
 		20C709A1B8F348B18FFE1784 /* CCPUAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D8992385F84ECB8007E7C2 /* CCPUAffector.cpp */; };
 		2189DA5F374E47E1AC2A41C6 /* CCSGUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2058BD5C6C247F892C566DD /* CCSGUIReader.cpp */; };
 		21B14389397643DDA6900BF0 /* CCPUBoxEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 855879F412C744FAB335A5DF /* CCPUBoxEmitter.cpp */; };
-		21CCB972063942A0A5B6E9B9 /* UISlider.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B1BE31BF1D442ADA3ACA2F1 /* UISlider.lua */; };
 		21D3A893187B485F8F54788C /* Node3DReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC0F3D549BF412881192A27 /* Node3DReader.cpp */; };
 		221964D1BCB149A58F8F6D75 /* CCEventListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE52522B3B04801BF6FBD92 /* CCEventListener.cpp */; };
 		22FF8B0CBA394F21BC608575 /* lua_cocos2dx_controller_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ECCD13A084958AF43F92D /* lua_cocos2dx_controller_manual.cpp */; };
-		235D00A00C2F49DBA061E3F5 /* event.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 15DBBC6D242D46D396430333 /* event.lua */; };
 		23A0BDB0255049AC85CD2DC2 /* Device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5668DDD028234E6C95BF1E3A /* Device.cpp */; };
 		23BEFCD285DA4FF6838E5CD9 /* AssetsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBA40D6311400E8A3E34EA /* AssetsManager.cpp */; };
 		24BC15B93A9143F192DAD937 /* CCPUOnPositionObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89ACAAF37B04AC5A7927D4E /* CCPUOnPositionObserverTranslator.cpp */; };
@@ -176,7 +170,6 @@
 		2E3F6E2EC01B4816A9935196 /* UILayoutComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B320A6F4603449B8868D915 /* UILayoutComponent.cpp */; };
 		2E926C49AEE94061AB1D324E /* lua_cocos2dx_physics3d_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55A44E3FC6E450B8BC4AE9D /* lua_cocos2dx_physics3d_manual.cpp */; };
 		2EC9325BA4EE4057B5645C2F /* SimpleAudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACDB3AA83DB1429CB78B49CD /* SimpleAudioEngine.cpp */; };
-		2F13E69E9247463CA47EB912 /* DeprecatedCocos2dEnum.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = D02EE03DCED14A88916998A1 /* DeprecatedCocos2dEnum.lua */; };
 		2F2A268EE30244FBAA90D05F /* UIListView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C4BD5D41E1846E2B9BB5172 /* UIListView.cpp */; };
 		2F580378BC284E5482739EAE /* CCPUCircleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAABDFFCB55D46938C099AFA /* CCPUCircleEmitter.cpp */; };
 		2F6238085AED4125B29797BF /* CCPhysicsShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BFC3F26A6747B7B2AE9F04 /* CCPhysicsShape.cpp */; };
@@ -186,7 +179,6 @@
 		30CF956E661F41A6A3DA9D45 /* CCParticleSystem3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EABAE5664848B48D7330CE /* CCParticleSystem3D.cpp */; };
 		30D3F10DBC4349CEA0933D33 /* CCLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7812CE7658934C00929C3089 /* CCLight.cpp */; };
 		314D840749F24BBA81E7C122 /* CCPhysicsSprite3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 342526BB7B444A5AA92303EC /* CCPhysicsSprite3D.cpp */; };
-		324205D9776343A1BB1B4189 /* DeprecatedCocoStudioFunc.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D66A09D0B5944389CC06D0F /* DeprecatedCocoStudioFunc.lua */; };
 		327CFE56278D4454B26A1961 /* CCComAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7711046EE8B7431B9E6D7A6F /* CCComAttribute.cpp */; };
 		32CB22E3B7B04C1891AC633E /* CCPUVertexEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDA2C963A0F04B42B7C29BF8 /* CCPUVertexEmitter.cpp */; };
 		32D6162AF671478F9B8908B7 /* UILoadingBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14341CCE5FB745B4BB45F4CB /* UILoadingBar.cpp */; };
@@ -206,14 +198,11 @@
 		399388E754574B9FBDED1DF4 /* CCIMEDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA1485F914B645A5B07AECC7 /* CCIMEDispatcher.cpp */; };
 		39A118EF1723445D9975F1EC /* CCRenderCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50BEBF3146FC422F93D27452 /* CCRenderCommand.cpp */; };
 		3A399005C8F74EDFA0E88935 /* tolua_fix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E5BAF38DDC4BAAA12F34F9 /* tolua_fix.cpp */; };
-		3A58951C14004B1692D3F78E /* AudioEngine.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = E518A72F87D848ACB28638FD /* AudioEngine.lua */; };
 		3A9F83789BE94477B07DB029 /* DetourDebugDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134819DC336F4000A7234D09 /* DetourDebugDraw.cpp */; };
 		3ACA0EB2B50849B9899EAF02 /* CCPULineAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A050CCA6401D409D9950856B /* CCPULineAffectorTranslator.cpp */; };
 		3AE1EB54900145DB8164C503 /* ConvertUTF.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E14BDCFF640FEB1D8AD33 /* ConvertUTF.c */; };
 		3AEBBF4C6D4245A2ACE66C1F /* CCProfiling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4482C250A344769B0105454 /* CCProfiling.cpp */; };
-		3B3FDFD17DC5474BA8D77DCC /* LayerEx.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6351AAE87D3C4268AF838C7F /* LayerEx.lua */; };
 		3BADC0135EA44BB7B3F0505F /* CCPUMaterialManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C70BA0CD58BA42C0AD47BD77 /* CCPUMaterialManager.cpp */; };
-		3BDEE11E5E5849EB8E668DF2 /* init.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2A8095E88E949169639B90C /* init.lua */; };
 		3BF7BC1FB67A409C9C9EFBC2 /* CCFrustum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 150474E294524E648931FF74 /* CCFrustum.cpp */; };
 		3CEB0C2B3FA2414CB0E2351D /* CCParticleExamples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8EAEF50744E7A99EDE199 /* CCParticleExamples.cpp */; };
 		3D07A5C436C4488286D24781 /* CCConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E2631AA4F4873A891AC41 /* CCConfiguration.cpp */; };
@@ -238,7 +227,6 @@
 		456A141FE5E341DA96A2114A /* ArmatureNodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3055431DFD2E46E0B65FFBC2 /* ArmatureNodeReader.cpp */; };
 		45C42E796C874001814D95CD /* mime.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A247D4E15AA471A84ED9757 /* mime.c */; };
 		4673E1E20BD04ECCB2194BDD /* CCSprite3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFFE9B1E9A6F4254BA02E81F /* CCSprite3D.cpp */; };
-		46B4520EAE6A4064B59BF193 /* DeprecatedExtensionEnum.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAF12DCE7D1E4C6BB8BA92C0 /* DeprecatedExtensionEnum.lua */; };
 		46F9AB0914424CC288F0927A /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2304A2C8B0442A794955B71 /* clipper.cpp */; };
 		47584176BE6A473EBA6B0788 /* CCGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA34027F1A4492C9C875653 /* CCGrid.cpp */; };
 		479265D8AD264175A37D6BFD /* auxiliar.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D1642A486444AD0A9777874 /* auxiliar.c */; };
@@ -251,9 +239,7 @@
 		483D38AD0B2B45BB8B33F314 /* lua_cocos2dx_deprecated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0843AB33B101475AA69756E9 /* lua_cocos2dx_deprecated.cpp */; };
 		4901F8F6AA9D4E5A95576327 /* CCInputView-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = A018D59B52FA44AAB98F2938 /* CCInputView-ios.mm */; };
 		49BA2E82F5A54DA4BF58A9BD /* UIHBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076BF6EE87D847B59497EF7A /* UIHBox.cpp */; };
-		49DB6321E838451EA8170574 /* luaoc.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 536FEDE218304B9387128CE0 /* luaoc.lua */; };
 		4A67B18D6B2543FCBB90565A /* CCActionInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5271CC7C0F9E4D6CB8B114B7 /* CCActionInterval.cpp */; };
-		4AC8DC67C09D4A57949B1E2B /* deprecated.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9B0CC31E1984386B60DF59B /* deprecated.lua */; };
 		4AFA9499FA094B6B899A71ED /* select.c in Sources */ = {isa = PBXBuildFile; fileRef = 782D5E2FDB664CE0AC4AA091 /* select.c */; };
 		4B26CDAF173146A0AE0C33E0 /* lua_cocos2dx_ui_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1BE726BB024D51943D0DBF /* lua_cocos2dx_ui_auto.cpp */; };
 		4BBCD2D4F58846C28E6B3B7F /* CCDevice-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 442F819209C7443B95EE2190 /* CCDevice-ios.mm */; };
@@ -270,9 +256,7 @@
 		4F19287E79B44BB6A1D1C50A /* CCControlSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F376603276D144CE8CC2306D /* CCControlSwitch.cpp */; };
 		4FE10943458244BDA48C637E /* CCPUBaseForceAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3B6198F81A846EC88DF7A83 /* CCPUBaseForceAffectorTranslator.cpp */; };
 		50058471C6EE4640A47010FF /* DetourNavMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62F17ADBEC8048E2A4475621 /* DetourNavMesh.cpp */; };
-		505AE1A732794C1EA9FF737F /* luaj.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 973D9A8F81BD4EE4AD132E99 /* luaj.lua */; };
 		51D8E0B043F941939F734719 /* Light3DReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4FC42D26924725BFE9CB87 /* Light3DReader.cpp */; };
-		51FCCF13B50E4F5EA30618DB /* UIListView.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 071C544B3E4E4591A30E0045 /* UIListView.lua */; };
 		5226FD028A7C4FA6A5F43111 /* CCEventListenerController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8F54F38D0A04E9A8823CC8C /* CCEventListenerController.cpp */; };
 		526E09684A0E46ED99AC0E56 /* tolua_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CDD39CA36D44DB593026AD0 /* tolua_event.c */; };
 		528FDDBC90EF4B1BAE1DF4BD /* advancing_front.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3275E870C3FC4C23BCA80A61 /* advancing_front.cc */; };
@@ -293,11 +277,9 @@
 		5AF40415FB774D2798474D45 /* CCGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD3F9E3B85F49B4B89009D0 /* CCGeometry.cpp */; };
 		5B5BAD1878B944069405E670 /* CCTexture2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0F987B7674111AB15305B /* CCTexture2D.cpp */; };
 		5C03799A84D94646897AA9A7 /* CCNodeGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B30792969AC04677A3C6C04F /* CCNodeGrid.cpp */; };
-		5C61146F91734D74BB3377DA /* config.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5684567386F484FADA1BAEB /* config.lua */; };
 		5D4F4AA3489045CDAABD770E /* CCValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D140E33D5743DBAAF28ADA /* CCValue.cpp */; };
 		5D77C72B4CA3443490D97CEA /* lua_cocos2dx_audioengine_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C28AE9AB9C8043F3964D132E /* lua_cocos2dx_audioengine_auto.cpp */; };
 		5DD1445EDC54485B82BDF4BB /* CCInputDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3946845541F84C3BBEFD4B2E /* CCInputDelegate.cpp */; };
-		5DD89CB466ED44688087C9EF /* DeprecatedUIEnum.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = AECBB4FB878A49A198E94E51 /* DeprecatedUIEnum.lua */; };
 		5E16EE1AF353406A91784FE6 /* CCPUDynamicAttributeTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17F8D3B388B5462EBC3BADC5 /* CCPUDynamicAttributeTranslator.cpp */; };
 		5E2D6ECF6A0B4D0EBD6899E0 /* ProgramState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25FF3FB43601484DA117C2CB /* ProgramState.cpp */; };
 		5E5DC8F0E5FA422DA2E7E1D5 /* CCNavMeshObstacle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8104315134C4CA728B150 /* CCNavMeshObstacle.cpp */; };
@@ -312,7 +294,6 @@
 		615C0CE8765D4720A58F2CEF /* TextureMTL.mm in Sources */ = {isa = PBXBuildFile; fileRef = A292586122364B4CAAEA28EF /* TextureMTL.mm */; };
 		61DB332FDBBF45D087782911 /* CCPUOnVelocityObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF2DB7330DF4DA28F4E0B16 /* CCPUOnVelocityObserverTranslator.cpp */; };
 		62017041E26B4287B3DB35FC /* lua_downloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B759CC89E14443C94A08EFC /* lua_downloader.cpp */; };
-		62A039F3C60645E598B54C2B /* json.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61679223194B44B0A496B18E /* json.lua */; };
 		62A4696EAA2A4026BD7B3AFF /* CCArmature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB3FFBC104FC4B27AE24AEFB /* CCArmature.cpp */; };
 		63990158EDFD48A79B921805 /* CCController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4AE2C06B018499CB573FD9C /* CCController.cpp */; };
 		63EA1414FAF047FEA1F580D5 /* CCPUEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F4B05086E439BB5BC6CA1 /* CCPUEventHandler.cpp */; };
@@ -330,8 +311,6 @@
 		6841BB4360EC4DB29E4CE3F4 /* SingleNodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 378CC8332A314427870A43B7 /* SingleNodeReader.cpp */; };
 		687E68D939AF4496A20E1A4B /* CCEventListenerAssetsManagerEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C245E4201CD43DBB675A404 /* CCEventListenerAssetsManagerEx.cpp */; };
 		68A7BCF8B53C4662B8B6CBAA /* lua_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E06CE7C8A1435B90020855 /* lua_module_register.cpp */; };
-		68BB869D6EDF4BA6BCC10F4B /* DeprecatedExtensionFunc.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3CE5193E2B441686D795BB /* DeprecatedExtensionFunc.lua */; };
-		68CEA79115C14BE0B8C03D4A /* transition.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E5F77AD42344969A1B3E2A1 /* transition.lua */; };
 		69197D217338496B838E32DD /* CCFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A38A1E2E079E4C3AA7B80F53 /* CCFont.cpp */; };
 		6948439D564B4F72B9221143 /* lua_cocos2dx_3d_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95C0C051E7294E3FAE0399BE /* lua_cocos2dx_3d_auto.cpp */; };
 		699D656EEF0D4E7BA1952844 /* CCNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AAFE855F7F942B7B0EA8A82 /* CCNode.cpp */; };
@@ -347,7 +326,6 @@
 		6CA51E221CB2435682301FAD /* CCImage-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC329AD1E6EA45799202D0C0 /* CCImage-ios.mm */; };
 		6D07B4785ACA4484B7C2A898 /* CCPUBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F7F1B5085C4F728BBA2CFC /* CCPUBehaviour.cpp */; };
 		6D922BC4ADB244EF8E55BD27 /* CCRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAB2F22574874863A1245654 /* CCRenderer.cpp */; };
-		6DD98319665C44C6A0729263 /* physics3d-constants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32C4B6E396164EF5B31FCDDA /* physics3d-constants.lua */; };
 		6DFF9DABF90B43E1B5EE9A2E /* CCPUDoExpireEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0740399DAB61493BBF5AAECF /* CCPUDoExpireEventHandler.cpp */; };
 		6E0424861BA64F66B41F678A /* CCPUDoStopSystemEventHandlerTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BE2FA95CF4CF8B8BE8A21 /* CCPUDoStopSystemEventHandlerTranslator.cpp */; };
 		6E883C57F62845C5AC3962AC /* CCFontAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11D58DF884DA4CC1963A26B6 /* CCFontAtlas.cpp */; };
@@ -360,9 +338,7 @@
 		7037EC5FC3844197831A5731 /* CCMeshCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F12D25CE4B74AC9B4381477 /* CCMeshCommand.cpp */; };
 		706AAF05880A48F193A6B043 /* TextFieldReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FBD8148A747DB935409A0 /* TextFieldReader.cpp */; };
 		70D6FB9605164380B9E06BEA /* CCCustomCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 456DBC7665E64767B3C940FF /* CCCustomCommand.cpp */; };
-		722CF44D9E2D4BD989BDF2B8 /* functions.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 689A43B2678844DC8CD14E73 /* functions.lua */; };
 		7312A7B85603479EA2B55C5D /* CCTimeLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49995C6397C4132BFAC675F /* CCTimeLine.cpp */; };
-		7318371A36A74726BCD85E70 /* DeprecatedNetworkEnum.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8C17F8E805C42688E4ABAFA /* DeprecatedNetworkEnum.lua */; };
 		74150D4CE94B4B84A02BF065 /* CCAABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF04B86BE5B343F6BE447EAE /* CCAABB.cpp */; };
 		74245298F5504BA0908821CC /* UIImageView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B726161CC3714C88B6EE42F3 /* UIImageView.cpp */; };
 		75178B84713D4246A96736D3 /* CCPUEmitterTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1684C46AA4A947CEABDCEC02 /* CCPUEmitterTranslator.cpp */; };
@@ -376,26 +352,21 @@
 		795BAA5C7B4A4FF09FDE0678 /* CCPUOnEventFlagObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3856E757956442F99D94E83 /* CCPUOnEventFlagObserverTranslator.cpp */; };
 		7991383298C443EB84F03A88 /* CCPUPointEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC08F11C2CB4666A554AB43 /* CCPUPointEmitter.cpp */; };
 		79BF37820B984A68A4F6D983 /* UIRelativeBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAF477C4EE2D4747A5296776 /* UIRelativeBox.cpp */; };
-		79EAEF79A5BB4B03A5E8CDC7 /* UIWidget.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14F80EFC9B854C6C9942920F /* UIWidget.lua */; };
 		79EDB8C7ABE44E1BB49C8F86 /* DetourNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A095F6EE7AE249D6AF7D3A0C /* DetourNode.cpp */; };
 		7A24C6FAC60648ED8AA389E8 /* CCColliderDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42993E54C9BE483EA247F676 /* CCColliderDetector.cpp */; };
 		7A9B4099B01D42E2B67AA7B2 /* CCNotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BC69198F9443099648E88B /* CCNotificationCenter.cpp */; };
 		7ACBCB6477E948FEB351832C /* CCAnimate3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12683522443A4AC6BF4AD60D /* CCAnimate3D.cpp */; };
 		7AED27E6E76240A3B7CAF1D8 /* CCArmatureDataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E63E019AE47AE8912B0ED /* CCArmatureDataManager.cpp */; };
 		7BCA1B1D1DD041DC96052E60 /* lua_cocos2dx_physics_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73567C98EE404E658D254096 /* lua_cocos2dx_physics_auto.cpp */; };
-		7BFDF10E2A06403F8D0237AE /* SpineConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38508A98A6D648B6B6EDEA09 /* SpineConstants.lua */; };
 		7C462A39AB5B4784ACE6BBAC /* UIPageViewIndicator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1816E947680E4FD5857C9884 /* UIPageViewIndicator.cpp */; };
 		7C4DF2D72A2F450B8C037776 /* CCPUPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F425D9477A5420FA6DD6E59 /* CCPUPlane.cpp */; };
 		7C5084C8491E4F13B6BD16EE /* CCPUScaleVelocityAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441098E13CF4145BF9D85A2 /* CCPUScaleVelocityAffectorTranslator.cpp */; };
 		7C720B74883B41D78504E9DD /* CCCameraBackgroundBrush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF427EF906141ACABC383C5 /* CCCameraBackgroundBrush.cpp */; };
-		7C893D1356524022B1F614DD /* MainScene.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3D684464D4E47CE9428A724 /* MainScene.lua */; };
-		7D8B730906D34DD4934F9553 /* UIScrollView.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D9F765CE6214BEF8D091DD3 /* UIScrollView.lua */; };
 		7DAD431F6ACE41F789E9D79A /* DebugDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7250BC9206C402F87B281DD /* DebugDraw.cpp */; };
 		7DB87860CEC04064B2616EC0 /* CCActionGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87D301186CC9430988AC956C /* CCActionGrid.cpp */; };
 		7E5903E4AB4649E797675717 /* CCDirectorCaller-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2774FFB9FDDA401D8F0CB472 /* CCDirectorCaller-ios.mm */; };
 		7E9C3E0D44714230BF6FFAD1 /* CCAnimation3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8702548352644A2D983420D1 /* CCAnimation3D.cpp */; };
 		7ED4B893A9D64393BEA0FC38 /* CCEAGLView-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 23CD0E26B85B40E4AFF24013 /* CCEAGLView-ios.mm */; };
-		7F208EDE47994767A698DF20 /* main.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01C8E4E569F1402C912805D2 /* main.lua */; };
 		7F419159D86247B389569A97 /* lua_cocos2dx_audioengine_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3620A9D864C4E72B581E0C2 /* lua_cocos2dx_audioengine_manual.cpp */; };
 		7F5F6C7E590944028DFC4941 /* DetourProximityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 351084082C6D45AA83E5F497 /* DetourProximityGrid.cpp */; };
 		7F6011DFF87041DD9B085BBD /* CCEventListenerMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20208B1A831B4BA297A28B80 /* CCEventListenerMouse.cpp */; };
@@ -406,7 +377,6 @@
 		803D2AB1F5F1427DBB952281 /* CCParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F57AE555BD476FACDD1A4E /* CCParticleSystem.cpp */; };
 		804FFC888DD44EDEA53CC44C /* CCMeshVertexIndexData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEDC91E91F2F4B35A7581936 /* CCMeshVertexIndexData.cpp */; };
 		80CC5C8F293F4C2E82B42120 /* CCData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86EFB95F940A4372B4EE81CD /* CCData.cpp */; };
-		824DD31E529D4865BD2C5E71 /* UICheckBox.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3C16E30CF784C57B87B5A74 /* UICheckBox.lua */; };
 		8276270C4C4D47C1A25A99B4 /* CCPhysicsContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B410F350D20E47408F0D4AB9 /* CCPhysicsContact.cpp */; };
 		82D6FB46D3384BB2B5007008 /* CCController-apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D87E9A994084210835E0C7D /* CCController-apple.mm */; };
 		82E46FF42EBA44A0A1ACE7C6 /* ccRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBA1402A3A5E4C23BBFB3C2B /* ccRandom.cpp */; };
@@ -414,24 +384,20 @@
 		83AECE4FCFFB4A84B24A7AC5 /* CCPUOnExpireObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC67BA53E1492AB2CA2BEC /* CCPUOnExpireObserverTranslator.cpp */; };
 		83CE09463146498E9FD0F365 /* CCNinePatchImageParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92601E1DBA9A4999BEED6113 /* CCNinePatchImageParser.cpp */; };
 		83DD9E71A016437BACE1DAA4 /* sweep_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBE282B19FA24343A8D3F586 /* sweep_context.cc */; };
-		8413C1DE23654846883CB294 /* UIEditBox.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 90741BB053F54F6EAA310197 /* UIEditBox.lua */; };
 		85243C56263B444FA47C075B /* CCFontFNT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D70AA12FE47341D582F7C262 /* CCFontFNT.cpp */; };
 		858121A19B84422A96AD6E12 /* CCUISingleLineTextField.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2737B64B2E194E938995DC5F /* CCUISingleLineTextField.mm */; };
 		85B425DF31614B62A58D043E /* CCPhysics3DConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72662E1ABEB8492C95AF7DE9 /* CCPhysics3DConstraint.cpp */; };
 		85EE7CAB213A4BCFA3D2FF26 /* CCActionCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46D78430C03E4B5F8834EB54 /* CCActionCamera.cpp */; };
 		85F1D24B95AA4C5A924BF912 /* ShaderModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45F7D8A5A27144D887B035EF /* ShaderModule.cpp */; };
 		862D9F1627B7496FB69901E9 /* CCArmatureDefine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D73306E18554EF8A4201D8D /* CCArmatureDefine.cpp */; };
-		864081477F414B008BE8869A /* NetworkConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5676661A122540148E4A1420 /* NetworkConstants.lua */; };
 		86E0589D3DDB423686CCF560 /* CCUserDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2166E29FC3CE47568DD4AE9F /* CCUserDefault.cpp */; };
 		873ACFFE401B4B7EA2A93410 /* CCSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55D0C38323E4D8788FEDCFF /* CCSprite.cpp */; };
 		87503E1C437441BD8A43232A /* CCMeshSkin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B93B4D14E5054F1EB7A57C32 /* CCMeshSkin.cpp */; };
 		875D3262CB684611ACAEF018 /* CCPUColorAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C03FB8FFB1D45FFB700D082 /* CCPUColorAffector.cpp */; };
 		8938E8D28ACB481E8380C832 /* CCAutoreleasePool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E825963811C40A392B4B2E9 /* CCAutoreleasePool.cpp */; };
 		8984CD7722884BD78A53AE6B /* CCAtlasNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A144F6B87BB4411B49326E1 /* CCAtlasNode.cpp */; };
-		8A61F467080B49F6BED33BC5 /* MyApp.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F84A32AA7D549EA945DACB5 /* MyApp.lua */; };
 		8B30C3AB951A49ABBC78663F /* DetourObstacleAvoidance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356EACF712274F50B93F6BA7 /* DetourObstacleAvoidance.cpp */; };
 		8B4A6E3071BD402D97171306 /* CCTransitionPageTurn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8B30BB3E89D4320BF0EB5AD /* CCTransitionPageTurn.cpp */; };
-		8C2E3ECBBA0448148C6404CF /* UITextField.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8BD499F9C82477BA97E1047 /* UITextField.lua */; };
 		8CCF92E4A71F456DA12C6E17 /* CCEventListenerKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA29B2FA04B129DAF7B47 /* CCEventListenerKeyboard.cpp */; };
 		8D5A6D74419F404599BABF6C /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D64D4A9557774D4395F63F00 /* buffer.c */; };
 		8D733ED5CB404E9AB6B4C091 /* CCAnimationCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8372386CA0384FB28FAD83E8 /* CCAnimationCache.cpp */; };
@@ -445,12 +411,10 @@
 		8EAEC3EEEB394D91B54854D8 /* CCComRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2D5F7813AB84E24BB1727B4 /* CCComRender.cpp */; };
 		8F45935D9F9F43C0B996F7B2 /* CCLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046F73F929E1462D8A24F8FD /* CCLayer.cpp */; };
 		8F7454B76FF84F6BAECEAD63 /* lua_extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAC333217F4F7AA676A75F /* lua_extensions.c */; };
-		8F9D808F48AD4F548D6DFC44 /* SpriteEx.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8697B46E38A446C9041AC6D /* SpriteEx.lua */; };
 		8FAEF624624443659D826AF6 /* CCBoneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF472CEE36C494ABA5AFD3A /* CCBoneNode.cpp */; };
 		8FB1E7247D6B444DB7835099 /* UILayoutManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA20984284B64A039C1DD101 /* UILayoutManager.cpp */; };
 		8FBAAEDD826142558EEE7886 /* CCSkeleton3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93B2460EBC94CA1AD9E234F /* CCSkeleton3D.cpp */; };
 		907200442A9B4A1BB4DB2EFF /* DetourPathQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215024304846424FB4AE516A /* DetourPathQueue.cpp */; };
-		90856CD94F784EEBA96EB493 /* DeprecatedCocos2dClass.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC271E0897CC40C8A2F2BB4E /* DeprecatedCocos2dClass.lua */; };
 		90B0A11EFC1A44028D9900FA /* CCPUPathFollowerTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7D36133982E4DF58CF241BB /* CCPUPathFollowerTranslator.cpp */; };
 		910F830333254AA394864ABB /* CCPUSineForceAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47877B48B08B4C76BF02C4C0 /* CCPUSineForceAffectorTranslator.cpp */; };
 		91670769F10D499497684A85 /* CCComponentLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42A72E6144DD8AA74EE08 /* CCComponentLua.cpp */; };
@@ -502,7 +466,6 @@
 		A6C425596484478F84C82A72 /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = 33637458491741378CECB4DB /* options.c */; };
 		A71CFE8059CF454BB5CF97C3 /* lua_xml_http_request.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA7484A6C1804EE58BB85A87 /* lua_xml_http_request.cpp */; };
 		A7267975FDA4415DB323C256 /* UIWebViewImpl-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 91225C298EB644C782C6DAB7 /* UIWebViewImpl-ios.mm */; };
-		A76EAFA29F5A4EFD9414C58C /* DrawPrimitives.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDB6252949634637B8E494CC /* DrawPrimitives.lua */; };
 		A7BDE875FB71476E8A39DEB7 /* UIPageView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A78F8FA9C2431A8CAA2036 /* UIPageView.cpp */; };
 		A7C556F576A247239C5968EC /* CCPUSphereColliderTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E1C1BAC49488E84B0A2E3 /* CCPUSphereColliderTranslator.cpp */; };
 		A85EA2AF47E54C679E70939F /* WidgetCallBackHandlerProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C5AC510B574E9B973A6F09 /* WidgetCallBackHandlerProtocol.cpp */; };
@@ -512,7 +475,6 @@
 		A983614C740C4BB9AAD35FA0 /* CCControlSaturationBrightnessPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E2309875D147FEA5BA0103 /* CCControlSaturationBrightnessPicker.cpp */; };
 		A9A5923C4A444260BB22B162 /* CCSkinNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0221EC1B26034F18B9C9C9FD /* CCSkinNode.cpp */; };
 		A9F23CCF2CF240D591AF7F9F /* DepthStencilStateMTL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AA12DEAACEC4FE6B95CA791 /* DepthStencilStateMTL.mm */; };
-		AAB895F8A59344FC9873A521 /* display.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 10B1DBC8DA6F474C96C5214E /* display.lua */; };
 		AAC94E37AA0F47129342D800 /* CCLuaStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8942B4948E574C15938A9567 /* CCLuaStack.cpp */; };
 		AAE83FC28C80410F90EDAAAF /* CCEventTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D5314878E0472BB4846550 /* CCEventTouch.cpp */; };
 		ABA8CBAE56EB4D8B9463EF71 /* BufferManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C99480A80A94293B1AE5F19 /* BufferManager.mm */; };
@@ -552,7 +514,6 @@
 		B716A76B34E24D0592E83776 /* DetourPathCorridor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9CE7372729469CA4CA48D4 /* DetourPathCorridor.cpp */; };
 		B71DF4FD2E8F4248AA6CA757 /* CCPUMaterialTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2940CEDFCD64E3895F8CBC6 /* CCPUMaterialTranslator.cpp */; };
 		B7339F4641D84AE6BDE63182 /* CCRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 169428593C454367A7856C9E /* CCRef.cpp */; };
-		B792BAFEF52247638B79B283 /* GuiConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF9BD9B01A924E8ABC362740 /* GuiConstants.lua */; };
 		B7C1B87057B04E7B88F51BF3 /* lua_cocos2dx_navmesh_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 990E546EAF314B94859D7549 /* lua_cocos2dx_navmesh_auto.cpp */; };
 		B807B1EB2411042C00AF30EB /* libpomelo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B807B1EA2411042C00AF30EB /* libpomelo2.a */; };
 		B807B1EF2411061600AF30EB /* CCPomelo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B807B1EE2411061600AF30EB /* CCPomelo.cpp */; };
@@ -569,18 +530,15 @@
 		BABF77AF41F9471780BC6D7E /* lua_cocos2dx_backend_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C421767134EF990432580 /* lua_cocos2dx_backend_auto.cpp */; };
 		BAC9931390E841F1B9C6EAD1 /* CCDeprecated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5225D60B5F9C456BA10C1706 /* CCDeprecated.cpp */; };
 		BAF510EC63EF4F9CB87D6562 /* CCComController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 639BFBE7B9F1449AB7B564E1 /* CCComController.cpp */; };
-		BC47E665AD1B4B68A3B2052F /* init.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C47D78FEF874A4DA010A649 /* init.lua */; };
 		BC7A41F4E6EA47DAA4C28D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3931DD37A4F74FA48E720073 /* Images.xcassets */; };
 		BCA91A90C97D492380E79B92 /* CCPhysicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D42DD3C4CA344249939CEE0 /* CCPhysicsWorld.cpp */; };
 		BCD69DE7DD8440A381BE6CA6 /* CCPUForceFieldAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55089BB2313E46D699137C32 /* CCPUForceFieldAffectorTranslator.cpp */; };
-		BCFCEFE43A644EBA9022D91F /* ViewBase.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = B24C4A23896C47C2B7383FCA /* ViewBase.lua */; };
 		BD69EA2ED6304837BD455D7C /* CCPUTextureRotatorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 638460A53A9C46BFAB61BBA6 /* CCPUTextureRotatorTranslator.cpp */; };
 		BDF22EA5634B42AAA8D7F2DF /* CCNavMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B9398B8D2424815A2F91560 /* CCNavMesh.cpp */; };
 		BE2A23D5967F42659B76078E /* CCUIMultilineTextField.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8A6F2AD9C954FB4B6BF80A5 /* CCUIMultilineTextField.mm */; };
 		BF454318106449EE8AF3A1DC /* CCPUCircleEmitterTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69016CF7A86A4437AC85750B /* CCPUCircleEmitterTranslator.cpp */; };
 		C072A79769F840FB91EF7ED5 /* CCScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34BE12640619478AA310958A /* CCScheduler.cpp */; };
 		C1463FA3F57E411FBBA38034 /* CCPUParticleSystem3DTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ABD0BD49487438AB5C8D3E7 /* CCPUParticleSystem3DTranslator.cpp */; };
-		C1A0BD050BC24560BFF642C5 /* Cocos2dConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = B463555480A94655B3DC88C8 /* Cocos2dConstants.lua */; };
 		C1AC4038A23741DBB31808CB /* DetourTileCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1374AA3941FE417294E3444B /* DetourTileCache.cpp */; };
 		C1AD355F7D4D4F6296C1E7C5 /* Sprite3DReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E57CEE2659B04A50A109F20D /* Sprite3DReader.cpp */; };
 		C227061184E94B479564BFF3 /* CCFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E7A26507784F9EB907D2A7 /* CCFrame.cpp */; };
@@ -593,7 +551,6 @@
 		C49757F221AA4BC8B91F1C3B /* CCBundle3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7402B4281E2439FAB980FCF /* CCBundle3D.cpp */; };
 		C4B91CA5EEDD4ADA8081526D /* luasocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 25C5B99ABFFE4C1ABAE5F93D /* luasocket.c */; };
 		C51CAEFF5A13466593A4F337 /* CCPUGeometryRotatorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCB844DA280F41D9B86C37D1 /* CCPUGeometryRotatorTranslator.cpp */; };
-		C559914F464B43C28E420617 /* DeprecatedCocos2dFunc.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A859F1E1FAB4967A8506BDF /* DeprecatedCocos2dFunc.lua */; };
 		C63D79EABEA94D28A0FA3E53 /* CCPUDoEnableComponentEventHandlerTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E94ADC810469DB6A2C6D1 /* CCPUDoEnableComponentEventHandlerTranslator.cpp */; };
 		C6DF57956D2640B1AE3F48F7 /* ZipUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D39BB3A321414AE384D292C8 /* ZipUtils.cpp */; };
 		C7638DBBCEB74676BA4636B2 /* UIWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19A9EB019A1047AAA3B3B1FD /* UIWidget.cpp */; };
@@ -640,7 +597,6 @@
 		D7630137949043F38804CE6E /* ProgramCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A034360637049D8A7A1B7A0 /* ProgramCache.cpp */; };
 		D891F19DB758417284D24A36 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858CDB0A3DB849C8B8485A2A /* CCActionFrame.cpp */; };
 		D8A9FBC91DE0426688516262 /* UIRadioButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E85CD58A39B74CB59EEEB383 /* UIRadioButton.cpp */; };
-		D9617AB9B6B84D2A989B21C3 /* DeprecatedNetworkClass.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = C40AFF86E8BC4115AEA38F66 /* DeprecatedNetworkClass.lua */; };
 		D96C46F675504D2885EDB4BC /* CCDecorativeDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E37036207D4C42B0F1F85F /* CCDecorativeDisplay.cpp */; };
 		D9A19FCBAD844AF9BDB4CD86 /* CCCommon-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3BB2B0EA76E4636BE936F22 /* CCCommon-ios.mm */; };
 		D9F75738E5584A9CA4C85D5B /* CCGroupCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF166D8F914C10BE8AEED8 /* CCGroupCommand.cpp */; };
@@ -648,13 +604,10 @@
 		DA4D3402E41548AD932296F4 /* CC3DProgramInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE3197129BD49E3912385DC /* CC3DProgramInfo.cpp */; };
 		DA5EB7EB137049919E829516 /* TriggerObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC9B4C3D32E4543A029DFCF /* TriggerObj.cpp */; };
 		DAAE6C342B5848418B67CC5C /* CCPUAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D51BB1A0B804BB9A8AFAA8F /* CCPUAffectorTranslator.cpp */; };
-		DAB0F0F84E0140E488712C08 /* AppBase.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBE3C44E4CEA41EE87DEC840 /* AppBase.lua */; };
 		DADAD99DF76547299E74D3BA /* CCDatas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C8597E33A48F2AA6FD5F1 /* CCDatas.cpp */; };
 		DB11B2E5AE1447A0BA241001 /* DetourCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C76F305EF91410C908DA114 /* DetourCommon.cpp */; };
 		DBE9557EB3134D65B299F022 /* FlatBuffersSerialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC4185D7DE4720ABC45B36 /* FlatBuffersSerialize.cpp */; };
 		DC1542E433524BD2AF75CC32 /* CCMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BDFAFE8EFE49FF8178672B /* CCMenu.cpp */; };
-		DC5409E85F264889A8AF3A3D /* init.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1ACD1C8DDBD48F39E9A7243 /* init.lua */; };
-		DC5E937944784341813F3078 /* ExtensionConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46A6C7488797464A953A9D03 /* ExtensionConstants.lua */; };
 		DC7C5DAFC76C4C7B88C0E062 /* CCPUFlockCenteringAffectorTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E1378EEA21047BF8097E126 /* CCPUFlockCenteringAffectorTranslator.cpp */; };
 		DCA971F69EA748DBB3F6F93B /* CCPUEventHandlerTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFEE416BCC43C7BE5D576E /* CCPUEventHandlerTranslator.cpp */; };
 		DCBDE5B6B8164505A65DE9CF /* CCLabelAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F402557E8BF46CEA124254C /* CCLabelAtlas.cpp */; };
@@ -662,13 +615,11 @@
 		DD0D9147DD704F1F9EB6003F /* TGAlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE02ED4B06F48D1A2F7FB4D /* TGAlib.cpp */; };
 		DD1EC3FDEC0F47F9BBDB7E1E /* CCTMXLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B326C939BC8B4B968D2F939B /* CCTMXLayer.cpp */; };
 		DE3E07C3521A4BD4BBB5D1B5 /* CCPUScaleAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E238A57113C047948ED0CB77 /* CCPUScaleAffector.cpp */; };
-		DE560C09DA5D401D86714CD7 /* DeprecatedUIFunc.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7FE314D22174398AD251B64 /* DeprecatedUIFunc.lua */; };
 		DE5CC061A5304637B6375B48 /* CCPUOnEmissionObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D34B5C9147641E29C56DA02 /* CCPUOnEmissionObserverTranslator.cpp */; };
 		DE80E1FE70AA41459BDE9C86 /* CCPUJetAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29FC6B5657254DAA808B9B0F /* CCPUJetAffector.cpp */; };
 		DEA1B5EF8E174ADA820EDFA7 /* CCPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31DC1BAFE81241DEBBAC3CEA /* CCPass.cpp */; };
 		DF09216CEB7748269F7815E5 /* GameNode3DReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80340BB8703547E19F068546 /* GameNode3DReader.cpp */; };
 		DF59DEC699474E63B93446E9 /* DetourAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AD4AF7DEE343158A656C61 /* DetourAlloc.cpp */; };
-		E01BA8A9F3EB45E7832F0808 /* DeprecatedExtensionClass.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E5D1CA7A8646ECAE7D3271 /* DeprecatedExtensionClass.lua */; };
 		E18FCEFDD28945278031D45C /* CCLuaObjcBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 302799D0D8BF416588B9EF3F /* CCLuaObjcBridge.mm */; };
 		E1C900543826412685ECF703 /* CCPUOnCountObserverTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0876ED051553480591B5480F /* CCPUOnCountObserverTranslator.cpp */; };
 		E1E1ADD1D57F4788B49536DD /* CCEventAssetsManagerEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D8677BB1204BF5BBB6BC1D /* CCEventAssetsManagerEx.cpp */; };
@@ -682,7 +633,6 @@
 		E3927207D01348EE93AE2FF9 /* CCEventListenerTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 741F5DEA75B54B3C9B69CF1F /* CCEventListenerTouch.cpp */; };
 		E3FE4AB96E0A4FDE88D74203 /* CCFileUtils-apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = A55FA591314146399A0160FD /* CCFileUtils-apple.mm */; };
 		E409AD0147FB41C584915AC7 /* edtaa3func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D380C54253B45EC8C715F34 /* edtaa3func.cpp */; };
-		E47D2FE3D4B34697B5BD34F2 /* MenuEx.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23746432EB62474A9E24D327 /* MenuEx.lua */; };
 		E4DA8E47748B4322BA2DE72C /* UIRichText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4E22592AC4FCB842AA3C2 /* UIRichText.cpp */; };
 		E54E745945124F4FA3D90C15 /* CCTextureCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FCADDE711074A358DD60BB1 /* CCTextureCube.cpp */; };
 		E55F1212F4DD4538B8114952 /* CCActionObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2108950E0FF497C827420DF /* CCActionObject.cpp */; };
@@ -702,7 +652,6 @@
 		E9E3076B158F4190AE6730A9 /* CCCallbackCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 542E483D55134E5AA168FF6F /* CCCallbackCommand.cpp */; };
 		EA7FD202ECB8466896971DC0 /* CCTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76CF9A7F21E8404D84445C70 /* CCTween.cpp */; };
 		EAC32D0E8B91418A8F096368 /* CCString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9D820F90D480B910F568C /* CCString.cpp */; };
-		EAE505CBC4CD44DDAB84BE4D /* bitExtend.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8BC6A2FAAAB438DB166A4A0 /* bitExtend.lua */; };
 		EB1A1691034745279CC8FE64 /* CCPUScaleVelocityAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5071DD8F5E3B46988808AAC9 /* CCPUScaleVelocityAffector.cpp */; };
 		EC02DBFFE7C74BC0803916CB /* CCAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4156F51F564F421CB8EEDFD9 /* CCAnimation.cpp */; };
 		EC09A8B5B6574EC7B77A4A78 /* DetourNavMeshQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE72CBA3CA734982A86E4651 /* DetourNavMeshQuery.cpp */; };
@@ -710,7 +659,6 @@
 		ECCFDA5B4F8A418C87CD5CC4 /* CCPUUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F775CD2F471748AF8C9B35FC /* CCPUUtil.cpp */; };
 		ECDA75AC2F05476681B100C3 /* CCImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB51880F864DBEB14739AD /* CCImage.cpp */; };
 		ECDCA262BCD44CFDACC72EEF /* LoadingBarReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B22CA7E33AB4DBB9A3AA0D4 /* LoadingBarReader.cpp */; };
-		ED028B8341634C6FAB66E63E /* ControllerConstants.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62B5C44F85E04F45B7FF213C /* ControllerConstants.lua */; };
 		EDA09F8B513B4085B67EBFDF /* CCPUOnCollisionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D47425814394F83B75CBB27 /* CCPUOnCollisionObserver.cpp */; };
 		EDA46FA80BFE4A7794F7CC1F /* CCPURandomiser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C473FBA2E314435BD54A367 /* CCPURandomiser.cpp */; };
 		EDE1E5E4185548B4A3EEADCF /* tolua_is.c in Sources */ = {isa = PBXBuildFile; fileRef = 76B4ADCFDD644F209C158EF7 /* tolua_is.c */; };
@@ -723,8 +671,6 @@
 		F04D6E0157254D4F8394779F /* ImageViewReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2860CA8974FD7BA1417DC /* ImageViewReader.cpp */; };
 		F19CBFCC733941E0BD561118 /* CCPUDoEnableComponentEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4F4CDB29AD04904AEC3A2AE /* CCPUDoEnableComponentEventHandler.cpp */; };
 		F1A5A8FA04F640778367EECC /* CCLabelTextFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A73D73A6F2CC4E2A89535BAA /* CCLabelTextFormatter.cpp */; };
-		F1CEFB5716D24427A251643B /* HelloWorld.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D33E07ACD4AE49889B5CBE31 /* HelloWorld.png */; };
-		F1D831459C9A4227AEF9895E /* package_support.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 920E9836A0154DC7B70C9E12 /* package_support.lua */; };
 		F2399B7FF28541FABC0A3B93 /* CCPUVelocityMatchingAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA4178FA0CC64AAC9D864998 /* CCPUVelocityMatchingAffector.cpp */; };
 		F273A0D6AB50461C913DEA28 /* CCUserDefault-apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC4E3587E25473ABF386BA7 /* CCUserDefault-apple.mm */; };
 		F27A73C38D814051B103191F /* CCSSceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F71ACB1AFBF4654A795639D /* CCSSceneReader.cpp */; };
@@ -735,15 +681,12 @@
 		F49A8C21E19A4CB19C132AD8 /* CCTMXTiledMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB81C479525B4F8487B8EC25 /* CCTMXTiledMap.cpp */; };
 		F519740859B44C9E9AA5AD45 /* CCDownloader-curl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B41A44C067A34C01B503148F /* CCDownloader-curl.cpp */; };
 		F58BBE1416DA4EAF805E54D4 /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C18F3A36D424D8A806301B6 /* empty.cpp */; };
-		F63EFD3831664C86AD9DEFF7 /* DeprecatedNetworkFunc.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADDFE4D5069147F4BDDEB1FA /* DeprecatedNetworkFunc.lua */; };
 		F68169FB91C846548F0E4AFD /* fastlz.c in Sources */ = {isa = PBXBuildFile; fileRef = F0D50F7527C6423ABFF939CC /* fastlz.c */; };
 		F7CA9C966EB24385B864F058 /* CCControlButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F04013A4EBE4B1BA5F89BE6 /* CCControlButton.cpp */; };
-		F80826BC90EB4B269824A779 /* NodeEx.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C53BE6FBDFD44AABB1C3AFB /* NodeEx.lua */; };
 		F86784DFE04D453CBE3D8EAE /* CCPUBehaviourManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 366AC2F4D0F549928210BACC /* CCPUBehaviourManager.cpp */; };
 		F8B03CAFDC2048A5BC431DD7 /* CCFastTMXLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 325CA30431CA44DFB4F7009F /* CCFastTMXLayer.cpp */; };
 		F8F164EB1E4145D9A99AC9C5 /* CCDataReaderHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176571CF4D5FAA8898CD /* CCDataReaderHelper.cpp */; };
 		F98193A75ACE4AD19EE9B4B1 /* lua_cocos2dx_physics3d_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12E42402F2254C74AC689C10 /* lua_cocos2dx_physics3d_auto.cpp */; };
-		F981A89EAA1D426B8238CF1D /* DeprecatedCocoStudioClass.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 556562293CD6459CA1F5B7AB /* DeprecatedCocoStudioClass.lua */; };
 		FA21DA33897C4B3691703540 /* CCPUOnExpireObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10C365EE480B4FB6A5C7C4C5 /* CCPUOnExpireObserver.cpp */; };
 		FA3EA776D42A4B65AA842C0B /* CCPUParticleFollower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D05C4547C244E298F433D3 /* CCPUParticleFollower.cpp */; };
 		FA4AB9D236E24F62B4830818 /* CCPUPlaneCollider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62531A079B834C6BAA657456 /* CCPUPlaneCollider.cpp */; };
@@ -755,12 +698,10 @@
 		FD3FF655F49D46B0840B972C /* CCDownloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DCBEEF95EAF4E18B6F61801 /* CCDownloader.cpp */; };
 		FDA66DE7C4AE48D2A156F945 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B7F221DDD1411F9BB23BD2 /* Texture.cpp */; };
 		FDB3DCC615684DA0ADF6F2CC /* Vec2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7339DD8CEDA24784BE0AED1D /* Vec2.cpp */; };
-		FDDF63B3B13B4162A2D16E10 /* Cocos2d.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACEE6C58D58745F5B402A908 /* Cocos2d.lua */; };
 		FE3D3D4C8A5E4B56BA59E6D1 /* CCSkybox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9E31E05E54115ABE8BBAD /* CCSkybox.cpp */; };
 		FEE30E9AFA4A4DCB96BAF1AB /* UIEditBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12125E1B23D45D1A4DFAFAE /* UIEditBox.cpp */; };
 		FF03A6D21DD74BE0936E93C8 /* CCPUSineForceAffector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369014436FD74AC6B0705C4B /* CCPUSineForceAffector.cpp */; };
 		FF2C751589B14796BAAD1589 /* CCPURandomiserTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09D7B4D05A074570B82637A4 /* CCPURandomiserTranslator.cpp */; };
-		FFE734CA5EBE45AAB9163C22 /* UIPageView.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48DA18A8B34A41FE8781BEBA /* UIPageView.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1249,18 +1190,6 @@
 			dstPath = src/cocos/framework/extends;
 			dstSubfolderSpec = 7;
 			files = (
-				3B3FDFD17DC5474BA8D77DCC /* LayerEx.lua in CopyFiles */,
-				E47D2FE3D4B34697B5BD34F2 /* MenuEx.lua in CopyFiles */,
-				F80826BC90EB4B269824A779 /* NodeEx.lua in CopyFiles */,
-				8F9D808F48AD4F548D6DFC44 /* SpriteEx.lua in CopyFiles */,
-				824DD31E529D4865BD2C5E71 /* UICheckBox.lua in CopyFiles */,
-				8413C1DE23654846883CB294 /* UIEditBox.lua in CopyFiles */,
-				51FCCF13B50E4F5EA30618DB /* UIListView.lua in CopyFiles */,
-				FFE734CA5EBE45AAB9163C22 /* UIPageView.lua in CopyFiles */,
-				7D8B730906D34DD4934F9553 /* UIScrollView.lua in CopyFiles */,
-				21CCB972063942A0A5B6E9B9 /* UISlider.lua in CopyFiles */,
-				8C2E3ECBBA0448148C6404CF /* UITextField.lua in CopyFiles */,
-				79EAEF79A5BB4B03A5E8CDC7 /* UIWidget.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1270,10 +1199,6 @@
 			dstPath = src/cocos/network;
 			dstSubfolderSpec = 7;
 			files = (
-				D9617AB9B6B84D2A989B21C3 /* DeprecatedNetworkClass.lua in CopyFiles */,
-				7318371A36A74726BCD85E70 /* DeprecatedNetworkEnum.lua in CopyFiles */,
-				F63EFD3831664C86AD9DEFF7 /* DeprecatedNetworkFunc.lua in CopyFiles */,
-				864081477F414B008BE8869A /* NetworkConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,10 +1208,6 @@
 			dstPath = src/cocos/extension;
 			dstSubfolderSpec = 7;
 			files = (
-				E01BA8A9F3EB45E7832F0808 /* DeprecatedExtensionClass.lua in CopyFiles */,
-				46B4520EAE6A4064B59BF193 /* DeprecatedExtensionEnum.lua in CopyFiles */,
-				68BB869D6EDF4BA6BCC10F4B /* DeprecatedExtensionFunc.lua in CopyFiles */,
-				DC5E937944784341813F3078 /* ExtensionConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1296,10 +1217,6 @@
 			dstPath = src/cocos/cocostudio;
 			dstSubfolderSpec = 7;
 			files = (
-				0E9D286253C9466198794D35 /* CocoStudio.lua in CopyFiles */,
-				F981A89EAA1D426B8238CF1D /* DeprecatedCocoStudioClass.lua in CopyFiles */,
-				324205D9776343A1BB1B4189 /* DeprecatedCocoStudioFunc.lua in CopyFiles */,
-				179E7AA24C4E4B108B29E8E7 /* StudioConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1309,9 +1226,6 @@
 			dstPath = src/cocos/ui;
 			dstSubfolderSpec = 7;
 			files = (
-				5DD89CB466ED44688087C9EF /* DeprecatedUIEnum.lua in CopyFiles */,
-				DE560C09DA5D401D86714CD7 /* DeprecatedUIFunc.lua in CopyFiles */,
-				B792BAFEF52247638B79B283 /* GuiConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1321,7 +1235,6 @@
 			dstPath = src/cocos/3d;
 			dstSubfolderSpec = 7;
 			files = (
-				029A90ADAC9E423ABCC76929 /* 3dConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1331,7 +1244,6 @@
 			dstPath = src/cocos/controller;
 			dstSubfolderSpec = 7;
 			files = (
-				ED028B8341634C6FAB66E63E /* ControllerConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1341,11 +1253,6 @@
 			dstPath = src/cocos/framework;
 			dstSubfolderSpec = 7;
 			files = (
-				18DAD71B1A1943A4B6DDC1F3 /* device.lua in CopyFiles */,
-				AAB895F8A59344FC9873A521 /* display.lua in CopyFiles */,
-				BC47E665AD1B4B68A3B2052F /* init.lua in CopyFiles */,
-				F1D831459C9A4227AEF9895E /* package_support.lua in CopyFiles */,
-				68CEA79115C14BE0B8C03D4A /* transition.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1355,18 +1262,6 @@
 			dstPath = src/cocos/cocos2d;
 			dstSubfolderSpec = 7;
 			files = (
-				FDDF63B3B13B4162A2D16E10 /* Cocos2d.lua in CopyFiles */,
-				C1A0BD050BC24560BFF642C5 /* Cocos2dConstants.lua in CopyFiles */,
-				90856CD94F784EEBA96EB493 /* DeprecatedCocos2dClass.lua in CopyFiles */,
-				2F13E69E9247463CA47EB912 /* DeprecatedCocos2dEnum.lua in CopyFiles */,
-				C559914F464B43C28E420617 /* DeprecatedCocos2dFunc.lua in CopyFiles */,
-				A76EAFA29F5A4EFD9414C58C /* DrawPrimitives.lua in CopyFiles */,
-				EAE505CBC4CD44DDAB84BE4D /* bitExtend.lua in CopyFiles */,
-				4AC8DC67C09D4A57949B1E2B /* deprecated.lua in CopyFiles */,
-				722CF44D9E2D4BD989BDF2B8 /* functions.lua in CopyFiles */,
-				62A039F3C60645E598B54C2B /* json.lua in CopyFiles */,
-				505AE1A732794C1EA9FF737F /* luaj.lua in CopyFiles */,
-				49DB6321E838451EA8170574 /* luaoc.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1376,7 +1271,6 @@
 			dstPath = src/cocos/spine;
 			dstSubfolderSpec = 7;
 			files = (
-				7BFDF10E2A06403F8D0237AE /* SpineConstants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1386,7 +1280,6 @@
 			dstPath = src/cocos/cocosdenshion;
 			dstSubfolderSpec = 7;
 			files = (
-				3A58951C14004B1692D3F78E /* AudioEngine.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1396,7 +1289,6 @@
 			dstPath = src/app/views;
 			dstSubfolderSpec = 7;
 			files = (
-				7C893D1356524022B1F614DD /* MainScene.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1406,7 +1298,6 @@
 			dstPath = src/app;
 			dstSubfolderSpec = 7;
 			files = (
-				8A61F467080B49F6BED33BC5 /* MyApp.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,7 +1307,6 @@
 			dstPath = src/cocos/framework/components;
 			dstSubfolderSpec = 7;
 			files = (
-				235D00A00C2F49DBA061E3F5 /* event.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1426,7 +1316,6 @@
 			dstPath = src/cocos/physics3d;
 			dstSubfolderSpec = 7;
 			files = (
-				6DD98319665C44C6A0729263 /* physics3d-constants.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1436,7 +1325,6 @@
 			dstPath = res/;
 			dstSubfolderSpec = 7;
 			files = (
-				F1CEFB5716D24427A251643B /* HelloWorld.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1446,9 +1334,6 @@
 			dstPath = src/packages/mvc;
 			dstSubfolderSpec = 7;
 			files = (
-				DAB0F0F84E0140E488712C08 /* AppBase.lua in CopyFiles */,
-				BCFCEFE43A644EBA9022D91F /* ViewBase.lua in CopyFiles */,
-				DC5409E85F264889A8AF3A3D /* init.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1458,7 +1343,6 @@
 			dstPath = src/cocos;
 			dstSubfolderSpec = 7;
 			files = (
-				3BDEE11E5E5849EB8E668DF2 /* init.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1468,8 +1352,6 @@
 			dstPath = src/;
 			dstSubfolderSpec = 7;
 			files = (
-				5C61146F91734D74BB3377DA /* config.lua in CopyFiles */,
-				7F208EDE47994767A698DF20 /* main.lua in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1482,7 +1364,6 @@
 		011A0A11D2FE4317AF4FD764 /* CCTextureCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCTextureCache.h; path = "frameworks/cocos2d-x/cocos/renderer/CCTextureCache.h"; sourceTree = SOURCE_ROOT; };
 		0150B99E531D43ED9637F1E6 /* CCActionTimelineNode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionTimelineNode.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineNode.h"; sourceTree = SOURCE_ROOT; };
 		0169F9816E284BCEBAD32489 /* CCFileUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCFileUtils.h; path = "frameworks/cocos2d-x/cocos/platform/CCFileUtils.h"; sourceTree = SOURCE_ROOT; };
-		01C8E4E569F1402C912805D2 /* main.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = main.lua; path = src/main.lua; sourceTree = SOURCE_ROOT; };
 		0221EC1B26034F18B9C9C9FD /* CCSkinNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCSkinNode.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCSkinNode.cpp"; sourceTree = SOURCE_ROOT; };
 		0232C3E53D304DA3AF42AED9 /* CCPUDoPlacementParticleEventHandlerTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUDoPlacementParticleEventHandlerTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoPlacementParticleEventHandlerTranslator.h"; sourceTree = SOURCE_ROOT; };
 		02478F3758CA41709956A3FA /* CocosStudioExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CocosStudioExport.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CocosStudioExport.h"; sourceTree = SOURCE_ROOT; };
@@ -1521,7 +1402,6 @@
 		0686EE04BF884342B2534EB9 /* CCPhysicsBody.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPhysicsBody.h; path = "frameworks/cocos2d-x/cocos/physics/CCPhysicsBody.h"; sourceTree = SOURCE_ROOT; };
 		06B7336863CB4037A95427F2 /* CheckBoxReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CheckBoxReader.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/CheckBoxReader/CheckBoxReader.cpp"; sourceTree = SOURCE_ROOT; };
 		06CE032156FA4E51877D0B4B /* CCClippingRectangleNode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCClippingRectangleNode.h; path = "frameworks/cocos2d-x/cocos/2d/CCClippingRectangleNode.h"; sourceTree = SOURCE_ROOT; };
-		071C544B3E4E4591A30E0045 /* UIListView.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UIListView.lua; path = src/cocos/framework/extends/UIListView.lua; sourceTree = SOURCE_ROOT; };
 		0740399DAB61493BBF5AAECF /* CCPUDoExpireEventHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoExpireEventHandler.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoExpireEventHandler.cpp"; sourceTree = SOURCE_ROOT; };
 		075A54802ECF46119ADE80E1 /* CCPUCircleEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUCircleEmitter.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUCircleEmitter.h"; sourceTree = SOURCE_ROOT; };
 		076BF6EE87D847B59497EF7A /* UIHBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UIHBox.cpp; path = "frameworks/cocos2d-x/cocos/ui/UIHBox.cpp"; sourceTree = SOURCE_ROOT; };
@@ -1584,7 +1464,6 @@
 		102285050E124D30B6FB0012 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = "frameworks/runtime-src/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
 		1075B5E5B75645D2A3B330EB /* io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = "frameworks/cocos2d-x/external/lua/luasocket/io.c"; sourceTree = SOURCE_ROOT; };
 		1083697C74924FED92A3275D /* UIHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UIHelper.h; path = "frameworks/cocos2d-x/cocos/ui/UIHelper.h"; sourceTree = SOURCE_ROOT; };
-		10B1DBC8DA6F474C96C5214E /* display.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = display.lua; path = src/cocos/framework/display.lua; sourceTree = SOURCE_ROOT; };
 		10C365EE480B4FB6A5C7C4C5 /* CCPUOnExpireObserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnExpireObserver.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnExpireObserver.cpp"; sourceTree = SOURCE_ROOT; };
 		10C6141C4C9A49479E3D95EB /* CCPUDoPlacementParticleEventHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoPlacementParticleEventHandler.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoPlacementParticleEventHandler.cpp"; sourceTree = SOURCE_ROOT; };
 		10EBEC9A7DC64428A82E7B5D /* CCRef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCRef.h; path = "frameworks/cocos2d-x/cocos/base/CCRef.h"; sourceTree = SOURCE_ROOT; };
@@ -1611,7 +1490,6 @@
 		14ADEA4E19754F368A00AC06 /* xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = "frameworks/cocos2d-x/external/xxtea/xxtea.cpp"; sourceTree = SOURCE_ROOT; };
 		14B8C725EB134B5DB2A9D81A /* CCMaterial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCMaterial.cpp; path = "frameworks/cocos2d-x/cocos/renderer/CCMaterial.cpp"; sourceTree = SOURCE_ROOT; };
 		14C1885D8BD74E1E91416AFE /* CCPUNoise.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUNoise.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUNoise.h"; sourceTree = SOURCE_ROOT; };
-		14F80EFC9B854C6C9942920F /* UIWidget.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UIWidget.lua; path = src/cocos/framework/extends/UIWidget.lua; sourceTree = SOURCE_ROOT; };
 		15022E1A2EAF486E8F1921E7 /* CCPUTextureAnimatorTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUTextureAnimatorTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUTextureAnimatorTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		150474E294524E648931FF74 /* CCFrustum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCFrustum.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCFrustum.cpp"; sourceTree = SOURCE_ROOT; };
 		15791557F2464C9A8FE4BF1A /* CCControlPotentiometer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCControlPotentiometer.h; path = "frameworks/cocos2d-x/extensions/GUI/CCControlExtension/CCControlPotentiometer.h"; sourceTree = SOURCE_ROOT; };
@@ -1619,7 +1497,6 @@
 		1593039F53BC418C836A33CD /* CCSSceneReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCSSceneReader.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCSSceneReader.h"; sourceTree = SOURCE_ROOT; };
 		159716C950B942878DB97D3E /* lua_cocos2dx_extension_auto.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lua_cocos2dx_extension_auto.cpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp"; sourceTree = SOURCE_ROOT; };
 		15CB9367C8D64A4D958E8D2F /* CCPUMeshSurfaceEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUMeshSurfaceEmitter.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUMeshSurfaceEmitter.h"; sourceTree = SOURCE_ROOT; };
-		15DBBC6D242D46D396430333 /* event.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = event.lua; path = src/cocos/framework/components/event.lua; sourceTree = SOURCE_ROOT; };
 		15E957C9F1FF4EA7AD605715 /* LaunchScreenBackground.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = LaunchScreenBackground.png; path = "frameworks/runtime-src/proj.ios_mac/ios/LaunchScreenBackground.png"; sourceTree = SOURCE_ROOT; };
 		1640B12CB76B44A9A0131885 /* CCPUBoxEmitterTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUBoxEmitterTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUBoxEmitterTranslator.h"; sourceTree = SOURCE_ROOT; };
 		165CFC83DA67462F86E7694B /* CCPhysics3DWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPhysics3DWorld.h; path = "frameworks/cocos2d-x/cocos/physics3d/CCPhysics3DWorld.h"; sourceTree = SOURCE_ROOT; };
@@ -1690,7 +1567,6 @@
 		21AE6452CEBF46BE8FEBDDEC /* GameNode3DReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GameNode3DReader.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/GameNode3DReader/GameNode3DReader.h"; sourceTree = SOURCE_ROOT; };
 		21C8288322C44051B11FD1AD /* CCParticle3DEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCParticle3DEmitter.h; path = "frameworks/cocos2d-x/extensions/Particle3D/CCParticle3DEmitter.h"; sourceTree = SOURCE_ROOT; };
 		22CDB5D51A9D440BA1BE8ADE /* DeviceMTL.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DeviceMTL.mm; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/DeviceMTL.mm"; sourceTree = SOURCE_ROOT; };
-		23746432EB62474A9E24D327 /* MenuEx.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MenuEx.lua; path = src/cocos/framework/extends/MenuEx.lua; sourceTree = SOURCE_ROOT; };
 		2377E1B6183B4468BCAC9B3B /* ExtensionMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ExtensionMacros.h; path = "frameworks/cocos2d-x/extensions/ExtensionMacros.h"; sourceTree = SOURCE_ROOT; };
 		23C1C1EF056F46A78CA2B32F /* CCPUOnClearObserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUOnClearObserver.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnClearObserver.h"; sourceTree = SOURCE_ROOT; };
 		23CD0E26B85B40E4AFF24013 /* CCEAGLView-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "CCEAGLView-ios.mm"; path = "frameworks/cocos2d-x/cocos/platform/ios/CCEAGLView-ios.mm"; sourceTree = SOURCE_ROOT; };
@@ -1717,7 +1593,6 @@
 		26EA65272EE44313835826CB /* UICheckBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UICheckBox.cpp; path = "frameworks/cocos2d-x/cocos/ui/UICheckBox.cpp"; sourceTree = SOURCE_ROOT; };
 		26FF48E9F4504F4D8394144E /* BufferMTL.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = BufferMTL.mm; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/BufferMTL.mm"; sourceTree = SOURCE_ROOT; };
 		2737B64B2E194E938995DC5F /* CCUISingleLineTextField.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CCUISingleLineTextField.mm; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/iOS/CCUISingleLineTextField.mm"; sourceTree = SOURCE_ROOT; };
-		2747612886D04F0EB79F1BBC /* device.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = device.lua; path = src/cocos/framework/device.lua; sourceTree = SOURCE_ROOT; };
 		276A4F911DD3455CA905A9D2 /* CCPUDoScaleEventHandlerTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoScaleEventHandlerTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoScaleEventHandlerTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		2774FFB9FDDA401D8F0CB472 /* CCDirectorCaller-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "CCDirectorCaller-ios.mm"; path = "frameworks/cocos2d-x/cocos/platform/ios/CCDirectorCaller-ios.mm"; sourceTree = SOURCE_ROOT; };
 		2783C0B9217043778816204B /* CCAnimation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCAnimation.h; path = "frameworks/cocos2d-x/cocos/2d/CCAnimation.h"; sourceTree = SOURCE_ROOT; };
@@ -1728,7 +1603,6 @@
 		282C637D124E49AAA005FCCC /* lua_cocos2dx_navmesh_manual.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lua_cocos2dx_navmesh_manual.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.h"; sourceTree = SOURCE_ROOT; };
 		2860DE714D6342D6A8E57666 /* libext_md5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AF2951537945728C782D72 /* CCEventListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCEventListener.h; path = "frameworks/cocos2d-x/cocos/base/CCEventListener.h"; sourceTree = SOURCE_ROOT; };
-		2900AC37518840499A4A6358 /* CocoStudio.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = CocoStudio.lua; path = src/cocos/cocostudio/CocoStudio.lua; sourceTree = SOURCE_ROOT; };
 		291E6604B74244B28A5611C2 /* CCPUFlockCenteringAffector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUFlockCenteringAffector.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUFlockCenteringAffector.h"; sourceTree = SOURCE_ROOT; };
 		294C46BE2C51481CA6D68DC2 /* CCPUDoScaleEventHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUDoScaleEventHandler.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoScaleEventHandler.h"; sourceTree = SOURCE_ROOT; };
 		297AD4BF8B7F4B1692153F44 /* CCAsyncTaskPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCAsyncTaskPool.h; path = "frameworks/cocos2d-x/cocos/base/CCAsyncTaskPool.h"; sourceTree = SOURCE_ROOT; };
@@ -1764,7 +1638,6 @@
 		2F6744045C264B4DAB9B2589 /* CCPUPositionEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUPositionEmitter.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUPositionEmitter.h"; sourceTree = SOURCE_ROOT; };
 		2F71ACB1AFBF4654A795639D /* CCSSceneReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCSSceneReader.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCSSceneReader.cpp"; sourceTree = SOURCE_ROOT; };
 		2F81676CCEC844F59FF840EB /* CCLabelAtlas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCLabelAtlas.h; path = "frameworks/cocos2d-x/cocos/2d/CCLabelAtlas.h"; sourceTree = SOURCE_ROOT; };
-		2F84A32AA7D549EA945DACB5 /* MyApp.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MyApp.lua; path = src/app/MyApp.lua; sourceTree = SOURCE_ROOT; };
 		3005116523E94EC79C3A2884 /* ProgramCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ProgramCache.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/ProgramCache.h"; sourceTree = SOURCE_ROOT; };
 		302799D0D8BF416588B9EF3F /* CCLuaObjcBridge.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CCLuaObjcBridge.mm; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/platform/ios/CCLuaObjcBridge.mm"; sourceTree = SOURCE_ROOT; };
 		3055431DFD2E46E0B65FFBC2 /* ArmatureNodeReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ArmatureNodeReader.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ArmatureNodeReader/ArmatureNodeReader.cpp"; sourceTree = SOURCE_ROOT; };
@@ -1784,7 +1657,6 @@
 		329F2D2955434430A0490926 /* CCPUForceFieldAffectorTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUForceFieldAffectorTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUForceFieldAffectorTranslator.h"; sourceTree = SOURCE_ROOT; };
 		32A96D17ECA44943A4047088 /* CCPhysicsDebugNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPhysicsDebugNode.cpp; path = "frameworks/cocos2d-x/extensions/physics-nodes/CCPhysicsDebugNode.cpp"; sourceTree = SOURCE_ROOT; };
 		32BD40BE0CB247A292995CC2 /* UIListView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UIListView.h; path = "frameworks/cocos2d-x/cocos/ui/UIListView.h"; sourceTree = SOURCE_ROOT; };
-		32C4B6E396164EF5B31FCDDA /* physics3d-constants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "physics3d-constants.lua"; path = "src/cocos/physics3d/physics3d-constants.lua"; sourceTree = SOURCE_ROOT; };
 		32E96DCF12BA48CEA98B6BDF /* CCPUParticleFollowerTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUParticleFollowerTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUParticleFollowerTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		33015BC2629848A8852C26CC /* CCPUDoScaleEventHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoScaleEventHandler.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoScaleEventHandler.cpp"; sourceTree = SOURCE_ROOT; };
 		33637458491741378CECB4DB /* options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = options.c; path = "frameworks/cocos2d-x/external/lua/luasocket/options.c"; sourceTree = SOURCE_ROOT; };
@@ -1821,7 +1693,6 @@
 		373376D5ADA045B39463487C /* CCActionTimeline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionTimeline.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimeline.h"; sourceTree = SOURCE_ROOT; };
 		378CC8332A314427870A43B7 /* SingleNodeReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SingleNodeReader.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SingleNodeReader/SingleNodeReader.cpp"; sourceTree = SOURCE_ROOT; };
 		37E3FA92C64F4CE5A87A8674 /* lua_cocos2dx_controller_auto.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_controller_auto.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.hpp"; sourceTree = SOURCE_ROOT; };
-		38508A98A6D648B6B6EDEA09 /* SpineConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SpineConstants.lua; path = src/cocos/spine/SpineConstants.lua; sourceTree = SOURCE_ROOT; };
 		3860FDAE6C314ED2896D9F8F /* CCPUOnPositionObserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUOnPositionObserver.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnPositionObserver.h"; sourceTree = SOURCE_ROOT; };
 		38634E1717A046B0B4E0E7D7 /* CCPUScriptLexer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUScriptLexer.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUScriptLexer.cpp"; sourceTree = SOURCE_ROOT; };
 		387A363B57414501A0019D18 /* CCEventListenerCustom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCEventListenerCustom.h; path = "frameworks/cocos2d-x/cocos/base/CCEventListenerCustom.h"; sourceTree = SOURCE_ROOT; };
@@ -1880,7 +1751,6 @@
 		45F7BAB8AB4741438FADAE91 /* CCActionGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionGrid.h; path = "frameworks/cocos2d-x/cocos/2d/CCActionGrid.h"; sourceTree = SOURCE_ROOT; };
 		45F7D8A5A27144D887B035EF /* ShaderModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderModule.cpp; path = "frameworks/cocos2d-x/cocos/renderer/backend/ShaderModule.cpp"; sourceTree = SOURCE_ROOT; };
 		4644EDAE664F4E50A7193717 /* CCInteger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCInteger.h; path = "frameworks/cocos2d-x/cocos/scripting/deprecated/CCInteger.h"; sourceTree = SOURCE_ROOT; };
-		46A6C7488797464A953A9D03 /* ExtensionConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ExtensionConstants.lua; path = src/cocos/extension/ExtensionConstants.lua; sourceTree = SOURCE_ROOT; };
 		46BD98D3B02149F98C47D10A /* UITextField+CCUITextInput.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "UITextField+CCUITextInput.mm"; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/iOS/UITextField+CCUITextInput.mm"; sourceTree = SOURCE_ROOT; };
 		46C9FD7048B64CBF8BDF0022 /* CCUIEditBoxIOS.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CCUIEditBoxIOS.mm; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/iOS/CCUIEditBoxIOS.mm"; sourceTree = SOURCE_ROOT; };
 		46D78430C03E4B5F8834EB54 /* CCActionCamera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCActionCamera.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCActionCamera.cpp"; sourceTree = SOURCE_ROOT; };
@@ -1897,7 +1767,6 @@
 		4886227F675C4F0A9AF4F748 /* CCMotionStreak3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCMotionStreak3D.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCMotionStreak3D.cpp"; sourceTree = SOURCE_ROOT; };
 		4892EA4C62CE4979B5C592ED /* CCPlane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPlane.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCPlane.cpp"; sourceTree = SOURCE_ROOT; };
 		48AA1F69CCDA45BBB5195383 /* CCPUPlaneCollider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUPlaneCollider.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUPlaneCollider.h"; sourceTree = SOURCE_ROOT; };
-		48DA18A8B34A41FE8781BEBA /* UIPageView.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UIPageView.lua; path = src/cocos/framework/extends/UIPageView.lua; sourceTree = SOURCE_ROOT; };
 		49380A1AE7474830B0D5F8E5 /* Manifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Manifest.h; path = "frameworks/cocos2d-x/extensions/assets-manager/Manifest.h"; sourceTree = SOURCE_ROOT; };
 		494F59A22BE148A7B6F6E84D /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = "frameworks/runtime-src/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
 		495562B8D9624D3CBE7EAD59 /* CCPUJetAffector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUJetAffector.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUJetAffector.h"; sourceTree = SOURCE_ROOT; };
@@ -1923,7 +1792,6 @@
 		4D1561899DBA4AD887F3D950 /* Lua-BindingsExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "Lua-BindingsExport.h"; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/Lua-BindingsExport.h"; sourceTree = SOURCE_ROOT; };
 		4D47425814394F83B75CBB27 /* CCPUOnCollisionObserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnCollisionObserver.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnCollisionObserver.cpp"; sourceTree = SOURCE_ROOT; };
 		4D5222172CDD4A5B9DB1E386 /* DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = "frameworks/cocos2d-x/external/recast/Detour/DetourNavMeshBuilder.cpp"; sourceTree = SOURCE_ROOT; };
-		4D66A09D0B5944389CC06D0F /* DeprecatedCocoStudioFunc.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedCocoStudioFunc.lua; path = src/cocos/cocostudio/DeprecatedCocoStudioFunc.lua; sourceTree = SOURCE_ROOT; };
 		4D69B7A8546449CBA7003D6C /* CCPUOnTimeObserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUOnTimeObserver.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnTimeObserver.h"; sourceTree = SOURCE_ROOT; };
 		4DB8104315134C4CA728B150 /* CCNavMeshObstacle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCNavMeshObstacle.cpp; path = "frameworks/cocos2d-x/cocos/navmesh/CCNavMeshObstacle.cpp"; sourceTree = SOURCE_ROOT; };
 		4DCBEEF95EAF4E18B6F61801 /* CCDownloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCDownloader.cpp; path = "frameworks/cocos2d-x/cocos/network/CCDownloader.cpp"; sourceTree = SOURCE_ROOT; };
@@ -1959,18 +1827,15 @@
 		530D7C8742494886867B2632 /* CCArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCArray.h; path = "frameworks/cocos2d-x/cocos/scripting/deprecated/CCArray.h"; sourceTree = SOURCE_ROOT; };
 		5339FE1A540D447FBEC194E7 /* CCControlSaturationBrightnessPicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCControlSaturationBrightnessPicker.h; path = "frameworks/cocos2d-x/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h"; sourceTree = SOURCE_ROOT; };
 		533BE3BF039749F7B8B7F261 /* CCComponentLua.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCComponentLua.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.h"; sourceTree = SOURCE_ROOT; };
-		536FEDE218304B9387128CE0 /* luaoc.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = luaoc.lua; path = src/cocos/cocos2d/luaoc.lua; sourceTree = SOURCE_ROOT; };
 		542E483D55134E5AA168FF6F /* CCCallbackCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCCallbackCommand.cpp; path = "frameworks/cocos2d-x/cocos/renderer/CCCallbackCommand.cpp"; sourceTree = SOURCE_ROOT; };
 		5438DCED2382484CBCD98F08 /* Uri.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Uri.h; path = "frameworks/cocos2d-x/cocos/network/Uri.h"; sourceTree = SOURCE_ROOT; };
 		55089BB2313E46D699137C32 /* CCPUForceFieldAffectorTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUForceFieldAffectorTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUForceFieldAffectorTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		5509CD7D44D94E27AC492C1C /* TextureMTL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextureMTL.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/TextureMTL.h"; sourceTree = SOURCE_ROOT; };
 		5512354CE0F94E27B85FCD8A /* UILayoutComponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UILayoutComponent.h; path = "frameworks/cocos2d-x/cocos/ui/UILayoutComponent.h"; sourceTree = SOURCE_ROOT; };
 		552E661F53AA4BF5AF9F63ED /* CommandBufferMTL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CommandBufferMTL.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/CommandBufferMTL.h"; sourceTree = SOURCE_ROOT; };
-		556562293CD6459CA1F5B7AB /* DeprecatedCocoStudioClass.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedCocoStudioClass.lua; path = src/cocos/cocostudio/DeprecatedCocoStudioClass.lua; sourceTree = SOURCE_ROOT; };
 		55E8F221E3554228A410C91A /* CCPUScriptParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUScriptParser.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUScriptParser.cpp"; sourceTree = SOURCE_ROOT; };
 		561BF964E66A4F8099C8782F /* CCNavMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCNavMesh.h; path = "frameworks/cocos2d-x/cocos/navmesh/CCNavMesh.h"; sourceTree = SOURCE_ROOT; };
 		5668DDD028234E6C95BF1E3A /* Device.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Device.cpp; path = "frameworks/cocos2d-x/cocos/renderer/backend/Device.cpp"; sourceTree = SOURCE_ROOT; };
-		5676661A122540148E4A1420 /* NetworkConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = NetworkConstants.lua; path = src/cocos/network/NetworkConstants.lua; sourceTree = SOURCE_ROOT; };
 		5684C2D61409401A927A6E0C /* lua_cocos2dx_3d_manual.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lua_cocos2dx_3d_manual.cpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp"; sourceTree = SOURCE_ROOT; };
 		5691DE8D97374C03A5C87AD3 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = "frameworks/runtime-src/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
 		56D6D98FAA24444CA3542BBD /* CCPUGeometryRotator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUGeometryRotator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUGeometryRotator.cpp"; sourceTree = SOURCE_ROOT; };
@@ -1998,7 +1863,6 @@
 		5B0A3C25C0864466ADE54F95 /* CCPUBoxColliderTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUBoxColliderTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUBoxColliderTranslator.h"; sourceTree = SOURCE_ROOT; };
 		5B22CA7E33AB4DBB9A3AA0D4 /* LoadingBarReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LoadingBarReader.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/LoadingBarReader/LoadingBarReader.cpp"; sourceTree = SOURCE_ROOT; };
 		5B3B05E330A24E27880BAF51 /* lua_xml_http_request.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lua_xml_http_request.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.h"; sourceTree = SOURCE_ROOT; };
-		5C1B27958E804D81B7CDA519 /* StudioConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = StudioConstants.lua; path = src/cocos/cocostudio/StudioConstants.lua; sourceTree = SOURCE_ROOT; };
 		5C5D37A4C9D641EA82C024A8 /* CCActionTiledGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionTiledGrid.h; path = "frameworks/cocos2d-x/cocos/2d/CCActionTiledGrid.h"; sourceTree = SOURCE_ROOT; };
 		5C941A15BFBD4A4FA5B63F3B /* firePngData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = firePngData.h; path = "frameworks/cocos2d-x/cocos/base/firePngData.h"; sourceTree = SOURCE_ROOT; };
 		5D1642A486444AD0A9777874 /* auxiliar.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = auxiliar.c; path = "frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c"; sourceTree = SOURCE_ROOT; };
@@ -2017,7 +1881,6 @@
 		6100363FAD6D439F90941297 /* CCPUScaleAffectorTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUScaleAffectorTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUScaleAffectorTranslator.h"; sourceTree = SOURCE_ROOT; };
 		61044DE189734892AF4E035E /* CCVertex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCVertex.h; path = "frameworks/cocos2d-x/cocos/math/CCVertex.h"; sourceTree = SOURCE_ROOT; };
 		615E4B3DDE6B4D1181CA4DBF /* UIPageViewIndicator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UIPageViewIndicator.h; path = "frameworks/cocos2d-x/cocos/ui/UIPageViewIndicator.h"; sourceTree = SOURCE_ROOT; };
-		61679223194B44B0A496B18E /* json.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = json.lua; path = src/cocos/cocos2d/json.lua; sourceTree = SOURCE_ROOT; };
 		6182165A9E6544EF80427AC8 /* CCPUScaleAffector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUScaleAffector.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUScaleAffector.h"; sourceTree = SOURCE_ROOT; };
 		61910F1BCD40416380A02E5B /* lua_cocos2dx_navmesh_auto.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_navmesh_auto.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.hpp"; sourceTree = SOURCE_ROOT; };
 		61FB6B98D46D4903BE509925 /* CCTouch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTouch.cpp; path = "frameworks/cocos2d-x/cocos/base/CCTouch.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2027,10 +1890,8 @@
 		62531A079B834C6BAA657456 /* CCPUPlaneCollider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUPlaneCollider.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUPlaneCollider.cpp"; sourceTree = SOURCE_ROOT; };
 		62601A99DBD04219BB273BF2 /* UIHBox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UIHBox.h; path = "frameworks/cocos2d-x/cocos/ui/UIHBox.h"; sourceTree = SOURCE_ROOT; };
 		6281B0DA3BFC4CADBF637249 /* CCBundle3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCBundle3D.h; path = "frameworks/cocos2d-x/cocos/3d/CCBundle3D.h"; sourceTree = SOURCE_ROOT; };
-		62B5C44F85E04F45B7FF213C /* ControllerConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ControllerConstants.lua; path = src/cocos/controller/ControllerConstants.lua; sourceTree = SOURCE_ROOT; };
 		62D505D99865499C96B85E36 /* sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = "frameworks/cocos2d-x/external/poly2tri/sweep/sweep.cc"; sourceTree = SOURCE_ROOT; };
 		62F17ADBEC8048E2A4475621 /* DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = "frameworks/cocos2d-x/external/recast/Detour/DetourNavMesh.cpp"; sourceTree = SOURCE_ROOT; };
-		6351AAE87D3C4268AF838C7F /* LayerEx.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = LayerEx.lua; path = src/cocos/framework/extends/LayerEx.lua; sourceTree = SOURCE_ROOT; };
 		63702F6A0178450E8A5AE342 /* CCAutoPolygon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCAutoPolygon.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCAutoPolygon.cpp"; sourceTree = SOURCE_ROOT; };
 		638460A53A9C46BFAB61BBA6 /* CCPUTextureRotatorTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUTextureRotatorTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUTextureRotatorTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		639BFBE7B9F1449AB7B564E1 /* CCComController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCComController.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCComController.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2063,7 +1924,6 @@
 		687E690EC69645908C2D389B /* CCGLView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCGLView.cpp; path = "frameworks/cocos2d-x/cocos/platform/CCGLView.cpp"; sourceTree = SOURCE_ROOT; };
 		68860ECB47F74B57A07E5D4A /* CCPhysicsSprite3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPhysicsSprite3D.h; path = "frameworks/cocos2d-x/cocos/physics3d/CCPhysicsSprite3D.h"; sourceTree = SOURCE_ROOT; };
 		688C14BC7C1C4FDD9CF7C5BB /* libext_recast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		689A43B2678844DC8CD14E73 /* functions.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = functions.lua; path = src/cocos/cocos2d/functions.lua; sourceTree = SOURCE_ROOT; };
 		68B888204DFA4F9BAE0F4172 /* Uri.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Uri.cpp; path = "frameworks/cocos2d-x/cocos/network/Uri.cpp"; sourceTree = SOURCE_ROOT; };
 		68F5AB1F455143B5A5C19C09 /* CCSprite3DMaterial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCSprite3DMaterial.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCSprite3DMaterial.cpp"; sourceTree = SOURCE_ROOT; };
 		69016CF7A86A4437AC85750B /* CCPUCircleEmitterTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUCircleEmitterTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUCircleEmitterTranslator.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2182,7 +2042,6 @@
 		7BEBEAD7A390498EB2ADF167 /* CCGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCGrid.h; path = "frameworks/cocos2d-x/cocos/2d/CCGrid.h"; sourceTree = SOURCE_ROOT; };
 		7C01C7E3599A405EB0FCAF3A /* CCPUParticleSystem3DTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUParticleSystem3DTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUParticleSystem3DTranslator.h"; sourceTree = SOURCE_ROOT; };
 		7C1C3834FA6D4E2AA80D32A0 /* atitc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = atitc.h; path = "frameworks/cocos2d-x/cocos/base/atitc.h"; sourceTree = SOURCE_ROOT; };
-		7C53BE6FBDFD44AABB1C3AFB /* NodeEx.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = NodeEx.lua; path = src/cocos/framework/extends/NodeEx.lua; sourceTree = SOURCE_ROOT; };
 		7C5479E8A2AE47FF84D78B6E /* ccConstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccConstants.h; path = "frameworks/cocos2d-x/cocos/base/ccConstants.h"; sourceTree = SOURCE_ROOT; };
 		7C59A9823D454B99B303D869 /* UITextField.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UITextField.h; path = "frameworks/cocos2d-x/cocos/ui/UITextField.h"; sourceTree = SOURCE_ROOT; };
 		7CFC0CA3678746C5B72967E6 /* CCEventController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCEventController.h; path = "frameworks/cocos2d-x/cocos/base/CCEventController.h"; sourceTree = SOURCE_ROOT; };
@@ -2190,7 +2049,6 @@
 		7D380C54253B45EC8C715F34 /* edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = "frameworks/cocos2d-x/external/edtaa3func/edtaa3func.cpp"; sourceTree = SOURCE_ROOT; };
 		7D425DB81E654E17AA04AB20 /* CCPUOnClearObserverTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUOnClearObserverTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnClearObserverTranslator.h"; sourceTree = SOURCE_ROOT; };
 		7D87E9A994084210835E0C7D /* CCController-apple.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "CCController-apple.mm"; path = "frameworks/cocos2d-x/cocos/base/CCController-apple.mm"; sourceTree = SOURCE_ROOT; };
-		7E5F77AD42344969A1B3E2A1 /* transition.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transition.lua; path = src/cocos/framework/transition.lua; sourceTree = SOURCE_ROOT; };
 		7E812D9276E5475BA22BC710 /* AudioCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioCache.h; path = "frameworks/cocos2d-x/cocos/audio/apple/AudioCache.h"; sourceTree = SOURCE_ROOT; };
 		7EA0F987B7674111AB15305B /* CCTexture2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTexture2D.cpp; path = "frameworks/cocos2d-x/cocos/renderer/CCTexture2D.cpp"; sourceTree = SOURCE_ROOT; };
 		7ED2340B8494417CBFBA3000 /* CCPUOnTimeObserverTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUOnTimeObserverTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnTimeObserverTranslator.h"; sourceTree = SOURCE_ROOT; };
@@ -2253,7 +2111,6 @@
 		8AE18A30A5FB437EBA3ADF6D /* CCDisplayFactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCDisplayFactory.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCDisplayFactory.cpp"; sourceTree = SOURCE_ROOT; };
 		8B0372414C024B2E9D7B388E /* CCFileUtils-apple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "CCFileUtils-apple.h"; path = "frameworks/cocos2d-x/cocos/platform/apple/CCFileUtils-apple.h"; sourceTree = SOURCE_ROOT; };
 		8B24D2B2639947DB912EC9FE /* CCPUSphereCollider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUSphereCollider.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUSphereCollider.cpp"; sourceTree = SOURCE_ROOT; };
-		8B3CE5193E2B441686D795BB /* DeprecatedExtensionFunc.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedExtensionFunc.lua; path = src/cocos/extension/DeprecatedExtensionFunc.lua; sourceTree = SOURCE_ROOT; };
 		8BAEDF8855884015850B6463 /* CCPUAffectorManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUAffectorManager.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUAffectorManager.h"; sourceTree = SOURCE_ROOT; };
 		8BD71DC16A3948659DC5337C /* CCPUScriptTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUScriptTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUScriptTranslator.h"; sourceTree = SOURCE_ROOT; };
 		8BF0DB47A90E4174BC71EB94 /* CCColliderDetector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCColliderDetector.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCColliderDetector.h"; sourceTree = SOURCE_ROOT; };
@@ -2281,7 +2138,6 @@
 		8F9EE8F287BA46DF9DEDED09 /* CCLuaEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCLuaEngine.cpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp"; sourceTree = SOURCE_ROOT; };
 		8FB7F6B096E144DD9C827E22 /* lua_cocos2dx_ui_manual.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_ui_manual.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.hpp"; sourceTree = SOURCE_ROOT; };
 		900AB41CD0C2427C8A9B69F5 /* CCControlHuePicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCControlHuePicker.h; path = "frameworks/cocos2d-x/extensions/GUI/CCControlExtension/CCControlHuePicker.h"; sourceTree = SOURCE_ROOT; };
-		90741BB053F54F6EAA310197 /* UIEditBox.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UIEditBox.lua; path = src/cocos/framework/extends/UIEditBox.lua; sourceTree = SOURCE_ROOT; };
 		9076416DA3A6422A84554DD9 /* CCPhysicsContact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPhysicsContact.h; path = "frameworks/cocos2d-x/cocos/physics/CCPhysicsContact.h"; sourceTree = SOURCE_ROOT; };
 		9081A7E5933343CA8E0BA173 /* CCEventFocus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCEventFocus.cpp; path = "frameworks/cocos2d-x/cocos/base/CCEventFocus.cpp"; sourceTree = SOURCE_ROOT; };
 		91225C298EB644C782C6DAB7 /* UIWebViewImpl-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "UIWebViewImpl-ios.mm"; path = "frameworks/cocos2d-x/cocos/ui/UIWebView/UIWebViewImpl-ios.mm"; sourceTree = SOURCE_ROOT; };
@@ -2292,7 +2148,6 @@
 		9180EB0115CB4B549FA902DC /* Vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vec3.h; path = "frameworks/cocos2d-x/cocos/math/Vec3.h"; sourceTree = SOURCE_ROOT; };
 		9188731695E4433F9D4C46AF /* CCPUBaseColliderTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUBaseColliderTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUBaseColliderTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		920A06A2D1AA4C01B958CFF1 /* LuaBasicConversions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LuaBasicConversions.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.h"; sourceTree = SOURCE_ROOT; };
-		920E9836A0154DC7B70C9E12 /* package_support.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = package_support.lua; path = src/cocos/framework/package_support.lua; sourceTree = SOURCE_ROOT; };
 		921741554F634C3EA91F0E98 /* UIWebViewImpl-ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "UIWebViewImpl-ios.h"; path = "frameworks/cocos2d-x/cocos/ui/UIWebView/UIWebViewImpl-ios.h"; sourceTree = SOURCE_ROOT; };
 		92601E1DBA9A4999BEED6113 /* CCNinePatchImageParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCNinePatchImageParser.cpp; path = "frameworks/cocos2d-x/cocos/base/CCNinePatchImageParser.cpp"; sourceTree = SOURCE_ROOT; };
 		927975A0F8D948FB9CFE024A /* libext_clipper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2312,7 +2167,6 @@
 		966C7314EBB7453798028E43 /* CCPUMeshSurfaceEmitterTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUMeshSurfaceEmitterTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUMeshSurfaceEmitterTranslator.h"; sourceTree = SOURCE_ROOT; };
 		96FF217C4191424F8E4A7A44 /* CCEventListenerAcceleration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCEventListenerAcceleration.h; path = "frameworks/cocos2d-x/cocos/base/CCEventListenerAcceleration.h"; sourceTree = SOURCE_ROOT; };
 		97269FC7160C46ED9D30A0E2 /* CCPhysics3DDebugDrawer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPhysics3DDebugDrawer.cpp; path = "frameworks/cocos2d-x/cocos/physics3d/CCPhysics3DDebugDrawer.cpp"; sourceTree = SOURCE_ROOT; };
-		973D9A8F81BD4EE4AD132E99 /* luaj.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = luaj.lua; path = src/cocos/cocos2d/luaj.lua; sourceTree = SOURCE_ROOT; };
 		974707766DC64B30AEB4A0DB /* CCConfiguration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCConfiguration.h; path = "frameworks/cocos2d-x/cocos/base/CCConfiguration.h"; sourceTree = SOURCE_ROOT; };
 		97903131DB8F42459977C915 /* CCTransitionProgress.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTransitionProgress.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCTransitionProgress.cpp"; sourceTree = SOURCE_ROOT; };
 		97B59E2A4E1A4806B1F901BF /* unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = "frameworks/cocos2d-x/external/unzip/unzip.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2327,20 +2181,17 @@
 		9A1642200F33479E823CBF3F /* CCActionProgressTimer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCActionProgressTimer.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCActionProgressTimer.cpp"; sourceTree = SOURCE_ROOT; };
 		9A4756A2252B4FD2B9614FB0 /* lua_cocos2dx_deprecated.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lua_cocos2dx_deprecated.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.h"; sourceTree = SOURCE_ROOT; };
 		9A6C4602970D4DCDB6EE2D6F /* Backend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Backend.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/Backend.h"; sourceTree = SOURCE_ROOT; };
-		9A859F1E1FAB4967A8506BDF /* DeprecatedCocos2dFunc.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedCocos2dFunc.lua; path = src/cocos/cocos2d/DeprecatedCocos2dFunc.lua; sourceTree = SOURCE_ROOT; };
 		9AA0526657CD47A5A4994831 /* CCDirectorCaller-ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "CCDirectorCaller-ios.h"; path = "frameworks/cocos2d-x/cocos/platform/ios/CCDirectorCaller-ios.h"; sourceTree = SOURCE_ROOT; };
 		9AA6F987592B48288EC92A4A /* Types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Types.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/Types.h"; sourceTree = SOURCE_ROOT; };
 		9AAEAFF515C94B2280CB78F5 /* CCBone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCBone.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCBone.h"; sourceTree = SOURCE_ROOT; };
 		9AE0B40FDBC34EB790C827E2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "frameworks/cocos2d-x/cocos/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		9B00EC95EB4B4F4CBC0DAAB3 /* CCPhysicsJoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPhysicsJoint.h; path = "frameworks/cocos2d-x/cocos/physics/CCPhysicsJoint.h"; sourceTree = SOURCE_ROOT; };
 		9B18FD4F163F43EC81BD4E2B /* CCControlSwitch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCControlSwitch.h; path = "frameworks/cocos2d-x/extensions/GUI/CCControlExtension/CCControlSwitch.h"; sourceTree = SOURCE_ROOT; };
-		9B1BE31BF1D442ADA3ACA2F1 /* UISlider.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UISlider.lua; path = src/cocos/framework/extends/UISlider.lua; sourceTree = SOURCE_ROOT; };
 		9BAFEB52F2834DCA9D034947 /* s3tc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = s3tc.cpp; path = "frameworks/cocos2d-x/cocos/base/s3tc.cpp"; sourceTree = SOURCE_ROOT; };
 		9BB4C0D2D2904FF6AF4B8CF2 /* CCTextureCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTextureCache.cpp; path = "frameworks/cocos2d-x/cocos/renderer/CCTextureCache.cpp"; sourceTree = SOURCE_ROOT; };
 		9BDBA40D6311400E8A3E34EA /* AssetsManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AssetsManager.cpp; path = "frameworks/cocos2d-x/extensions/assets-manager/AssetsManager.cpp"; sourceTree = SOURCE_ROOT; };
 		9BF427EF906141ACABC383C5 /* CCCameraBackgroundBrush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCCameraBackgroundBrush.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCCameraBackgroundBrush.cpp"; sourceTree = SOURCE_ROOT; };
 		9C0FE1C8A2744A949E62B879 /* Quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Quaternion.h; path = "frameworks/cocos2d-x/cocos/math/Quaternion.h"; sourceTree = SOURCE_ROOT; };
-		9C47D78FEF874A4DA010A649 /* init.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = init.lua; path = src/cocos/framework/init.lua; sourceTree = SOURCE_ROOT; };
 		9C481DC02C7146C0B9B4C235 /* lua_cocos2dx_webview_auto.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_webview_auto.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_webview_auto.hpp"; sourceTree = SOURCE_ROOT; };
 		9C76134B5201443581C5E941 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		9C8A939A4F1F42639A69C36A /* lua_cocos2dx_video_manual.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_video_manual.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_video_manual.hpp"; sourceTree = SOURCE_ROOT; };
@@ -2354,7 +2205,6 @@
 		9D38AF432ADD437EB807943D /* CCPUMaterialManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUMaterialManager.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUMaterialManager.h"; sourceTree = SOURCE_ROOT; };
 		9D53E9D166B14C8180CDDBFD /* CCPUTechniqueTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUTechniqueTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUTechniqueTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		9D8CB13F20E44535A44525E1 /* ShaderCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderCache.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/ShaderCache.h"; sourceTree = SOURCE_ROOT; };
-		9D9F765CE6214BEF8D091DD3 /* UIScrollView.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UIScrollView.lua; path = src/cocos/framework/extends/UIScrollView.lua; sourceTree = SOURCE_ROOT; };
 		9DA821E82005469AA619EA9F /* lua_cocos2dx_spine_auto.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_spine_auto.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_spine_auto.hpp"; sourceTree = SOURCE_ROOT; };
 		9DC9D820F90D480B910F568C /* CCString.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCString.cpp; path = "frameworks/cocos2d-x/cocos/scripting/deprecated/CCString.cpp"; sourceTree = SOURCE_ROOT; };
 		9E07AD6DD6FA431F99AF0369 /* CCPUAlignAffector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUAlignAffector.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUAlignAffector.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2375,7 +2225,6 @@
 		A097B5A7BC9341209E354141 /* DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = "frameworks/cocos2d-x/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp"; sourceTree = SOURCE_ROOT; };
 		A13FD566936E49D5BA160DD4 /* CCPUSlaveBehaviour.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUSlaveBehaviour.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUSlaveBehaviour.cpp"; sourceTree = SOURCE_ROOT; };
 		A15DA401898E4051965AB330 /* ShaderModuleMTL.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ShaderModuleMTL.mm; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/ShaderModuleMTL.mm"; sourceTree = SOURCE_ROOT; };
-		A1ACD1C8DDBD48F39E9A7243 /* init.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = init.lua; path = src/packages/mvc/init.lua; sourceTree = SOURCE_ROOT; };
 		A1C0622A0AEF4CF6A2DFF3B2 /* UITextAtlas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UITextAtlas.cpp; path = "frameworks/cocos2d-x/cocos/ui/UITextAtlas.cpp"; sourceTree = SOURCE_ROOT; };
 		A1C0E207EB9E410597697541 /* CCVertex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCVertex.cpp; path = "frameworks/cocos2d-x/cocos/math/CCVertex.cpp"; sourceTree = SOURCE_ROOT; };
 		A20C2B629C0D4CF1BB70190C /* CCData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCData.h; path = "frameworks/cocos2d-x/cocos/base/CCData.h"; sourceTree = SOURCE_ROOT; };
@@ -2420,8 +2269,6 @@
 		A86834D0E92D40079014745B /* CCPUObserverTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUObserverTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUObserverTranslator.h"; sourceTree = SOURCE_ROOT; };
 		A88D87AD4B104F6B9EE9F71A /* CCProperties.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCProperties.cpp; path = "frameworks/cocos2d-x/cocos/base/CCProperties.cpp"; sourceTree = SOURCE_ROOT; };
 		A899BD03DAA042DABC14284F /* timeout.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timeout.c; path = "frameworks/cocos2d-x/external/lua/luasocket/timeout.c"; sourceTree = SOURCE_ROOT; };
-		A8BC6A2FAAAB438DB166A4A0 /* bitExtend.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bitExtend.lua; path = src/cocos/cocos2d/bitExtend.lua; sourceTree = SOURCE_ROOT; };
-		A8BD499F9C82477BA97E1047 /* UITextField.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UITextField.lua; path = src/cocos/framework/extends/UITextField.lua; sourceTree = SOURCE_ROOT; };
 		A8F54F38D0A04E9A8823CC8C /* CCEventListenerController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCEventListenerController.cpp; path = "frameworks/cocos2d-x/cocos/base/CCEventListenerController.cpp"; sourceTree = SOURCE_ROOT; };
 		A8FA1802D77A420888074DED /* CCAction.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCAction.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCAction.cpp"; sourceTree = SOURCE_ROOT; };
 		A983D71985264E9882DF3EC3 /* CCCameraBackgroundBrush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCCameraBackgroundBrush.h; path = "frameworks/cocos2d-x/cocos/2d/CCCameraBackgroundBrush.h"; sourceTree = SOURCE_ROOT; };
@@ -2442,15 +2289,12 @@
 		ACACD5163A004D09A8FD4276 /* CCControlButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCControlButton.h; path = "frameworks/cocos2d-x/extensions/GUI/CCControlExtension/CCControlButton.h"; sourceTree = SOURCE_ROOT; };
 		ACBDDBD8C8984CF4A82AC3E4 /* CCVector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCVector.h; path = "frameworks/cocos2d-x/cocos/base/CCVector.h"; sourceTree = SOURCE_ROOT; };
 		ACDB3AA83DB1429CB78B49CD /* SimpleAudioEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SimpleAudioEngine.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/SimpleAudioEngine.cpp"; sourceTree = SOURCE_ROOT; };
-		ACEE6C58D58745F5B402A908 /* Cocos2d.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Cocos2d.lua; path = src/cocos/cocos2d/Cocos2d.lua; sourceTree = SOURCE_ROOT; };
 		AD44A6F2C1D34AF7AEB490B4 /* CCActionNode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionNode.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCActionNode.h"; sourceTree = SOURCE_ROOT; };
 		AD480E2E44E54FD8AC537F41 /* CCPUOnQuotaObserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnQuotaObserver.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnQuotaObserver.cpp"; sourceTree = SOURCE_ROOT; };
 		AD7B3F9160D44FB0AE6B8E98 /* CCString.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCString.h; path = "frameworks/cocos2d-x/cocos/scripting/deprecated/CCString.h"; sourceTree = SOURCE_ROOT; };
 		ADD1812914F44D378EA4EA88 /* AudioDecoder.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = AudioDecoder.mm; path = "frameworks/cocos2d-x/cocos/audio/apple/AudioDecoder.mm"; sourceTree = SOURCE_ROOT; };
-		ADDFE4D5069147F4BDDEB1FA /* DeprecatedNetworkFunc.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedNetworkFunc.lua; path = src/cocos/network/DeprecatedNetworkFunc.lua; sourceTree = SOURCE_ROOT; };
 		AE2798AF210C41DAA44C2873 /* UITextView+CCUITextInput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "UITextView+CCUITextInput.h"; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/iOS/UITextView+CCUITextInput.h"; sourceTree = SOURCE_ROOT; };
 		AEB2294186E04D589A8835CE /* CCAffineTransform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCAffineTransform.h; path = "frameworks/cocos2d-x/cocos/math/CCAffineTransform.h"; sourceTree = SOURCE_ROOT; };
-		AECBB4FB878A49A198E94E51 /* DeprecatedUIEnum.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedUIEnum.lua; path = src/cocos/ui/DeprecatedUIEnum.lua; sourceTree = SOURCE_ROOT; };
 		AF0454C128F44E4E8B412383 /* CCPUOnQuotaObserverTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnQuotaObserverTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnQuotaObserverTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		AF1BEE7363BB467C95F0C826 /* UITextField+CCUITextInput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "UITextField+CCUITextInput.h"; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/iOS/UITextField+CCUITextInput.h"; sourceTree = SOURCE_ROOT; };
 		AF3A15778571468CA4354BE8 /* CCTweenFunction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCTweenFunction.h; path = "frameworks/cocos2d-x/cocos/2d/CCTweenFunction.h"; sourceTree = SOURCE_ROOT; };
@@ -2463,10 +2307,8 @@
 		B1F069F8D2DB413095E52EB5 /* UITabControl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UITabControl.cpp; path = "frameworks/cocos2d-x/cocos/ui/UITabControl.cpp"; sourceTree = SOURCE_ROOT; };
 		B2108950E0FF497C827420DF /* CCActionObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCActionObject.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCActionObject.cpp"; sourceTree = SOURCE_ROOT; };
 		B2313D9B811D4EF981B3788F /* CCArmature.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCArmature.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCArmature.h"; sourceTree = SOURCE_ROOT; };
-		B24C4A23896C47C2B7383FCA /* ViewBase.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ViewBase.lua; path = src/packages/mvc/ViewBase.lua; sourceTree = SOURCE_ROOT; };
 		B262FE4ECFFA4EA4A3297AE1 /* CCPUOnClearObserverTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnClearObserverTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnClearObserverTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		B292D73996D941218E6EAB5B /* ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = "frameworks/cocos2d-x/external/unzip/ioapi.cpp"; sourceTree = SOURCE_ROOT; };
-		B2A8095E88E949169639B90C /* init.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = init.lua; path = src/cocos/init.lua; sourceTree = SOURCE_ROOT; };
 		B2BEB52C6FEA4D3BA316402C /* CC3DProgramInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CC3DProgramInfo.h; path = "frameworks/cocos2d-x/cocos/3d/CC3DProgramInfo.h"; sourceTree = SOURCE_ROOT; };
 		B2D95B2C113342C5B0733515 /* CustomGUIReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CustomGUIReader.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.h"; sourceTree = SOURCE_ROOT; };
 		B2DDB945C88247B3908FED7E /* ScrollViewReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ScrollViewReader.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ScrollViewReader/ScrollViewReader.h"; sourceTree = SOURCE_ROOT; };
@@ -2476,11 +2318,9 @@
 		B3620A9D864C4E72B581E0C2 /* lua_cocos2dx_audioengine_manual.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lua_cocos2dx_audioengine_manual.cpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp"; sourceTree = SOURCE_ROOT; };
 		B369B69D1D144697AFDE5AD6 /* CCSet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCSet.h; path = "frameworks/cocos2d-x/cocos/scripting/deprecated/CCSet.h"; sourceTree = SOURCE_ROOT; };
 		B3BB2B0EA76E4636BE936F22 /* CCCommon-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "CCCommon-ios.mm"; path = "frameworks/cocos2d-x/cocos/platform/ios/CCCommon-ios.mm"; sourceTree = SOURCE_ROOT; };
-		B3E5D1CA7A8646ECAE7D3271 /* DeprecatedExtensionClass.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedExtensionClass.lua; path = src/cocos/extension/DeprecatedExtensionClass.lua; sourceTree = SOURCE_ROOT; };
 		B410F350D20E47408F0D4AB9 /* CCPhysicsContact.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPhysicsContact.cpp; path = "frameworks/cocos2d-x/cocos/physics/CCPhysicsContact.cpp"; sourceTree = SOURCE_ROOT; };
 		B41A44C067A34C01B503148F /* CCDownloader-curl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "CCDownloader-curl.cpp"; path = "frameworks/cocos2d-x/cocos/network/CCDownloader-curl.cpp"; sourceTree = SOURCE_ROOT; };
 		B4482C250A344769B0105454 /* CCProfiling.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCProfiling.cpp; path = "frameworks/cocos2d-x/cocos/base/CCProfiling.cpp"; sourceTree = SOURCE_ROOT; };
-		B463555480A94655B3DC88C8 /* Cocos2dConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Cocos2dConstants.lua; path = src/cocos/cocos2d/Cocos2dConstants.lua; sourceTree = SOURCE_ROOT; };
 		B4A7AF4256CC4881928D23C9 /* CCPUOnQuotaObserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUOnQuotaObserver.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnQuotaObserver.h"; sourceTree = SOURCE_ROOT; };
 		B4AE2C06B018499CB573FD9C /* CCController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCController.cpp; path = "frameworks/cocos2d-x/cocos/base/CCController.cpp"; sourceTree = SOURCE_ROOT; };
 		B4F4CDB29AD04904AEC3A2AE /* CCPUDoEnableComponentEventHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoEnableComponentEventHandler.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoEnableComponentEventHandler.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2544,7 +2384,6 @@
 		BCB844DA280F41D9B86C37D1 /* CCPUGeometryRotatorTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUGeometryRotatorTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUGeometryRotatorTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		BCC7FA740D95427593D2F5A9 /* CCPUDoPlacementParticleEventHandlerTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoPlacementParticleEventHandlerTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoPlacementParticleEventHandlerTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		BCF456684D40421498EE7534 /* CCPUSineForceAffector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUSineForceAffector.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUSineForceAffector.h"; sourceTree = SOURCE_ROOT; };
-		BDB6252949634637B8E494CC /* DrawPrimitives.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DrawPrimitives.lua; path = src/cocos/cocos2d/DrawPrimitives.lua; sourceTree = SOURCE_ROOT; };
 		BDC327AE7CFE49E58BC93ACC /* CCTimeLine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCTimeLine.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCTimeLine.h"; sourceTree = SOURCE_ROOT; };
 		BDFDCA59C7F34E86B8EA80CC /* CCPUInterParticleCollider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUInterParticleCollider.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUInterParticleCollider.h"; sourceTree = SOURCE_ROOT; };
 		BE1573650CA4469ABBA3F065 /* CCPUAlignAffectorTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUAlignAffectorTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUAlignAffectorTranslator.h"; sourceTree = SOURCE_ROOT; };
@@ -2587,7 +2426,6 @@
 		C3C1C4821AE44BAE8DAE7F34 /* CCPUVelocityMatchingAffectorTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUVelocityMatchingAffectorTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUVelocityMatchingAffectorTranslator.h"; sourceTree = SOURCE_ROOT; };
 		C3DC54941CD5448A846B5C29 /* CCAnimationCurve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCAnimationCurve.h; path = "frameworks/cocos2d-x/cocos/3d/CCAnimationCurve.h"; sourceTree = SOURCE_ROOT; };
 		C3E200289E164A168F0F4002 /* Utils.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Utils.mm; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/Utils.mm"; sourceTree = SOURCE_ROOT; };
-		C40AFF86E8BC4115AEA38F66 /* DeprecatedNetworkClass.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedNetworkClass.lua; path = src/cocos/network/DeprecatedNetworkClass.lua; sourceTree = SOURCE_ROOT; };
 		C4368843107B4C2C808FE2AB /* UIAbstractCheckButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UIAbstractCheckButton.cpp; path = "frameworks/cocos2d-x/cocos/ui/UIAbstractCheckButton.cpp"; sourceTree = SOURCE_ROOT; };
 		C46D7DC50F3D40D781D5A0C0 /* HttpCookie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HttpCookie.h; path = "frameworks/cocos2d-x/cocos/network/HttpCookie.h"; sourceTree = SOURCE_ROOT; };
 		C49995C6397C4132BFAC675F /* CCTimeLine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTimeLine.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCTimeLine.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2642,7 +2480,6 @@
 		CEFFF3CD4A2D48BAB7E9E683 /* lua_cocos2dx_audioengine_auto.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lua_cocos2dx_audioengine_auto.hpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.hpp"; sourceTree = SOURCE_ROOT; };
 		CF04B86BE5B343F6BE447EAE /* CCAABB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCAABB.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCAABB.cpp"; sourceTree = SOURCE_ROOT; };
 		CF6A8821DCD6453B9CA85293 /* CCActionFrameEasing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionFrameEasing.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCActionFrameEasing.h"; sourceTree = SOURCE_ROOT; };
-		D02EE03DCED14A88916998A1 /* DeprecatedCocos2dEnum.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedCocos2dEnum.lua; path = src/cocos/cocos2d/DeprecatedCocos2dEnum.lua; sourceTree = SOURCE_ROOT; };
 		D0CA604C6FCF4B718708471B /* CCPUSphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUSphere.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUSphere.cpp"; sourceTree = SOURCE_ROOT; };
 		D1521830816848E789082C5E /* CCPUSlaveEmitterTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUSlaveEmitterTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUSlaveEmitterTranslator.cpp"; sourceTree = SOURCE_ROOT; };
 		D213E57417D14C948416C70B /* CCPUParticleSystem3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUParticleSystem3D.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUParticleSystem3D.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2655,11 +2492,9 @@
 		D2D141EE7614413AA88A884C /* DeviceInfoMTL.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DeviceInfoMTL.mm; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/DeviceInfoMTL.mm"; sourceTree = SOURCE_ROOT; };
 		D2F0855957394A24A7578825 /* shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = "frameworks/cocos2d-x/external/poly2tri/common/shapes.cc"; sourceTree = SOURCE_ROOT; };
 		D3309B5CF45F4048924A3A7F /* CCTransitionProgress.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCTransitionProgress.h; path = "frameworks/cocos2d-x/cocos/2d/CCTransitionProgress.h"; sourceTree = SOURCE_ROOT; };
-		D33E07ACD4AE49889B5CBE31 /* HelloWorld.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = HelloWorld.png; path = res/HelloWorld.png; sourceTree = SOURCE_ROOT; };
 		D39BB3A321414AE384D292C8 /* ZipUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZipUtils.cpp; path = "frameworks/cocos2d-x/cocos/base/ZipUtils.cpp"; sourceTree = SOURCE_ROOT; };
 		D3B154231CC640AC9A12BB04 /* TransformUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TransformUtils.cpp; path = "frameworks/cocos2d-x/cocos/math/TransformUtils.cpp"; sourceTree = SOURCE_ROOT; };
 		D3B56F41FA4B40A0BC9B8460 /* CCAttachNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCAttachNode.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCAttachNode.cpp"; sourceTree = SOURCE_ROOT; };
-		D3D684464D4E47CE9428A724 /* MainScene.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MainScene.lua; path = src/app/views/MainScene.lua; sourceTree = SOURCE_ROOT; };
 		D443B15D800845CBAC34A4CE /* CCArmatureDataManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCArmatureDataManager.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCArmatureDataManager.h"; sourceTree = SOURCE_ROOT; };
 		D454080BF3A844D89B4328B9 /* CCVertexAttribBinding.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCVertexAttribBinding.h; path = "frameworks/cocos2d-x/cocos/3d/CCVertexAttribBinding.h"; sourceTree = SOURCE_ROOT; };
 		D47A20886B854E908876DDA2 /* DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = "frameworks/cocos2d-x/external/recast/DetourCrowd/DetourLocalBoundary.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2685,8 +2520,6 @@
 		D803140027F14769A9F65081 /* md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = "frameworks/cocos2d-x/external/md5/md5.c"; sourceTree = SOURCE_ROOT; };
 		D80D62B6DD32430B9B47328E /* CCPUTextureRotator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUTextureRotator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUTextureRotator.h"; sourceTree = SOURCE_ROOT; };
 		D8B022F3EE8945BF849F7F3C /* CCEventDispatcher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCEventDispatcher.h; path = "frameworks/cocos2d-x/cocos/base/CCEventDispatcher.h"; sourceTree = SOURCE_ROOT; };
-		D8C17F8E805C42688E4ABAFA /* DeprecatedNetworkEnum.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedNetworkEnum.lua; path = src/cocos/network/DeprecatedNetworkEnum.lua; sourceTree = SOURCE_ROOT; };
-		D90779B1D0CA46F8997AFECC /* 3dConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = 3dConstants.lua; path = src/cocos/3d/3dConstants.lua; sourceTree = SOURCE_ROOT; };
 		D90EC13AF4934A2188153CD3 /* ccShaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccShaders.h; path = "frameworks/cocos2d-x/cocos/renderer/ccShaders.h"; sourceTree = SOURCE_ROOT; };
 		D93B2460EBC94CA1AD9E234F /* CCSkeleton3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCSkeleton3D.cpp; path = "frameworks/cocos2d-x/cocos/3d/CCSkeleton3D.cpp"; sourceTree = SOURCE_ROOT; };
 		D93C72E9EF4748E082EBF742 /* CCPUDoStopSystemEventHandlerTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUDoStopSystemEventHandlerTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUDoStopSystemEventHandlerTranslator.h"; sourceTree = SOURCE_ROOT; };
@@ -2698,7 +2531,6 @@
 		DA5A0DD5177447B1891427F1 /* CCImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCImage.h; path = "frameworks/cocos2d-x/cocos/platform/CCImage.h"; sourceTree = SOURCE_ROOT; };
 		DAC71B98FA154C60B9E3836E /* ProgramMTL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ProgramMTL.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/metal/ProgramMTL.h"; sourceTree = SOURCE_ROOT; };
 		DAD3F9E3B85F49B4B89009D0 /* CCGeometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCGeometry.cpp; path = "frameworks/cocos2d-x/cocos/math/CCGeometry.cpp"; sourceTree = SOURCE_ROOT; };
-		DAF12DCE7D1E4C6BB8BA92C0 /* DeprecatedExtensionEnum.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedExtensionEnum.lua; path = src/cocos/extension/DeprecatedExtensionEnum.lua; sourceTree = SOURCE_ROOT; };
 		DAF40DFAB55B46A38098E28C /* CCUITextInput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCUITextInput.h; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/iOS/CCUITextInput.h"; sourceTree = SOURCE_ROOT; };
 		DB29BC47438D4F15A4B59527 /* CCNinePatchImageParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCNinePatchImageParser.h; path = "frameworks/cocos2d-x/cocos/base/CCNinePatchImageParser.h"; sourceTree = SOURCE_ROOT; };
 		DB6BDEE4341F4C4D87368467 /* CCPUScriptCompiler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUScriptCompiler.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUScriptCompiler.h"; sourceTree = SOURCE_ROOT; };
@@ -2718,7 +2550,6 @@
 		DEDA6CABEC634D24AE5638A1 /* lua_cocos2dx_csloader_auto.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lua_cocos2dx_csloader_auto.cpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp"; sourceTree = SOURCE_ROOT; };
 		DEF472CEE36C494ABA5AFD3A /* CCBoneNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCBoneNode.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCBoneNode.cpp"; sourceTree = SOURCE_ROOT; };
 		DF4254A6F4F645009EC11C18 /* lua_cocos2dx_network_manual.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lua_cocos2dx_network_manual.h; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.h"; sourceTree = SOURCE_ROOT; };
-		DF9BD9B01A924E8ABC362740 /* GuiConstants.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GuiConstants.lua; path = src/cocos/ui/GuiConstants.lua; sourceTree = SOURCE_ROOT; };
 		E015B2AE852D4EFC9BEAF3D7 /* UIVideoPlayer-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "UIVideoPlayer-ios.mm"; path = "frameworks/cocos2d-x/cocos/ui/UIVideoPlayer-ios.mm"; sourceTree = SOURCE_ROOT; };
 		E03628B4FC1F48409ECAD380 /* UITextBMFont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UITextBMFont.cpp; path = "frameworks/cocos2d-x/cocos/ui/UITextBMFont.cpp"; sourceTree = SOURCE_ROOT; };
 		E069D98BBA5C47B4A05E25D9 /* CCActionNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCActionNode.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCActionNode.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2740,7 +2571,6 @@
 		E359400C2BB84B69B13526EF /* CCMotionStreak.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCMotionStreak.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCMotionStreak.cpp"; sourceTree = SOURCE_ROOT; };
 		E447CC8682A24F1585CA779C /* TextReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextReader.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextReader/TextReader.h"; sourceTree = SOURCE_ROOT; };
 		E45449159614452AB4CC53E0 /* CCSprite3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCSprite3D.h; path = "frameworks/cocos2d-x/cocos/3d/CCSprite3D.h"; sourceTree = SOURCE_ROOT; };
-		E518A72F87D848ACB28638FD /* AudioEngine.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = AudioEngine.lua; path = src/cocos/cocosdenshion/AudioEngine.lua; sourceTree = SOURCE_ROOT; };
 		E51DE299E5664C1191E0B986 /* CCPURendererTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPURendererTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPURendererTranslator.h"; sourceTree = SOURCE_ROOT; };
 		E5352A9848A74DF0A197BEAA /* CCGroupCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCGroupCommand.h; path = "frameworks/cocos2d-x/cocos/renderer/CCGroupCommand.h"; sourceTree = SOURCE_ROOT; };
 		E55A017972E64EF989559DCF /* ccCArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccCArray.h; path = "frameworks/cocos2d-x/cocos/base/ccCArray.h"; sourceTree = SOURCE_ROOT; };
@@ -2771,7 +2601,6 @@
 		E9935B0B081A466F89A4840F /* Texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture.h; path = "frameworks/cocos2d-x/cocos/renderer/backend/Texture.h"; sourceTree = SOURCE_ROOT; };
 		E99658547D04489AACC93C64 /* ccUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccUtils.h; path = "frameworks/cocos2d-x/cocos/base/ccUtils.h"; sourceTree = SOURCE_ROOT; };
 		E998C7EC2AE3483199A6BAD5 /* CCPUOnPositionObserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnPositionObserver.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnPositionObserver.cpp"; sourceTree = SOURCE_ROOT; };
-		E9B0CC31E1984386B60DF59B /* deprecated.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = deprecated.lua; path = src/cocos/cocos2d/deprecated.lua; sourceTree = SOURCE_ROOT; };
 		EA1485F914B645A5B07AECC7 /* CCIMEDispatcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCIMEDispatcher.cpp; path = "frameworks/cocos2d-x/cocos/base/CCIMEDispatcher.cpp"; sourceTree = SOURCE_ROOT; };
 		EA4FB379B0A740A59E927A38 /* CCActionFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionFrame.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCActionFrame.h"; sourceTree = SOURCE_ROOT; };
 		EA5AD8F23B9C4FFF877155B9 /* CCSpriteFrameCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCSpriteFrameCache.h; path = "frameworks/cocos2d-x/cocos/2d/CCSpriteFrameCache.h"; sourceTree = SOURCE_ROOT; };
@@ -2783,7 +2612,6 @@
 		EB81C479525B4F8487B8EC25 /* CCTMXTiledMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTMXTiledMap.cpp; path = "frameworks/cocos2d-x/cocos/2d/CCTMXTiledMap.cpp"; sourceTree = SOURCE_ROOT; };
 		EBDE5B9A306A401BA09D5595 /* CCPUSphereSurfaceEmitterTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUSphereSurfaceEmitterTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUSphereSurfaceEmitterTranslator.h"; sourceTree = SOURCE_ROOT; };
 		EC1BE726BB024D51943D0DBF /* lua_cocos2dx_ui_auto.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lua_cocos2dx_ui_auto.cpp; path = "frameworks/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp"; sourceTree = SOURCE_ROOT; };
-		EC271E0897CC40C8A2F2BB4E /* DeprecatedCocos2dClass.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedCocos2dClass.lua; path = src/cocos/cocos2d/DeprecatedCocos2dClass.lua; sourceTree = SOURCE_ROOT; };
 		EC29DEF4702A48CBB34144EF /* CCTextureAtlas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCTextureAtlas.h; path = "frameworks/cocos2d-x/cocos/renderer/CCTextureAtlas.h"; sourceTree = SOURCE_ROOT; };
 		ECBD6BEE4E2C4D3D955E3EAC /* PageViewReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PageViewReader.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/PageViewReader/PageViewReader.h"; sourceTree = SOURCE_ROOT; };
 		ED2F8B1685AD42EC8379012E /* CCNavMeshUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCNavMeshUtils.cpp; path = "frameworks/cocos2d-x/cocos/navmesh/CCNavMeshUtils.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2819,7 +2647,6 @@
 		F33E8A72FD1B4EC78A81F2A3 /* CCPass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPass.h; path = "frameworks/cocos2d-x/cocos/renderer/CCPass.h"; sourceTree = SOURCE_ROOT; };
 		F376603276D144CE8CC2306D /* CCControlSwitch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCControlSwitch.cpp; path = "frameworks/cocos2d-x/extensions/GUI/CCControlExtension/CCControlSwitch.cpp"; sourceTree = SOURCE_ROOT; };
 		F3856E757956442F99D94E83 /* CCPUOnEventFlagObserverTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnEventFlagObserverTranslator.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUOnEventFlagObserverTranslator.cpp"; sourceTree = SOURCE_ROOT; };
-		F3C16E30CF784C57B87B5A74 /* UICheckBox.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UICheckBox.lua; path = src/cocos/framework/extends/UICheckBox.lua; sourceTree = SOURCE_ROOT; };
 		F3C8A0B786E44574900703DD /* CCLabelTextFormatter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCLabelTextFormatter.h; path = "frameworks/cocos2d-x/cocos/2d/CCLabelTextFormatter.h"; sourceTree = SOURCE_ROOT; };
 		F3EA1F6BAE1C4241841B5314 /* CCPUBaseCollider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUBaseCollider.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUBaseCollider.cpp"; sourceTree = SOURCE_ROOT; };
 		F455C9F8667C46E5BD49CD04 /* Vec4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vec4.cpp; path = "frameworks/cocos2d-x/cocos/math/Vec4.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2830,7 +2657,6 @@
 		F4FFDCBF783746D7A47FFCC5 /* CCPUBehaviour.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUBehaviour.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUBehaviour.h"; sourceTree = SOURCE_ROOT; };
 		F505E6FF8B84406D99401191 /* CCMenu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCMenu.h; path = "frameworks/cocos2d-x/cocos/2d/CCMenu.h"; sourceTree = SOURCE_ROOT; };
 		F51E27D5AC13478CB895CCEF /* CheckBoxReader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckBoxReader.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/CheckBoxReader/CheckBoxReader.h"; sourceTree = SOURCE_ROOT; };
-		F5684567386F484FADA1BAEB /* config.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = config.lua; path = src/config.lua; sourceTree = SOURCE_ROOT; };
 		F5BC0B6D3A2E4CD88B70D3B6 /* CCPUAlignAffector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUAlignAffector.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUAlignAffector.h"; sourceTree = SOURCE_ROOT; };
 		F5E0B131201047E5A60A8886 /* GUIDefine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GUIDefine.h; path = "frameworks/cocos2d-x/cocos/ui/GUIDefine.h"; sourceTree = SOURCE_ROOT; };
 		F5F6B5FC03314EECA7F5E610 /* HttpResponse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HttpResponse.h; path = "frameworks/cocos2d-x/cocos/network/HttpResponse.h"; sourceTree = SOURCE_ROOT; };
@@ -2845,12 +2671,10 @@
 		F7B3AB9C976943A18CE03DED /* CCPUColorAffectorTranslator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUColorAffectorTranslator.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUColorAffectorTranslator.h"; sourceTree = SOURCE_ROOT; };
 		F7F2F56292684AFDAFA5E2EF /* UIButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UIButton.h; path = "frameworks/cocos2d-x/cocos/ui/UIButton.h"; sourceTree = SOURCE_ROOT; };
 		F7FD546BDAFC45ED9E619D36 /* CCPUEmitterManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUEmitterManager.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUEmitterManager.h"; sourceTree = SOURCE_ROOT; };
-		F7FE314D22174398AD251B64 /* DeprecatedUIFunc.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DeprecatedUIFunc.lua; path = src/cocos/ui/DeprecatedUIFunc.lua; sourceTree = SOURCE_ROOT; };
 		F82C21BE314943A6829FD5B5 /* CCFrustum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCFrustum.h; path = "frameworks/cocos2d-x/cocos/3d/CCFrustum.h"; sourceTree = SOURCE_ROOT; };
 		F8310FCE05574DBDB62D4539 /* CCActionTimelineCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionTimelineCache.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline/CCActionTimelineCache.h"; sourceTree = SOURCE_ROOT; };
 		F85F074CE9124F59BEFE360E /* TriggerBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TriggerBase.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/TriggerBase.cpp"; sourceTree = SOURCE_ROOT; };
 		F861FF4D0A39497E9EBF4119 /* CCPUCollisionAvoidanceAffector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUCollisionAvoidanceAffector.h; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUCollisionAvoidanceAffector.h"; sourceTree = SOURCE_ROOT; };
-		F8697B46E38A446C9041AC6D /* SpriteEx.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SpriteEx.lua; path = src/cocos/framework/extends/SpriteEx.lua; sourceTree = SOURCE_ROOT; };
 		F8AD4AF7DEE343158A656C61 /* DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = "frameworks/cocos2d-x/external/recast/Detour/DetourAlloc.cpp"; sourceTree = SOURCE_ROOT; };
 		F8D9CC545BE140EBAB6707AF /* CCParticleSystem3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCParticleSystem3D.h; path = "frameworks/cocos2d-x/extensions/Particle3D/CCParticleSystem3D.h"; sourceTree = SOURCE_ROOT; };
 		F8DFF773A69D4DB099EED267 /* ccMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccMacros.h; path = "frameworks/cocos2d-x/cocos/base/ccMacros.h"; sourceTree = SOURCE_ROOT; };
@@ -2870,7 +2694,6 @@
 		FB6FC495986245E7A2AB7049 /* UIEditBoxImpl-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "UIEditBoxImpl-ios.mm"; path = "frameworks/cocos2d-x/cocos/ui/UIEditBox/UIEditBoxImpl-ios.mm"; sourceTree = SOURCE_ROOT; };
 		FB7459DB2E2941728779AC8A /* CCPURender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPURender.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPURender.cpp"; sourceTree = SOURCE_ROOT; };
 		FB776FC36EA042CDAD0EAC21 /* CCPUMeshSurfaceEmitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUMeshSurfaceEmitter.cpp; path = "frameworks/cocos2d-x/extensions/Particle3D/PU/CCPUMeshSurfaceEmitter.cpp"; sourceTree = SOURCE_ROOT; };
-		FBE3C44E4CEA41EE87DEC840 /* AppBase.lua */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = AppBase.lua; path = src/packages/mvc/AppBase.lua; sourceTree = SOURCE_ROOT; };
 		FBF5BD899C7E4563BB640C13 /* CCComBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCComBase.h; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/CCComBase.h"; sourceTree = SOURCE_ROOT; };
 		FC329AD1E6EA45799202D0C0 /* CCImage-ios.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "CCImage-ios.mm"; path = "frameworks/cocos2d-x/cocos/platform/ios/CCImage-ios.mm"; sourceTree = SOURCE_ROOT; };
 		FC9754E493F14AB481EBFC72 /* ParticleReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ParticleReader.cpp; path = "frameworks/cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ParticleReader/ParticleReader.cpp"; sourceTree = SOURCE_ROOT; };
@@ -2906,14 +2729,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02CBFD76715C4A70A6799503 /* 3d */ = {
-			isa = PBXGroup;
-			children = (
-				D90779B1D0CA46F8997AFECC /* 3dConstants.lua */,
-			);
-			name = 3d;
-			sourceTree = "<group>";
-		};
 		059A7D58D78A49ACBC939DD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -2935,25 +2750,6 @@
 				430DCB56970F4EC993CF82A3 /* libluacocos2d.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0647ED32042541D3BC27B4AF /* cocos */ = {
-			isa = PBXGroup;
-			children = (
-				02CBFD76715C4A70A6799503 /* 3d */,
-				9346E63427C14D5ABB46047C /* cocos2d */,
-				561AF39D414D40BD8C3BB521 /* cocosdenshion */,
-				3396FF8F92DF4DB898E6BBF9 /* cocostudio */,
-				4211339E20A9408AB76511CD /* controller */,
-				47ACCB81F9884B77A34216FE /* extension */,
-				5B662CB7A99941D8A5602A76 /* framework */,
-				D4ED7C51B5E641989E2B555B /* network */,
-				22616DC817CC4DA5949B6D83 /* physics3d */,
-				325B6E5D532C4C9EA3E0CD93 /* spine */,
-				9B8CAE78899641B4B23515B4 /* ui */,
-				B2A8095E88E949169639B90C /* init.lua */,
-			);
-			name = cocos;
 			sourceTree = "<group>";
 		};
 		0705D9C631C34127A716F514 /* cocos2d */ = {
@@ -3222,14 +3018,6 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		22616DC817CC4DA5949B6D83 /* physics3d */ = {
-			isa = PBXGroup;
-			children = (
-				32C4B6E396164EF5B31FCDDA /* physics3d-constants.lua */,
-			);
-			name = physics3d;
-			sourceTree = "<group>";
-		};
 		23DE3D3562F24DCB98532E4E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -3282,25 +3070,6 @@
 			name = frameworks;
 			sourceTree = "<group>";
 		};
-		325B6E5D532C4C9EA3E0CD93 /* spine */ = {
-			isa = PBXGroup;
-			children = (
-				38508A98A6D648B6B6EDEA09 /* SpineConstants.lua */,
-			);
-			name = spine;
-			sourceTree = "<group>";
-		};
-		3396FF8F92DF4DB898E6BBF9 /* cocostudio */ = {
-			isa = PBXGroup;
-			children = (
-				2900AC37518840499A4A6358 /* CocoStudio.lua */,
-				556562293CD6459CA1F5B7AB /* DeprecatedCocoStudioClass.lua */,
-				4D66A09D0B5944389CC06D0F /* DeprecatedCocoStudioFunc.lua */,
-				5C1B27958E804D81B7CDA519 /* StudioConstants.lua */,
-			);
-			name = cocostudio;
-			sourceTree = "<group>";
-		};
 		33BC0696956B48AEB565714B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -3347,15 +3116,6 @@
 			name = SingleNodeReader;
 			sourceTree = "<group>";
 		};
-		3EADF44C9B8F4294887BEDAC /* app */ = {
-			isa = PBXGroup;
-			children = (
-				CF236947B0DF4987B12263AD /* views */,
-				2F84A32AA7D549EA945DACB5 /* MyApp.lua */,
-			);
-			name = app;
-			sourceTree = "<group>";
-		};
 		3EB65B0693114C83811696A4 /* cocostudio */ = {
 			isa = PBXGroup;
 			children = (
@@ -3367,14 +3127,6 @@
 				47F781B8E0C2401AB8E611B2 /* lua_cocos2dx_csloader_manual.cpp */,
 			);
 			name = cocostudio;
-			sourceTree = "<group>";
-		};
-		4211339E20A9408AB76511CD /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				62B5C44F85E04F45B7FF213C /* ControllerConstants.lua */,
-			);
-			name = controller;
 			sourceTree = "<group>";
 		};
 		45B970FC26E945C4965C7FC3 /* navmesh */ = {
@@ -3395,17 +3147,6 @@
 				D647F737D26942768B66C757 /* lua_cocos2dx_physics3d_manual.h */,
 			);
 			name = physics3d;
-			sourceTree = "<group>";
-		};
-		47ACCB81F9884B77A34216FE /* extension */ = {
-			isa = PBXGroup;
-			children = (
-				B3E5D1CA7A8646ECAE7D3271 /* DeprecatedExtensionClass.lua */,
-				DAF12DCE7D1E4C6BB8BA92C0 /* DeprecatedExtensionEnum.lua */,
-				8B3CE5193E2B441686D795BB /* DeprecatedExtensionFunc.lua */,
-				46A6C7488797464A953A9D03 /* ExtensionConstants.lua */,
-			);
-			name = extension;
 			sourceTree = "<group>";
 		};
 		4B4B746717B04CEE8B352259 /* ios */ = {
@@ -3485,8 +3226,6 @@
 		5331D3CC7F74477FA792C372 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D83DE8B5E3214FBBB1E34A23 /* res */,
-				D0200DEE439E4BCA9B0F19C3 /* src */,
 				0AEE37D27EC049CCB10CC92B /* Info.plist */,
 			);
 			name = Resources;
@@ -3526,14 +3265,6 @@
 				DA4B755726C548D8B996F597 /* AudioPlayer.mm */,
 			);
 			name = apple;
-			sourceTree = "<group>";
-		};
-		561AF39D414D40BD8C3BB521 /* cocosdenshion */ = {
-			isa = PBXGroup;
-			children = (
-				E518A72F87D848ACB28638FD /* AudioEngine.lua */,
-			);
-			name = cocosdenshion;
 			sourceTree = "<group>";
 		};
 		58C157B593204B9B9ACDA991 /* Resources */ = {
@@ -3588,20 +3319,6 @@
 				D90EC13AF4934A2188153CD3 /* ccShaders.h */,
 			);
 			name = renderer;
-			sourceTree = "<group>";
-		};
-		5B662CB7A99941D8A5602A76 /* framework */ = {
-			isa = PBXGroup;
-			children = (
-				8E8166D9028E4C4E9692444B /* components */,
-				F7F4BC8C479B4222AF3507AD /* extends */,
-				2747612886D04F0EB79F1BBC /* device.lua */,
-				10B1DBC8DA6F474C96C5214E /* display.lua */,
-				9C47D78FEF874A4DA010A649 /* init.lua */,
-				920E9836A0154DC7B70C9E12 /* package_support.lua */,
-				7E5F77AD42344969A1B3E2A1 /* transition.lua */,
-			);
-			name = framework;
 			sourceTree = "<group>";
 		};
 		5C6A1E369488463CAD0A7B9E /* Source Files */ = {
@@ -3952,14 +3669,6 @@
 			name = backend;
 			sourceTree = "<group>";
 		};
-		80E76566435C43D8A422EDB2 /* packages */ = {
-			isa = PBXGroup;
-			children = (
-				ED564FEB4F3D43AFBE463BAB /* mvc */,
-			);
-			name = packages;
-			sourceTree = "<group>";
-		};
 		8112649DAF444FE5963C4D4E /* ProjectNodeReader */ = {
 			isa = PBXGroup;
 			children = (
@@ -4283,14 +3992,6 @@
 			name = apple;
 			sourceTree = "<group>";
 		};
-		8E8166D9028E4C4E9692444B /* components */ = {
-			isa = PBXGroup;
-			children = (
-				15DBBC6D242D46D396430333 /* event.lua */,
-			);
-			name = components;
-			sourceTree = "<group>";
-		};
 		92A58E4F45B249BFAAF125C0 /* Particle3D */ = {
 			isa = PBXGroup;
 			children = (
@@ -4305,25 +4006,6 @@
 				F8D9CC545BE140EBAB6707AF /* CCParticleSystem3D.h */,
 			);
 			name = Particle3D;
-			sourceTree = "<group>";
-		};
-		9346E63427C14D5ABB46047C /* cocos2d */ = {
-			isa = PBXGroup;
-			children = (
-				ACEE6C58D58745F5B402A908 /* Cocos2d.lua */,
-				B463555480A94655B3DC88C8 /* Cocos2dConstants.lua */,
-				EC271E0897CC40C8A2F2BB4E /* DeprecatedCocos2dClass.lua */,
-				D02EE03DCED14A88916998A1 /* DeprecatedCocos2dEnum.lua */,
-				9A859F1E1FAB4967A8506BDF /* DeprecatedCocos2dFunc.lua */,
-				BDB6252949634637B8E494CC /* DrawPrimitives.lua */,
-				A8BC6A2FAAAB438DB166A4A0 /* bitExtend.lua */,
-				E9B0CC31E1984386B60DF59B /* deprecated.lua */,
-				689A43B2678844DC8CD14E73 /* functions.lua */,
-				61679223194B44B0A496B18E /* json.lua */,
-				973D9A8F81BD4EE4AD132E99 /* luaj.lua */,
-				536FEDE218304B9387128CE0 /* luaoc.lua */,
-			);
-			name = cocos2d;
 			sourceTree = "<group>";
 		};
 		9400FEE58C38408D8A8B16EA /* manual */ = {
@@ -4397,16 +4079,6 @@
 				03321E057F064EE1A2004B67 /* lua_cocos2dx_3d_manual.h */,
 			);
 			name = 3d;
-			sourceTree = "<group>";
-		};
-		9B8CAE78899641B4B23515B4 /* ui */ = {
-			isa = PBXGroup;
-			children = (
-				AECBB4FB878A49A198E94E51 /* DeprecatedUIEnum.lua */,
-				F7FE314D22174398AD251B64 /* DeprecatedUIFunc.lua */,
-				DF9BD9B01A924E8ABC362740 /* GuiConstants.lua */,
-			);
-			name = ui;
 			sourceTree = "<group>";
 		};
 		9BF189AAFDE840A594C87034 /* Node3DReader */ = {
@@ -5145,26 +4817,6 @@
 			name = TextAtlasReader;
 			sourceTree = "<group>";
 		};
-		CF236947B0DF4987B12263AD /* views */ = {
-			isa = PBXGroup;
-			children = (
-				D3D684464D4E47CE9428A724 /* MainScene.lua */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		D0200DEE439E4BCA9B0F19C3 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				3EADF44C9B8F4294887BEDAC /* app */,
-				0647ED32042541D3BC27B4AF /* cocos */,
-				80E76566435C43D8A422EDB2 /* packages */,
-				F5684567386F484FADA1BAEB /* config.lua */,
-				01C8E4E569F1402C912805D2 /* main.lua */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		D343A380146D49E0AD16BE54 /* 2d */ = {
 			isa = PBXGroup;
 			children = (
@@ -5304,17 +4956,6 @@
 			name = 2d;
 			sourceTree = "<group>";
 		};
-		D4ED7C51B5E641989E2B555B /* network */ = {
-			isa = PBXGroup;
-			children = (
-				C40AFF86E8BC4115AEA38F66 /* DeprecatedNetworkClass.lua */,
-				D8C17F8E805C42688E4ABAFA /* DeprecatedNetworkEnum.lua */,
-				ADDFE4D5069147F4BDDEB1FA /* DeprecatedNetworkFunc.lua */,
-				5676661A122540148E4A1420 /* NetworkConstants.lua */,
-			);
-			name = network;
-			sourceTree = "<group>";
-		};
 		D76007660FBD4858A727E213 /* platform */ = {
 			isa = PBXGroup;
 			children = (
@@ -5333,14 +4974,6 @@
 				FB6FC495986245E7A2AB7049 /* UIEditBoxImpl-ios.mm */,
 			);
 			name = UIEditBox;
-			sourceTree = "<group>";
-		};
-		D83DE8B5E3214FBBB1E34A23 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				D33E07ACD4AE49889B5CBE31 /* HelloWorld.png */,
-			);
-			name = res;
 			sourceTree = "<group>";
 		};
 		D9B8B6BF9E544C1CAB79FBF5 /* GameMapReader */ = {
@@ -5492,16 +5125,6 @@
 			name = deprecated;
 			sourceTree = "<group>";
 		};
-		ED564FEB4F3D43AFBE463BAB /* mvc */ = {
-			isa = PBXGroup;
-			children = (
-				FBE3C44E4CEA41EE87DEC840 /* AppBase.lua */,
-				B24C4A23896C47C2B7383FCA /* ViewBase.lua */,
-				A1ACD1C8DDBD48F39E9A7243 /* init.lua */,
-			);
-			name = mvc;
-			sourceTree = "<group>";
-		};
 		ED8C401DAD4F46329E346BCC /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -5565,25 +5188,6 @@
 				83FF91C4DA2B46EE893347A1 /* CMakeLists.txt */,
 			);
 			name = ext_xxtea;
-			sourceTree = "<group>";
-		};
-		F7F4BC8C479B4222AF3507AD /* extends */ = {
-			isa = PBXGroup;
-			children = (
-				6351AAE87D3C4268AF838C7F /* LayerEx.lua */,
-				23746432EB62474A9E24D327 /* MenuEx.lua */,
-				7C53BE6FBDFD44AABB1C3AFB /* NodeEx.lua */,
-				F8697B46E38A446C9041AC6D /* SpriteEx.lua */,
-				F3C16E30CF784C57B87B5A74 /* UICheckBox.lua */,
-				90741BB053F54F6EAA310197 /* UIEditBox.lua */,
-				071C544B3E4E4591A30E0045 /* UIListView.lua */,
-				48DA18A8B34A41FE8781BEBA /* UIPageView.lua */,
-				9D9F765CE6214BEF8D091DD3 /* UIScrollView.lua */,
-				9B1BE31BF1D442ADA3ACA2F1 /* UISlider.lua */,
-				A8BD499F9C82477BA97E1047 /* UITextField.lua */,
-				14F80EFC9B854C6C9942920F /* UIWidget.lua */,
-			);
-			name = extends;
 			sourceTree = "<group>";
 		};
 		F963946C0835402DABF01B65 /* ArmatureNodeReader */ = {
