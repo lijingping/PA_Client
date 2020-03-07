@@ -27,6 +27,7 @@
 #include "cocos2d.h"
 #include "scripting/lua-bindings/manual/lua_module_register.h"
 #include "lua-bindings/lua_pomelo_auto.hpp"
+#include "network/lua_extensions.h"
 
 // #define USE_AUDIO_ENGINE 1
 
@@ -69,6 +70,9 @@ void AppDelegate::initGLContextAttrs()
 // don't modify or remove this function
 static int register_all_packages()
 {
+    lua_State* tolua_S = LuaEngine::getInstance()->getLuaStack()->getLuaState();
+    luaopen_lua_extensions(tolua_S);
+    
     return 0; //flag for packages manager
 }
 
@@ -92,14 +96,15 @@ bool AppDelegate::applicationDidFinishLaunching()
     //LuaStack* stack = engine->getLuaStack();
     //register_custom_function(stack->getLuaState());
 
-    register_all_pomelo(L);
+    lua_State* l = stack->getLuaState();
+    register_all_pomelo(l);
     
 #if CC_64BITS
     FileUtils::getInstance()->addSearchPath("src/64bit");
 #endif
-    FileUtils::getInstance()->addSearchPath("src");
-    FileUtils::getInstance()->addSearchPath("res");
-    if (engine->executeScriptFile("main.lua"))
+    //FileUtils::getInstance()->addSearchPath("src");
+    //FileUtils::getInstance()->addSearchPath("res");
+    if (engine->executeScriptFile("src/main.lua"))
     {
         return false;
     }

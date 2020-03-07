@@ -25,6 +25,26 @@ Network.EVENT_DISCONNECT = "event_disconnect"
 Network.GATE_HOST = NetworkConst.TEST1_GATE_HOST
 Network.GATE_PORT = NetworkConst.TEST1_GATE_PORT
 
+  local tablePrinted = {}
+
+
+function printTableItem(k, v, level)
+    for i = 1, level do
+        io.write("    ")
+    end
+
+
+    io.write(tostring(k), " = ", tostring(v), "\n")
+    if type(v) == "table" then
+        if not tablePrinted[v] then
+            tablePrinted[v] = true
+            for k, v in pairs(v) do
+                printTableItem(k, v, level + 1)
+            end
+        end
+    end
+end
+
 function Network:init()
     self.request_id = 0
     self.request_cbs = {}
@@ -33,6 +53,7 @@ function Network:init()
 
     self.isConnected = false
     self.tryReconnect = false
+
     self.ccPomelo = pomelo.CCPomelo:getInstance()
 end
 

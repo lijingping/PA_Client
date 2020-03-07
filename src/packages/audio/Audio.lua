@@ -1,7 +1,7 @@
 local Audio = {}
 
 function Audio:init()
-	self.audioEngine = cc.SimpleAudioEngine:getInstance()
+	self.audioEngine = cc.AudioEngine
 	self.fileUtils = cc.FileUtils:getInstance()	
 
 	self.musics = {}
@@ -11,13 +11,13 @@ end
 function Audio:setMusicVolume(volume)
 	local v = volume or 1
 	v = Utils:clamp(v, 0, 1)
-	self.audioEngine:setMusicVolume(v)
+	self.audioEngine.setVolume(v)
 end
 
 function Audio:setEffectsVolume(volume)
 	local v = volume or 1
 	v = Utils:clamp(v, 0, 1)
-	self.audioEngine:setEffectsVolume(v)
+	self.audioEngine.setVolume(v)
 end
 
 function Audio:preloadMusic(name, path)
@@ -31,7 +31,7 @@ function Audio:preloadMusic(name, path)
 		return
 	end	
 
-	self.audioEngine:preloadMusic(path)
+	self.audioEngine.preload(path)
 	self.musics[name] = path
 end
 
@@ -42,23 +42,23 @@ function Audio:playMusic(name, loop)
 	end
 
 	local l = loop or true
-	-- self.audioEngine:playMusic(self.musics[name], l)
+	-- self.audioEngine.playMusic(self.musics[name], l)
 end
 
 function Audio:pauseMusic()
-	self.audioEngine:pauseMusic()
+	self.audioEngine.pauseAll()
 end
 
 function Audio:resumeMusic()
-	self.audioEngine:resumeMusic()
+	self.HOST_HP_NODE_START_TAGresume()
 end
 
 function Audio:stopMusic()
-	self.audioEngine:stopMusic()
+	self.audioEngine.stopAll()
 end
 
 function Audio:isMusicPlaying()
-	return self.audioEngine:isMusicPlaying()
+	return self.audioEngine.isEnabled()
 end
 
 function Audio:preloadEffect(name, path)
@@ -72,7 +72,7 @@ function Audio:preloadEffect(name, path)
 		return
 	end
 
-	self.audioEngine:preloadEffect(path)
+	self.audioEngine.preload(path)
 	self.effects[name] = path
 end
 
@@ -91,24 +91,24 @@ function Audio:playEffect(name, loop, pitch, pan, gain)
 	pa = Utils:clamp(pa, -1, 1)
 	g = Utils:clamp(g, 0, 1)
 
-	-- return self.audioEngine:playEffect(self.effects[name], l, pi, pa, g) -- return id
+	-- return self.audioEngine.playEffect(self.effects[name], l, pi, pa, g) -- return id
 end
 
 -- 此id为hash的id 而非name
 function Audio:pauseEffect(id)
-	self.audioEngine:pauseEffect(id)
+	self.audioEngine.pause(id)
 end
 
 function Audio:resumeEffect(id)
-	self.audioEngine:resumeEffect(id)
+	self.audioEngine.resume(id)
 end
 
 function Audio:stopEffect(id)
-	self.audioEngine:stopEffect(id)
+	self.audioEngine.stop(id)
 end
 
 function Audio:stopAllEffects()
-	self.audioEngine:stopAllEffects();
+	self.audioEngine.stopAll();
 end
 
 function Audio:unloadEffect(name)
@@ -117,7 +117,7 @@ function Audio:unloadEffect(name)
 		return
 	end
 
-	self.audioEngine:unloadEffect(self.effects[name])
+	--self.audioEngine.unloadEffect(self.effects[name])
 	table.remove(self.effects, name)
 end
 

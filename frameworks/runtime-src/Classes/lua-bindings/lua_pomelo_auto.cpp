@@ -504,14 +504,21 @@ int lua_register_pomelo_CCPomelo(lua_State* tolua_S)
 }
 TOLUA_API int register_all_pomelo(lua_State* tolua_S)
 {
-	tolua_open(tolua_S);
-	
-	tolua_module(tolua_S,"pomelo",0);
-	tolua_beginmodule(tolua_S,"pomelo");
+    lua_getglobal(tolua_S, "_G");
+    
+    if (lua_istable(tolua_S,-1))//stack:...,_G,
+    {
+        tolua_open(tolua_S);
+        
+        tolua_module(tolua_S,"pomelo",0);
+        tolua_beginmodule(tolua_S,"pomelo");
 
-	lua_register_pomelo_CCPomelo(tolua_S);
+        lua_register_pomelo_CCPomelo(tolua_S);
 
-	tolua_endmodule(tolua_S);
+        tolua_endmodule(tolua_S);
+    }
+    lua_pop(tolua_S, 1);
+    
 	return 1;
 }
 

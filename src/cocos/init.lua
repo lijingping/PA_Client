@@ -33,8 +33,8 @@ __G__TRACKBACK__ = function(msg)
 end
 
 -- opengl
-require "cocos.cocos2d.Opengl"
-require "cocos.cocos2d.OpenglConstants"
+--require "cocos.cocos2d.Opengl"
+--require "cocos.cocos2d.OpenglConstants"
 -- audio
 require "cocos.cocosdenshion.AudioEngine"
 -- cocosstudio
@@ -72,7 +72,7 @@ require "cocos.cocos2d.bitExtend"
 require "cocos.cocos2d.DeprecatedCocos2dClass"
 require "cocos.cocos2d.DeprecatedCocos2dEnum"
 require "cocos.cocos2d.DeprecatedCocos2dFunc"
-require "cocos.cocos2d.DeprecatedOpenglEnum"
+--require "cocos.cocos2d.DeprecatedOpenglEnum"
 
 -- register_cocostudio_module
 if nil ~= ccs then
@@ -101,7 +101,7 @@ require "cocos.network.DeprecatedNetworkFunc"
 -- register_ui_moudle
 if nil ~= ccui then
     require "cocos.ui.DeprecatedUIEnum"
-    require "cocos.ui.DeprecatedUIFunc"
+    --require "cocos.ui.DeprecatedUIFunc"
 end
 
 -- cocosbuilder
