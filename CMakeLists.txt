@@ -55,8 +55,16 @@ if(APPLE OR VS)
 endif()
 
 # record sources, headers
-set(GAME_HEADER ${RUNTIME_SRC_ROOT}/Classes/AppDelegate.h)
-set(GAME_SOURCE ${RUNTIME_SRC_ROOT}/Classes/AppDelegate.cpp)
+set(GAME_HEADER 
+	${RUNTIME_SRC_ROOT}/Classes/AppDelegate.h
+	${RUNTIME_SRC_ROOT}/Classes/CCPomelo.h
+	${RUNTIME_SRC_ROOT}/Classes/lua-bindings/lua_pomelo_auto.hpp
+)
+set(GAME_SOURCE
+	${RUNTIME_SRC_ROOT}/Classes/AppDelegate.cpp
+	${RUNTIME_SRC_ROOT}/Classes/CCPomelo.cpp
+	${RUNTIME_SRC_ROOT}/Classes/lua-bindings/lua_pomelo_auto.cpp
+)
 # sources need to compile info, include dirs and source files
 
 if(ANDROID)

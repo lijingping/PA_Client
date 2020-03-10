@@ -46,6 +46,7 @@ include(base/CMakeLists.txt)
 include(ui/CMakeLists.txt)
 include(network/CMakeLists.txt)
 include(audio/CMakeLists.txt)
+include(libpomelo2/CMakeLists.txt)
 
 # default value for cocos2dx extensions modules build
 option(BUILD_EDITOR_COCOSTUDIO "Build editor support for cocostudio" ON)
@@ -81,6 +82,7 @@ set(COCOS_HEADER cocos2d.h
     ${COCOS_NETWORK_HEADER}
     ${COCOS_EDITOR_SUPPORT_HEADER}
     ${COCOS_EXTENSIONS_HEADER}
+    ${COCOS_LIBPOMELO2_HEADER}
     )
 
 set(COCOS_SRC cocos2d.cpp
@@ -99,6 +101,7 @@ set(COCOS_SRC cocos2d.cpp
     ${COCOS_EDITOR_SUPPORT_SRC}
     ${COCOS_EXTENSIONS_SRC}
     ${COCOS_STORAGE_SRC}
+    ${COCOS_LIBPOMELO2_SRC}
     )
 
 list(APPEND COCOS_SRC ${COCOS_HEADER})
@@ -122,6 +125,7 @@ target_include_directories(cocos2d
     PUBLIC ${COCOS2DX_ROOT_PATH}/extensions
     PUBLIC ${COCOS2DX_ROOT_PATH}/cocos/platform
     PUBLIC ${COCOS2DX_ROOT_PATH}/cocos/editor-support
+    PUBLIC ${COCOS2DX_ROOT_PATH}/cocos/libpomelo2/include
     INTERFACE ${COCOS2DX_ROOT_PATH}/cocos/base
     INTERFACE ${COCOS2DX_ROOT_PATH}/cocos/audio/include
     INTERFACE ${COCOS2DX_ROOT_PATH}/cocos/platform/${PLATFORM_FOLDER}
