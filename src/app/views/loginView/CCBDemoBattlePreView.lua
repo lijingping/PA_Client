@@ -7,22 +7,13 @@ local ANIMA_RES_PATH = "res/anims/demo";
 local MAX_ARMS = 6;
 local table_insert = table.insert;
 
-local function loading(this, parent)
-    for k=1, parent:getChildrenCount() do
-        local children = node:getChildren()[k]
-        this[children:getName()] = children
-    end
-    return parent
-end
-
 local CCBDemoBattlePreView = class("CCBDemoBattlePreView", function ()
-    --local node = cc.CSLoader:createNode("ccbi/loginView/CCBDemoBattlePreView.csb");
-	return cc.CSLoader:createNode("ccbi/loginView/CCBDemoBattlePreView.csb")
+	return CCBLoader("ccbi/loginView/CCBDemoBattlePreView.ccbi")
 end)
 
 function CCBDemoBattlePreView:ctor()
 	if display.resolution >= 2 then
-   		--self.m_ccbNodeCenter:setScale(display.reduce);
+   		self.m_ccbNodeCenter:setScale(display.reduce);
    	end
 
 	local size = cc.size(636.0, 53);
@@ -44,7 +35,7 @@ function CCBDemoBattlePreView:ctor()
     self.m_playerCount:setMaxLength(16);
     self.m_playerCount:setText(6);
     self.m_playerCount:setPosition(0, -size.height);
-    self:getChildByName("m_ccbNodePlayer"):addChild(self.m_playerCount);
+    self.m_ccbNodePlayer:addChild(self.m_playerCount);
 
 
 	local enemyBox = cc.Scale9Sprite:create("res/resources/loginView/login_input.png");
@@ -65,52 +56,7 @@ function CCBDemoBattlePreView:ctor()
     self.m_enemyCount:setMaxLength(16);
     self.m_enemyCount:setText(6);
     self.m_enemyCount:setPosition(0, -size.height);
-    self:getChildByName("m_ccbNodeEnemy"):addChild(self.m_enemyCount);
-
-    local btcallback =
-
-    self:getChildByName("m_ccbBtn1")
-    :addTouchEventListener(function(ref, type)
-        if type == ccui.TouchEventType.ended then
-            self:onBtnPlayer1();
-        end
-    end)
-
-    self:getChildByName("m_ccbBtn2")
-    :addTouchEventListener(function(ref, type)
-        if type == ccui.TouchEventType.ended then
-            self:onBtnPlayer2();
-        end
-    end)
-
-        self:getChildByName("m_ccbBtn3")
-    :addTouchEventListener(function(ref, type)
-        if type == ccui.TouchEventType.ended then
-            self:onBtnPlayer3();
-        end
-    end)
-
-    self:getChildByName("m_ccbBtn4")
-    :addTouchEventListener(function(ref, type)
-        if type == ccui.TouchEventType.ended then
-            self:onBtnEnemy1();
-        end
-    end)
-
-    self:getChildByName("m_ccbBtn5")
-    :addTouchEventListener(function(ref, type)
-        if type == ccui.TouchEventType.ended then
-            self:onBtnEnemy2();
-        end
-    end)
-
-
-    self:getChildByName("m_ccbBtn6")
-    :addTouchEventListener(function(ref, type)
-        if type == ccui.TouchEventType.ended then
-            self:onBtnEnemy3();
-        end
-    end)
+    self.m_ccbNodEnemy:addChild(self.m_enemyCount);
 end
 
 function CCBDemoBattlePreView:onBtnEnter()

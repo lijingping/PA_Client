@@ -52,6 +52,7 @@ include(libpomelo2/CMakeLists.txt)
 option(BUILD_EDITOR_COCOSTUDIO "Build editor support for cocostudio" ON)
 option(BUILD_EDITOR_SPINE "Build editor support for spine" OFF)
 option(BUILD_EXTENSIONS "Build extension library" ON)
+option(BUILD_EDITOR_COCOSBUILDER "Build editor support for cocosbuilder" ON)
 
 if(BUILD_EDITOR_COCOSTUDIO)
     include(editor-support/cocostudio/CMakeLists.txt)
@@ -66,6 +67,11 @@ endif(BUILD_EDITOR_SPINE)
 if(BUILD_EXTENSIONS)
     include(../extensions/CMakeLists.txt)
 endif(BUILD_EXTENSIONS)
+
+if(BUILD_EDITOR_COCOSBUILDER)
+    include(editor-support/cocosbuilder/CMakeLists.txt)
+    set(COCOS_EDITOR_SUPPORT_SRC ${COCOS_EDITOR_SUPPORT_SRC} ${COCOS_CCB_SRC} ${COCOS_CCB_HEADER})
+endif(BUILD_EDITOR_COCOSBUILDER)
 
 set(COCOS_HEADER cocos2d.h
     ${COCOS_2D_HEADER}
