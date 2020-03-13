@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4E05448DDAD94E1496FAD6E5 /* ALL_BUILD */ = {
+		23CD218E6D304D0D8D12BDC4 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BCC04F10A1D149BFBD0614D3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 61A1C1E075E04E6081809AC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				56CF73479950442D8A47A8B8 /* CMake Rules */,
+				0C24DC34B43449E5B29B54D6 /* CMake Rules */,
 			);
 			dependencies = (
-				972A4CB89FA549BDA579F428 /* PBXTargetDependency */,
+				95B6AA8741CC43BA937FF70D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		B91990054B9341078F5EA2D8 /* ZERO_CHECK */ = {
+		BAC810648F63425F8717AEF6 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0510FED09860425EAB694386 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 3A48F516D796444C9FE7AF81 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				BE5B7FBE49CD4DDD9360FC4E /* CMake Rules */,
+				A82B1C1959B94F35A0F0D4A2 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -33,114 +33,114 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		3862FB6FCC0E42F6ACC67A1C /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		51EF057EFAAA42EEA5E1E70D /* RelWithDebInfo */ = {
+		1FD541B8C9104B54A23887D4 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		8C642EF527394399BD10BD37 /* Debug */ = {
+		2B76D672C7C94DD287BAB77B /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		FE5C416A388D4315BAF7DF62 /* MinSizeRel */ = {
+		9D339B49B0944B878B1AEB0E /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		FAFBBBADB8B0455FBEB56FD9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		7AF454DF05EF427484E1D2FF /* PBXContainerItemProxy */ = {
+		452C603C15F846378C12A9DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 845C96F7BA3A4AABB512DBD6 /* Project object */;
+			containerPortal = CECB266A2A354E918D59544F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B91990054B9341078F5EA2D8;
+			remoteGlobalIDString = BAC810648F63425F8717AEF6;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E28941D1D814D918F4A43CC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A4F61DAD49CC4B65A3DD944F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		96E4FAEC72EA4CBFABDB3DFA /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				9FCBC0939D0E487C8B8420EE /* CMake Rules */,
-				3E28941D1D814D918F4A43CC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		9FCBC0939D0E487C8B8420EE /* CMake Rules */ = {
+		731AB77213584872B114C70D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		C6DFCA0CF7B9477D82E2BD30 = {
-			isa = PBXGroup;
-			children = (
-				96E4FAEC72EA4CBFABDB3DFA /* ALL_BUILD */,
-				D91BE983267B4FD6952AA2E8 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D91BE983267B4FD6952AA2E8 /* Products */ = {
+		752AB173E7BD4AC1A3E3DB64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8E88FD054EA54C27A1A3134E = {
+			isa = PBXGroup;
+			children = (
+				D7CAEC1A4AB44285B4393E6E /* ALL_BUILD */,
+				752AB173E7BD4AC1A3E3DB64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CAEC1A4AB44285B4393E6E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				731AB77213584872B114C70D /* CMake Rules */,
+				A4F61DAD49CC4B65A3DD944F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/websockets/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		845C96F7BA3A4AABB512DBD6 /* Project object */ = {
+		CECB266A2A354E918D59544F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1010;
 			};
-			buildConfigurationList = 8447DAB9696B40CDB5C946F2 /* Build configuration list for PBXProject "websockets" */;
+			buildConfigurationList = 064181A47B574B01BAF1C37C /* Build configuration list for PBXProject "websockets" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				8C642EF527394399BD10BD37 /* Debug */,
-				3862FB6FCC0E42F6ACC67A1C /* Release */,
-				FE5C416A388D4315BAF7DF62 /* MinSizeRel */,
-				51EF057EFAAA42EEA5E1E70D /* RelWithDebInfo */,
+				2B76D672C7C94DD287BAB77B /* Debug */,
+				FAFBBBADB8B0455FBEB56FD9 /* Release */,
+				9D339B49B0944B878B1AEB0E /* MinSizeRel */,
+				1FD541B8C9104B54A23887D4 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = C6DFCA0CF7B9477D82E2BD30;
+			mainGroup = 8E88FD054EA54C27A1A3134E;
 			projectDirPath = "../../../../../cocos2d-x/external/websockets";
 			projectRoot = "";
 			targets = (
-				4E05448DDAD94E1496FAD6E5 /* ALL_BUILD */,
-				B91990054B9341078F5EA2D8 /* ZERO_CHECK */,
+				23CD218E6D304D0D8D12BDC4 /* ALL_BUILD */,
+				BAC810648F63425F8717AEF6 /* ZERO_CHECK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		56CF73479950442D8A47A8B8 /* CMake Rules */ = {
+		0C24DC34B43449E5B29B54D6 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,10 +148,10 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		851A1565107E4B50A3122E46 = {
+		1C1FF3665E0E431593C4B22B = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,7 +166,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		B56298E7C05342178B3A2CE2 = {
+		41A35486EA1D48B0895441BB = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,7 +181,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		BE5B7FBE49CD4DDD9360FC4E /* CMake Rules */ = {
+		A82B1C1959B94F35A0F0D4A2 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,21 +189,21 @@ exit 0";
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		972A4CB89FA549BDA579F428 /* PBXTargetDependency */ = {
+		95B6AA8741CC43BA937FF70D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91990054B9341078F5EA2D8 /* ZERO_CHECK */;
-			targetProxy = 7AF454DF05EF427484E1D2FF /* PBXContainerItemProxy */;
+			target = BAC810648F63425F8717AEF6 /* ZERO_CHECK */;
+			targetProxy = 452C603C15F846378C12A9DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		083BA1E382C645D799FCCA12 /* RelWithDebInfo */ = {
+		11D48E34C82947A0AA92CC0D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -217,23 +217,23 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		1AEC1C7E1C35426DBD2FF0B4 /* MinSizeRel */ = {
+		1506251DAC534BCAA8236680 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets/build";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets/build";
 			};
 			name = MinSizeRel;
 		};
-		3A7B6D1A727D4F40AE06C695 /* Release */ = {
+		1A0AC532EE6741DFA06D686D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -245,15 +245,15 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		42B3F4D4A52C450F9C9C455B /* Debug */ = {
+		2FCA5951BDF541909C18F8AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -267,23 +267,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		4D308DF43CDA45CBBB8A73A0 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets/build";
-			};
-			name = RelWithDebInfo;
-		};
-		8B9E3BAC5B1D4050830A493F /* MinSizeRel */ = {
+		386B3E803C054422ACBCA7C3 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -295,75 +285,45 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		9D258733928E43C082D3F1F5 /* Debug */ = {
+		467D03A32C2847D4B7A38BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets/build";
-			};
-			name = Debug;
-		};
-		A3CD508F91624CEEA1652893 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		CFC802D944BF4015AE67E1DC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		DC3F0724112D4368AFF14D22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets/build";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets/build";
 			};
 			name = Release;
 		};
-		E34C529442704BC4A8683A56 /* MinSizeRel */ = {
+		5F2CBB11D0194B4C917D642C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets/build";
+			};
+			name = Debug;
+		};
+		7EDAD2D3E9F1493EB9F42DB8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8286AF85D6444AE18F214550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -377,13 +337,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		ECC0E1A47F0F4160B2BCD46F /* Release */ = {
+		9E883185F10B4DFD8B8883ED /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -397,7 +357,47 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/websockets";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B7E3B00C192549AA9ED364D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1DE4D854F354744A9DBE07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
@@ -406,40 +406,40 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0510FED09860425EAB694386 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		064181A47B574B01BAF1C37C /* Build configuration list for PBXProject "websockets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3CD508F91624CEEA1652893 /* Debug */,
-				3A7B6D1A727D4F40AE06C695 /* Release */,
-				E34C529442704BC4A8683A56 /* MinSizeRel */,
-				CFC802D944BF4015AE67E1DC /* RelWithDebInfo */,
+				5F2CBB11D0194B4C917D642C /* Debug */,
+				467D03A32C2847D4B7A38BC4 /* Release */,
+				1506251DAC534BCAA8236680 /* MinSizeRel */,
+				7EDAD2D3E9F1493EB9F42DB8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8447DAB9696B40CDB5C946F2 /* Build configuration list for PBXProject "websockets" */ = {
+		3A48F516D796444C9FE7AF81 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D258733928E43C082D3F1F5 /* Debug */,
-				DC3F0724112D4368AFF14D22 /* Release */,
-				1AEC1C7E1C35426DBD2FF0B4 /* MinSizeRel */,
-				4D308DF43CDA45CBBB8A73A0 /* RelWithDebInfo */,
+				8286AF85D6444AE18F214550 /* Debug */,
+				D1DE4D854F354744A9DBE07C /* Release */,
+				386B3E803C054422ACBCA7C3 /* MinSizeRel */,
+				B7E3B00C192549AA9ED364D8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BCC04F10A1D149BFBD0614D3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		61A1C1E075E04E6081809AC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42B3F4D4A52C450F9C9C455B /* Debug */,
-				ECC0E1A47F0F4160B2BCD46F /* Release */,
-				8B9E3BAC5B1D4050830A493F /* MinSizeRel */,
-				083BA1E382C645D799FCCA12 /* RelWithDebInfo */,
+				2FCA5951BDF541909C18F8AA /* Debug */,
+				1A0AC532EE6741DFA06D686D /* Release */,
+				9E883185F10B4DFD8B8883ED /* MinSizeRel */,
+				11D48E34C82947A0AA92CC0D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 845C96F7BA3A4AABB512DBD6 /* Project object */;
+	rootObject = CECB266A2A354E918D59544F /* Project object */;
 }

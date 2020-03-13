@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/cmake_install.cmake")
-  include("/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/cocos/lua-bindings/cmake_install.cmake")
+  include("/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/cmake_install.cmake")
+  include("/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/cocos/lua-bindings/cmake_install.cmake")
 
 endif()
 

@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/cocos/core/cmake_install.cmake")
+  include("/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/cocos/core/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

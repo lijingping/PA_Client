@@ -58,9 +58,9 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxhash/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/zlib/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/CMakeFiles/3.17.0-rc1/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/CMakeFiles/3.17.0-rc1/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/CMakeFiles/3.17.0-rc1/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/CMakeFiles/3.17.0-rc1/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/CMakeFiles/3.17.0-rc1/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/CMakeFiles/3.17.0-rc1/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake-3.17/Modules/CMakeCCompiler.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake-3.17/Modules/CMakeCInformation.cmake))
@@ -151,5 +151,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake-3.17/
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake-3.17/Modules/Platform/Darwin.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake-3.17/Modules/Platform/UnixPaths.cmake))
 
-/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/bin/cmake -H/Users/lijingping/gamerboom/test/PA_Client -B/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build
+/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/bin/cmake -H/Users/lijingping/gamerboom/test/PA_Client -B/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1

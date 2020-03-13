@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/curl/CMakeFiles/ZERO_CHECK
+	/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/curl/CMakeFiles/ZERO_CHECK
 
 
-/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/curl/CMakeFiles/ZERO_CHECK: 
+/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/curl/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/curl/CMakeScripts/ReRunCMake.make
+	make -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/curl/CMakeScripts/ReRunCMake.make

@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4E05448DDAD94E1496FAD6E5 /* ALL_BUILD */ = {
+		23CD218E6D304D0D8D12BDC4 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 081CB6F8E2414E5A97DA1F36 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 881E4EA754584EC0AF5B5C8E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				C379667673FC4BC1806299C4 /* CMake Rules */,
+				D323A981B2D84660B09605BF /* CMake Rules */,
 			);
 			dependencies = (
-				16ED7647F90C40DE9643B034 /* PBXTargetDependency */,
-				B0940C94E86B4B8FB5A42B36 /* PBXTargetDependency */,
+				7B426D7A10924043BCBBC738 /* PBXTargetDependency */,
+				C23630BC8770498C9E3D4CD5 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		B91990054B9341078F5EA2D8 /* ZERO_CHECK */ = {
+		BAC810648F63425F8717AEF6 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CB5FC7BA9AB943E8ACD54A8F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 2CDFB73631644540A5216091 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				6331214AFFBC4E43A386CB65 /* CMake Rules */,
+				78116751AB6B41D6A775FF0E /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -34,228 +34,239 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		09FF73E5F8A14523BA1BF009 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */ = {isa = PBXBuildFile; fileRef = 9F31D16EE66F41A8B80F073F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */; };
-		110A79A86C49486EA1AE5BEE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */ = {isa = PBXBuildFile; fileRef = E66AE1A910AB46C9AA30D23F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */; };
-		11B90C6DA9484E11B986664C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */ = {isa = PBXBuildFile; fileRef = 69CF69271F694C93A2EDB397 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */; };
-		214058E5C2CD44AF907E7739 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */ = {isa = PBXBuildFile; fileRef = C18D9B28C29D4C2C85121981 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */; };
-		4A03CB78F10B4487BDEA52BD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */ = {isa = PBXBuildFile; fileRef = FA1207B4F3DB4962996295A2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */; };
-		561CEA5057FD4DFFAAE0552D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */ = {isa = PBXBuildFile; fileRef = CD64C75A8E2D441FB7CE34F5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */; };
-		60103DE1EA6249B3A407A9BF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */ = {isa = PBXBuildFile; fileRef = 9F347289B9A04A4991487FFD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */; };
-		757B1514C8044C6EB3A1D820 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */ = {isa = PBXBuildFile; fileRef = 3A38CAB06C8E4CF18D472D75 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */; };
-		952E4199A6ED4087A0C7E23C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */ = {isa = PBXBuildFile; fileRef = 5FBA9BA0376F4746B6251265 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */; };
-		A75AB47048EE40DE80A79E08 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */ = {isa = PBXBuildFile; fileRef = E30985B029AE4D409025DEFD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */; };
-		AF03428C729947619B02B00B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */ = {isa = PBXBuildFile; fileRef = C92ED6FA0CCF481DB0FD506C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */; };
-		B232F48985F24D52807B6E98 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */ = {isa = PBXBuildFile; fileRef = 8B5CB6CFA8634E3FABB5EA9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */; };
-		B8E8F7A29EC5436EA4F3D693 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */ = {isa = PBXBuildFile; fileRef = 6B8D6026A9A34D78858D3FD5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */; };
-		BDDC81752A7D483B9A12068F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */ = {isa = PBXBuildFile; fileRef = 8716F9119DF34ACF9DC89882 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */; };
-		C45AC3C2D9E147BB951E6D9F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3E88BFD257E943B99E06FE8E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */; };
-		E97AC6A2DFB14C488694E40B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */ = {isa = PBXBuildFile; fileRef = BD6D785E2BD546A8B57BC826 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */; };
-		EA0B0507391E4AEDB76E8C60 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */ = {isa = PBXBuildFile; fileRef = 29891ACDC4764D9285B39AE4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */; };
+		07B1CFCDDEE9439BB74B2DBB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D98878A18BF14F7E91789235 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */; };
+		16DB3BBC8C104D209D3C6C14 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */ = {isa = PBXBuildFile; fileRef = D070DE52810C4D8E96C1C722 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */; };
+		20AC102DAAC04287BE76A8ED /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */ = {isa = PBXBuildFile; fileRef = A4D1AD2249C3405498148CD4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */; };
+		285326A9689B4232AD083D95 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */ = {isa = PBXBuildFile; fileRef = E06D344B57EE409D82A02D47 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */; };
+		2A59A1DE24B447128879CB9D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */ = {isa = PBXBuildFile; fileRef = 75E0E3AF4AEF4EF0A86F4682 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */; };
+		2B1882494F284889A7AB1D31 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */ = {isa = PBXBuildFile; fileRef = 100D5AE86EA04A8CB588BFA3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */; };
+		329F9FB6E1A04BB9BB7AD4C5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */ = {isa = PBXBuildFile; fileRef = B4A26A816D494F6AAA0BA2E5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */; };
+		3DB6B62DAAD4439EB2297EC7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */ = {isa = PBXBuildFile; fileRef = D65D50FFD03F4911BFACDCC9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */; };
+		41D6CE688DF64D17B6E05A9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */ = {isa = PBXBuildFile; fileRef = DFB0D13EA335409588A03FF0 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */; };
+		55A293C3F2414111A86FD330 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */ = {isa = PBXBuildFile; fileRef = 5BFE951CDC88454595346B86 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */; };
+		59EF28C2237F4F9EACC7B47D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */ = {isa = PBXBuildFile; fileRef = 2A9C51C7D5B044F1AB4364DF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */; };
+		89D41B0C6FBB479FBA8ABDE2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */ = {isa = PBXBuildFile; fileRef = 4CE9F9DCDC984BA1B0FF81BC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */; };
+		AD5FDA208A72461ABA61DC04 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */ = {isa = PBXBuildFile; fileRef = E49DE06F1EAF4432A2324B1A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */; };
+		CF70BBF606544A8A9F26F5AF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */ = {isa = PBXBuildFile; fileRef = D6558D5EBF5A4A64908C55DB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */; };
+		F1F7DE57E8994C619FCC6FED /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */ = {isa = PBXBuildFile; fileRef = 61EA0B9F2F98458BA40427AC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */; };
+		F6D6A75F340342179E6C0247 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */ = {isa = PBXBuildFile; fileRef = 1F39607CE958499D9F47C9CF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */; };
+		FE24265233794AB79D566489 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */ = {isa = PBXBuildFile; fileRef = 6A04A1A44AE04441A082E94F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		2107FDB991BA48C698CB997E /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		3CC54D3F486C4DBD890D4F04 /* Debug */ = {
+		0EE14EF35A774ECBB761A80E /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		55AD34E8492D4F738EC40BA6 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		E3803792E8B043668C04F547 /* RelWithDebInfo */ = {
+		64325389DC044B499358DA8C /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		D59E570CDCA84028A533E71C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E1D75D078806474AB1753A77 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		2389FCDC40F043F3B09D83DA /* PBXContainerItemProxy */ = {
+		4945FC5E2D8A4C33B47AD1C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23708C011509473D8B71CF04 /* Project object */;
+			containerPortal = BD7CDD5D2EF44E9483393C0F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B91990054B9341078F5EA2D8;
-			remoteInfo = ZERO_CHECK;
-		};
-		5F5B497927804D6BA978E4DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23708C011509473D8B71CF04 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6370AF56F53B4F0B84092B37;
+			remoteGlobalIDString = 90FB0EA01DFC490BA9515980;
 			remoteInfo = ext_luasocket;
 		};
-		DBEA04121ECC442FA9C589CF /* PBXContainerItemProxy */ = {
+		6EC19BF613D846119AF96EFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 23708C011509473D8B71CF04 /* Project object */;
+			containerPortal = BD7CDD5D2EF44E9483393C0F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B91990054B9341078F5EA2D8;
+			remoteGlobalIDString = BAC810648F63425F8717AEF6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D4F347F4CF39444B83410E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD7CDD5D2EF44E9483393C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC810648F63425F8717AEF6;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29891ACDC4764D9285B39AE4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timeout.c; path = timeout.c; sourceTree = SOURCE_ROOT; };
-		3A38CAB06C8E4CF18D472D75 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udp.c; path = udp.c; sourceTree = SOURCE_ROOT; };
-		3E88BFD257E943B99E06FE8E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		49243693F7A94BACA95C9326 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5FBA9BA0376F4746B6251265 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer.c; path = buffer.c; sourceTree = SOURCE_ROOT; };
-		69CF69271F694C93A2EDB397 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unix.c; path = unix.c; sourceTree = SOURCE_ROOT; };
-		6B8D6026A9A34D78858D3FD5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = auxiliar.c; path = auxiliar.c; sourceTree = SOURCE_ROOT; };
-		7C5A57432C1049238DFEEE04 /* ext_luasocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_luasocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8716F9119DF34ACF9DC89882 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inet.c; path = inet.c; sourceTree = SOURCE_ROOT; };
-		8B5CB6CFA8634E3FABB5EA9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = io.c; sourceTree = SOURCE_ROOT; };
-		9F31D16EE66F41A8B80F073F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mime.c; path = mime.c; sourceTree = SOURCE_ROOT; };
-		9F347289B9A04A4991487FFD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tcp.c; path = tcp.c; sourceTree = SOURCE_ROOT; };
-		BD6D785E2BD546A8B57BC826 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket_scripts.c; path = luasocket_scripts.c; sourceTree = SOURCE_ROOT; };
-		C18D9B28C29D4C2C85121981 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket.c; path = luasocket.c; sourceTree = SOURCE_ROOT; };
-		C92ED6FA0CCF481DB0FD506C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = except.c; path = except.c; sourceTree = SOURCE_ROOT; };
-		CD64C75A8E2D441FB7CE34F5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = select.c; path = select.c; sourceTree = SOURCE_ROOT; };
-		E30985B029AE4D409025DEFD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = usocket.c; path = usocket.c; sourceTree = SOURCE_ROOT; };
-		E66AE1A910AB46C9AA30D23F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = serial.c; path = serial.c; sourceTree = SOURCE_ROOT; };
-		FA1207B4F3DB4962996295A2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = options.c; path = options.c; sourceTree = SOURCE_ROOT; };
+		100D5AE86EA04A8CB588BFA3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = serial.c; path = serial.c; sourceTree = SOURCE_ROOT; };
+		1F39607CE958499D9F47C9CF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mime.c; path = mime.c; sourceTree = SOURCE_ROOT; };
+		2A9C51C7D5B044F1AB4364DF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = options.c; path = options.c; sourceTree = SOURCE_ROOT; };
+		4CE9F9DCDC984BA1B0FF81BC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inet.c; path = inet.c; sourceTree = SOURCE_ROOT; };
+		5BFE951CDC88454595346B86 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timeout.c; path = timeout.c; sourceTree = SOURCE_ROOT; };
+		5C3798537E2F47A7AD6A5745 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		61EA0B9F2F98458BA40427AC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = io.c; sourceTree = SOURCE_ROOT; };
+		6A04A1A44AE04441A082E94F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = usocket.c; path = usocket.c; sourceTree = SOURCE_ROOT; };
+		75E0E3AF4AEF4EF0A86F4682 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer.c; path = buffer.c; sourceTree = SOURCE_ROOT; };
+		A4D1AD2249C3405498148CD4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unix.c; path = unix.c; sourceTree = SOURCE_ROOT; };
+		B4A26A816D494F6AAA0BA2E5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = auxiliar.c; path = auxiliar.c; sourceTree = SOURCE_ROOT; };
+		BCA9DA97052846DD832EA006 /* ext_luasocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_luasocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D070DE52810C4D8E96C1C722 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket.c; path = luasocket.c; sourceTree = SOURCE_ROOT; };
+		D6558D5EBF5A4A64908C55DB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tcp.c; path = tcp.c; sourceTree = SOURCE_ROOT; };
+		D65D50FFD03F4911BFACDCC9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udp.c; path = udp.c; sourceTree = SOURCE_ROOT; };
+		D98878A18BF14F7E91789235 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DFB0D13EA335409588A03FF0 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket_scripts.c; path = luasocket_scripts.c; sourceTree = SOURCE_ROOT; };
+		E06D344B57EE409D82A02D47 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = except.c; path = except.c; sourceTree = SOURCE_ROOT; };
+		E49DE06F1EAF4432A2324B1A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = select.c; path = select.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		58FB0ECA49564625977144C8 = {
+		0AF2B52561C842A7AD035A29 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				937DB1ECB58A4C23AD2FF883 /* External */,
-				65B9356D2E76425D821F1FFD /* ALL_BUILD */,
-				ADD73F9376304D2DB124EFEE /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		65B9356D2E76425D821F1FFD /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				FC50C1CC516C441CB63AD101 /* CMake Rules */,
-				49243693F7A94BACA95C9326 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		937DB1ECB58A4C23AD2FF883 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				E0B5EB80FA2641378AE81EAA /* ext_luasocket */,
+				ED0B917C837743F2AAACC16D /* ext_luasocket */,
 			);
 			name = External;
 			sourceTree = "<group>";
 		};
-		ADD73F9376304D2DB124EFEE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7C5A57432C1049238DFEEE04 /* ext_luasocket */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E0B5EB80FA2641378AE81EAA /* ext_luasocket */ = {
-			isa = PBXGroup;
-			children = (
-				FED322F77F8C40E294F2EB7C /* Source Files */,
-				3E88BFD257E943B99E06FE8E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */,
-			);
-			name = ext_luasocket;
-			sourceTree = "<group>";
-		};
-		FC50C1CC516C441CB63AD101 /* CMake Rules */ = {
+		569DFA29CDBC4C7395A329B6 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		FED322F77F8C40E294F2EB7C /* Source Files */ = {
+		88F66E8BFEB248D59B91F555 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B8D6026A9A34D78858D3FD5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */,
-				5FBA9BA0376F4746B6251265 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */,
-				C92ED6FA0CCF481DB0FD506C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */,
-				8716F9119DF34ACF9DC89882 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */,
-				8B5CB6CFA8634E3FABB5EA9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */,
-				C18D9B28C29D4C2C85121981 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */,
-				BD6D785E2BD546A8B57BC826 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */,
-				9F31D16EE66F41A8B80F073F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */,
-				FA1207B4F3DB4962996295A2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */,
-				CD64C75A8E2D441FB7CE34F5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */,
-				E66AE1A910AB46C9AA30D23F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */,
-				9F347289B9A04A4991487FFD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */,
-				29891ACDC4764D9285B39AE4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */,
-				3A38CAB06C8E4CF18D472D75 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */,
-				69CF69271F694C93A2EDB397 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */,
-				E30985B029AE4D409025DEFD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */,
+				B4A26A816D494F6AAA0BA2E5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */,
+				75E0E3AF4AEF4EF0A86F4682 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */,
+				E06D344B57EE409D82A02D47 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */,
+				4CE9F9DCDC984BA1B0FF81BC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */,
+				61EA0B9F2F98458BA40427AC /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */,
+				D070DE52810C4D8E96C1C722 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */,
+				DFB0D13EA335409588A03FF0 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */,
+				1F39607CE958499D9F47C9CF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */,
+				2A9C51C7D5B044F1AB4364DF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */,
+				E49DE06F1EAF4432A2324B1A /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */,
+				100D5AE86EA04A8CB588BFA3 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */,
+				D6558D5EBF5A4A64908C55DB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */,
+				5BFE951CDC88454595346B86 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */,
+				D65D50FFD03F4911BFACDCC9 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */,
+				A4D1AD2249C3405498148CD4 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */,
+				6A04A1A44AE04441A082E94F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */,
 			);
 			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		999826E34F08409196CF7F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9DA97052846DD832EA006 /* ext_luasocket */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD7E9D7BA3248F0853596F8 = {
+			isa = PBXGroup;
+			children = (
+				0AF2B52561C842A7AD035A29 /* External */,
+				D8B5E92A7620424E94F13387 /* ALL_BUILD */,
+				999826E34F08409196CF7F74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B5E92A7620424E94F13387 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				569DFA29CDBC4C7395A329B6 /* CMake Rules */,
+				5C3798537E2F47A7AD6A5745 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		ED0B917C837743F2AAACC16D /* ext_luasocket */ = {
+			isa = PBXGroup;
+			children = (
+				88F66E8BFEB248D59B91F555 /* Source Files */,
+				D98878A18BF14F7E91789235 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/CMakeLists.txt */,
+			);
+			name = ext_luasocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6370AF56F53B4F0B84092B37 /* ext_luasocket */ = {
+		90FB0EA01DFC490BA9515980 /* ext_luasocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B45C0425A20474FACF3C79F /* Build configuration list for PBXNativeTarget "ext_luasocket" */;
+			buildConfigurationList = 9634C2A8D8B9460CA94B436C /* Build configuration list for PBXNativeTarget "ext_luasocket" */;
 			buildPhases = (
-				8CEA1F2E8BA24F08B3DBD8D3 /* Sources */,
+				A1E7B699A77346A587FAC487 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				302C6ADF2C6C4AA68319E06D /* PBXTargetDependency */,
+				77F88D30F6D54E49AAA55105 /* PBXTargetDependency */,
 			);
 			name = ext_luasocket;
 			productName = ext_luasocket;
-			productReference = 7C5A57432C1049238DFEEE04 /* ext_luasocket */;
+			productReference = BCA9DA97052846DD832EA006 /* ext_luasocket */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23708C011509473D8B71CF04 /* Project object */ = {
+		BD7CDD5D2EF44E9483393C0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1010;
 			};
-			buildConfigurationList = D9460A09C19249008DE2A536 /* Build configuration list for PBXProject "luasocket" */;
+			buildConfigurationList = A4B1868E5EFF4D81B8B60D21 /* Build configuration list for PBXProject "luasocket" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				3CC54D3F486C4DBD890D4F04 /* Debug */,
-				2107FDB991BA48C698CB997E /* Release */,
-				55AD34E8492D4F738EC40BA6 /* MinSizeRel */,
-				E3803792E8B043668C04F547 /* RelWithDebInfo */,
+				0EE14EF35A774ECBB761A80E /* Debug */,
+				E1D75D078806474AB1753A77 /* Release */,
+				D59E570CDCA84028A533E71C /* MinSizeRel */,
+				64325389DC044B499358DA8C /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 58FB0ECA49564625977144C8;
+			mainGroup = CFD7E9D7BA3248F0853596F8;
 			projectDirPath = "../../../../../../cocos2d-x/external/lua/luasocket";
 			projectRoot = "";
 			targets = (
-				4E05448DDAD94E1496FAD6E5 /* ALL_BUILD */,
-				B91990054B9341078F5EA2D8 /* ZERO_CHECK */,
-				6370AF56F53B4F0B84092B37 /* ext_luasocket */,
+				23CD218E6D304D0D8D12BDC4 /* ALL_BUILD */,
+				BAC810648F63425F8717AEF6 /* ZERO_CHECK */,
+				90FB0EA01DFC490BA9515980 /* ext_luasocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36A69953C6B9491CA06D3984 = {
+		78116751AB6B41D6A775FF0E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9C19C71D14344C5B84E57BF8 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,7 +281,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		423DC6FD797F4EC5A29D14EF = {
+		BA2E19A658C44567BEDF209E = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,7 +296,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		6331214AFFBC4E43A386CB65 /* CMake Rules */ = {
+		D323A981B2D84660B09605BF /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,164 +304,61 @@ exit 0";
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		C379667673FC4BC1806299C4 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8CEA1F2E8BA24F08B3DBD8D3 /* Sources */ = {
+		A1E7B699A77346A587FAC487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E8F7A29EC5436EA4F3D693 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */,
-				952E4199A6ED4087A0C7E23C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */,
-				AF03428C729947619B02B00B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */,
-				BDDC81752A7D483B9A12068F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */,
-				B232F48985F24D52807B6E98 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */,
-				214058E5C2CD44AF907E7739 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */,
-				E97AC6A2DFB14C488694E40B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */,
-				09FF73E5F8A14523BA1BF009 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */,
-				4A03CB78F10B4487BDEA52BD /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */,
-				561CEA5057FD4DFFAAE0552D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */,
-				110A79A86C49486EA1AE5BEE /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */,
-				60103DE1EA6249B3A407A9BF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */,
-				EA0B0507391E4AEDB76E8C60 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */,
-				757B1514C8044C6EB3A1D820 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */,
-				11B90C6DA9484E11B986664C /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */,
-				A75AB47048EE40DE80A79E08 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */,
+				329F9FB6E1A04BB9BB7AD4C5 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/auxiliar.c */,
+				2A59A1DE24B447128879CB9D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/buffer.c */,
+				285326A9689B4232AD083D95 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/except.c */,
+				89D41B0C6FBB479FBA8ABDE2 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/inet.c */,
+				F1F7DE57E8994C619FCC6FED /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/io.c */,
+				16DB3BBC8C104D209D3C6C14 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket.c */,
+				41D6CE688DF64D17B6E05A9E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/luasocket_scripts.c */,
+				F6D6A75F340342179E6C0247 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/mime.c */,
+				59EF28C2237F4F9EACC7B47D /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/options.c */,
+				AD5FDA208A72461ABA61DC04 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/select.c */,
+				2B1882494F284889A7AB1D31 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/serial.c */,
+				CF70BBF606544A8A9F26F5AF /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/tcp.c */,
+				55A293C3F2414111A86FD330 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/timeout.c */,
+				3DB6B62DAAD4439EB2297EC7 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/udp.c */,
+				20AC102DAAC04287BE76A8ED /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/unix.c */,
+				FE24265233794AB79D566489 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/usocket.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16ED7647F90C40DE9643B034 /* PBXTargetDependency */ = {
+		77F88D30F6D54E49AAA55105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91990054B9341078F5EA2D8 /* ZERO_CHECK */;
-			targetProxy = 2389FCDC40F043F3B09D83DA /* PBXContainerItemProxy */;
+			target = BAC810648F63425F8717AEF6 /* ZERO_CHECK */;
+			targetProxy = D4F347F4CF39444B83410E57 /* PBXContainerItemProxy */;
 		};
-		302C6ADF2C6C4AA68319E06D /* PBXTargetDependency */ = {
+		7B426D7A10924043BCBBC738 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91990054B9341078F5EA2D8 /* ZERO_CHECK */;
-			targetProxy = DBEA04121ECC442FA9C589CF /* PBXContainerItemProxy */;
+			target = BAC810648F63425F8717AEF6 /* ZERO_CHECK */;
+			targetProxy = 6EC19BF613D846119AF96EFC /* PBXContainerItemProxy */;
 		};
-		B0940C94E86B4B8FB5A42B36 /* PBXTargetDependency */ = {
+		C23630BC8770498C9E3D4CD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6370AF56F53B4F0B84092B37 /* ext_luasocket */;
-			targetProxy = 5F5B497927804D6BA978E4DA /* PBXContainerItemProxy */;
+			target = 90FB0EA01DFC490BA9515980 /* ext_luasocket */;
+			targetProxy = 4945FC5E2D8A4C33B47AD1C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1040710385F84D588B643F2F /* MinSizeRel */ = {
+		0E692E9161DF46249F55F5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_luasocket;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		1D275E0A95784B2D92AAF3F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		31D63344DDA347D6A6F88477 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		357288F0144341D8B94E7FDD /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_luasocket;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3796959EF7F541858FDFECEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/Debug";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -466,67 +374,259 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_luasocket;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		39A3AFF55F47488D971812D9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		3CF038906D334DD69A755441 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		609AE6D3D03240309606454A /* RelWithDebInfo */ = {
+		215A2652766E4F3A8573DFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket/build";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket/build";
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
-		6EDD059436154E37A2761C5F /* Release */ = {
+		38EF740C21ED45158734A068 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/Release";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E8A3650A3CE4336B8D719D5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket/build";
+			};
+			name = MinSizeRel;
+		};
+		45CFF3EEFDB6498CB8CEBC6F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		66523D22683F46FDB9EDEB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		87FB439D9B5C4AD4B52D1692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8DEDB9E2F6AC464A9DF26B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B05B3CBC2D0742B6BD60DD06 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_luasocket;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C16FE753D5E04E3597CAE00D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D544098966A94B95B7ACD8CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D6E038430C5B4A53B525B25E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/lua/luasocket/../luajit/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_luasocket;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA68108A4D234BD7886B900A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E20A2FD21FCA4D0099930772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F289BAD78A4A48EEBE7C0FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/Release";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -542,170 +642,70 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_luasocket;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		8F5091ACE51D4742BDBDA8DF /* Release */ = {
+		F9C1D2BC23E14AB1ACF36A91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket/build";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/lua/luasocket/build";
 			};
 			name = Release;
-		};
-		93FF4A4A969440018E658AF0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		9F2BBF61AB7F4AA28B56F63B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket/build";
-			};
-			name = Debug;
-		};
-		ABD2CD5674B24D13830D5E34 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket/build";
-			};
-			name = MinSizeRel;
-		};
-		B47DC0D6E8A44224B964B78E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		DE432957B613400EA825DCB9 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		EC450DB6117E4B4480EC937A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/lua/luasocket";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		081CB6F8E2414E5A97DA1F36 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		2CDFB73631644540A5216091 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC450DB6117E4B4480EC937A /* Debug */,
-				1D275E0A95784B2D92AAF3F0 /* Release */,
-				93FF4A4A969440018E658AF0 /* MinSizeRel */,
-				DE432957B613400EA825DCB9 /* RelWithDebInfo */,
+				87FB439D9B5C4AD4B52D1692 /* Debug */,
+				8DEDB9E2F6AC464A9DF26B46 /* Release */,
+				45CFF3EEFDB6498CB8CEBC6F /* MinSizeRel */,
+				38EF740C21ED45158734A068 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		1B45C0425A20474FACF3C79F /* Build configuration list for PBXNativeTarget "ext_luasocket" */ = {
+		881E4EA754584EC0AF5B5C8E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3796959EF7F541858FDFECEB /* Debug */,
-				6EDD059436154E37A2761C5F /* Release */,
-				1040710385F84D588B643F2F /* MinSizeRel */,
-				357288F0144341D8B94E7FDD /* RelWithDebInfo */,
+				66523D22683F46FDB9EDEB27 /* Debug */,
+				E20A2FD21FCA4D0099930772 /* Release */,
+				D544098966A94B95B7ACD8CC /* MinSizeRel */,
+				C16FE753D5E04E3597CAE00D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CB5FC7BA9AB943E8ACD54A8F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		9634C2A8D8B9460CA94B436C /* Build configuration list for PBXNativeTarget "ext_luasocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B47DC0D6E8A44224B964B78E /* Debug */,
-				31D63344DDA347D6A6F88477 /* Release */,
-				39A3AFF55F47488D971812D9 /* MinSizeRel */,
-				3CF038906D334DD69A755441 /* RelWithDebInfo */,
+				0E692E9161DF46249F55F5FC /* Debug */,
+				F289BAD78A4A48EEBE7C0FAF /* Release */,
+				B05B3CBC2D0742B6BD60DD06 /* MinSizeRel */,
+				D6E038430C5B4A53B525B25E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D9460A09C19249008DE2A536 /* Build configuration list for PBXProject "luasocket" */ = {
+		A4B1868E5EFF4D81B8B60D21 /* Build configuration list for PBXProject "luasocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F2BBF61AB7F4AA28B56F63B /* Debug */,
-				8F5091ACE51D4742BDBDA8DF /* Release */,
-				ABD2CD5674B24D13830D5E34 /* MinSizeRel */,
-				609AE6D3D03240309606454A /* RelWithDebInfo */,
+				215A2652766E4F3A8573DFE0 /* Debug */,
+				F9C1D2BC23E14AB1ACF36A91 /* Release */,
+				3E8A3650A3CE4336B8D719D5 /* MinSizeRel */,
+				DA68108A4D234BD7886B900A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 23708C011509473D8B71CF04 /* Project object */;
+	rootObject = BD7CDD5D2EF44E9483393C0F /* Project object */;
 }

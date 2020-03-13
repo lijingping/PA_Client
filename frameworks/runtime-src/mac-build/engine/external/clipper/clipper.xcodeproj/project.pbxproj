@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4E05448DDAD94E1496FAD6E5 /* ALL_BUILD */ = {
+		23CD218E6D304D0D8D12BDC4 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E6DEA3ECB5114892978CB832 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = E7791AE2F2634BC3985A250C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				55C07D51084D488890FDE517 /* CMake Rules */,
+				35F8A4AF754647DD89601177 /* CMake Rules */,
 			);
 			dependencies = (
-				B3C3B21615274CAAB1D7F1F9 /* PBXTargetDependency */,
-				A3988D2193F342D09344C0A8 /* PBXTargetDependency */,
+				8482FC213B3C43B9BB70FD36 /* PBXTargetDependency */,
+				D309797ECD2948BEAED4586D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		B91990054B9341078F5EA2D8 /* ZERO_CHECK */ = {
+		BAC810648F63425F8717AEF6 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2E5E49D5A72B44D4942888DA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 0F2096A9C203427B87269A17 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				2C69DA0BAD904731915C89EF /* CMake Rules */,
+				C6BBFF5CA1F34F8489FC00C9 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -34,205 +34,183 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		7FE1649983074D8AAD563BEB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 82D09B59B43041BE9A18A199 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */; };
-		8A47C0E05C1C4D3C834C054B /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 32F9C66C3B4A48B682C75061 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */; };
+		2A8DE22215A240DE939EB33F /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 76149A4DDFE049B5825011C1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */; };
+		B8776556B34245CD86AE1F55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 9A399B54E2C2486B81734240 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		4C2E010BE5AF4ED3A44D0859 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		7CDD35B3D97248469F5F06C4 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		99A2177055C346A69154F3C5 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		C7A9BDF4B0924879831062C5 /* Release */ = {
+		80F8C4D82C064B2A8EC3DCEA /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		CAEAAF5DD11E4AD4BB65ECCA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		DF97B6E1661D4DB799BDC394 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E4A9E6EBDF23421496CB4FC0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		42A0AF59D52145B4807CB62D /* PBXContainerItemProxy */ = {
+		25BDEBB3F6934DC2BBAA3C7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01931AE60C4C4469B915D49A /* Project object */;
+			containerPortal = D786D79FABF0402AB1E4E137 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 054BBC935B8F4B449EC8745C;
+			remoteGlobalIDString = BAC810648F63425F8717AEF6;
+			remoteInfo = ZERO_CHECK;
+		};
+		A27607C9ACC74A98831D8AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D786D79FABF0402AB1E4E137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC810648F63425F8717AEF6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D8645317E30E45229AEAB463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D786D79FABF0402AB1E4E137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A1FCE24F774041AA803093;
 			remoteInfo = ext_clipper;
-		};
-		927D3CEA800046DAB09CCDD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01931AE60C4C4469B915D49A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B91990054B9341078F5EA2D8;
-			remoteInfo = ZERO_CHECK;
-		};
-		FF7716A9843348E6B31F32E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01931AE60C4C4469B915D49A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B91990054B9341078F5EA2D8;
-			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32F9C66C3B4A48B682C75061 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7B8EBB5E164044DCBAB2F1A7 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		82D09B59B43041BE9A18A199 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper.cpp; sourceTree = SOURCE_ROOT; };
-		EDF9BC2CAD8F4D8ABC9B0696 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76149A4DDFE049B5825011C1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8567A527C2E74F3AB91F3FC2 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A399B54E2C2486B81734240 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper.cpp; sourceTree = SOURCE_ROOT; };
+		F51E28AFF70B4D3FA0EC552E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		1AFE6725DF4949E4A8984A2D /* CMake Rules */ = {
+		61F6BE1DF3C14893A6862728 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				A32454D2EE3D43E5848A1A87 /* ext_clipper */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		722E78DA806241B79BD11222 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9247F58A29884141B1B3771B /* CMake Rules */,
+				F51E28AFF70B4D3FA0EC552E /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9247F58A29884141B1B3771B /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		1D86284F1F934BEEA5943982 /* ALL_BUILD */ = {
+		931C1FA85D784B20AD635B14 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AFE6725DF4949E4A8984A2D /* CMake Rules */,
-				EDF9BC2CAD8F4D8ABC9B0696 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */,
+				9A399B54E2C2486B81734240 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */,
 			);
-			name = ALL_BUILD;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		227CFEFDFA904C2BA6370EE1 /* External */ = {
+		A013D69F4A9544F1AB472637 = {
 			isa = PBXGroup;
 			children = (
-				61DCC7116C7E4D5EB1759AB5 /* ext_clipper */,
+				61F6BE1DF3C14893A6862728 /* External */,
+				722E78DA806241B79BD11222 /* ALL_BUILD */,
+				CD6F1A491474461A889245EA /* Products */,
 			);
-			name = External;
 			sourceTree = "<group>";
 		};
-		61DCC7116C7E4D5EB1759AB5 /* ext_clipper */ = {
+		A32454D2EE3D43E5848A1A87 /* ext_clipper */ = {
 			isa = PBXGroup;
 			children = (
-				FD81F5C7EAF6470D8684FAC6 /* Source Files */,
-				32F9C66C3B4A48B682C75061 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */,
+				931C1FA85D784B20AD635B14 /* Source Files */,
+				76149A4DDFE049B5825011C1 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/CMakeLists.txt */,
 			);
 			name = ext_clipper;
 			sourceTree = "<group>";
 		};
-		9321A43922194246A7971D6D /* Products */ = {
+		CD6F1A491474461A889245EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B8EBB5E164044DCBAB2F1A7 /* ext_clipper */,
+				8567A527C2E74F3AB91F3FC2 /* ext_clipper */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9ED9191B64674D39BAD04B72 = {
-			isa = PBXGroup;
-			children = (
-				227CFEFDFA904C2BA6370EE1 /* External */,
-				1D86284F1F934BEEA5943982 /* ALL_BUILD */,
-				9321A43922194246A7971D6D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FD81F5C7EAF6470D8684FAC6 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				82D09B59B43041BE9A18A199 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */,
-			);
-			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		054BBC935B8F4B449EC8745C /* ext_clipper */ = {
+		77A1FCE24F774041AA803093 /* ext_clipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 375F3CDE207F4F4AB2719ADB /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildConfigurationList = 95B3AD215DBB4A43A8E6DBFD /* Build configuration list for PBXNativeTarget "ext_clipper" */;
 			buildPhases = (
-				E018A99D3A48418B98AE31B0 /* Sources */,
+				2F3381B7F0594DA1ACF74630 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				022F9819AB4E409B9E4F785E /* PBXTargetDependency */,
+				4A998ACB85034ED69546EF8D /* PBXTargetDependency */,
 			);
 			name = ext_clipper;
 			productName = ext_clipper;
-			productReference = 7B8EBB5E164044DCBAB2F1A7 /* ext_clipper */;
+			productReference = 8567A527C2E74F3AB91F3FC2 /* ext_clipper */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		01931AE60C4C4469B915D49A /* Project object */ = {
+		D786D79FABF0402AB1E4E137 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1010;
 			};
-			buildConfigurationList = 6B53ABE3F7784577AC2BBB50 /* Build configuration list for PBXProject "clipper" */;
+			buildConfigurationList = 27EBBB3ACFD749DD95C2E448 /* Build configuration list for PBXProject "clipper" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				99A2177055C346A69154F3C5 /* Debug */,
-				C7A9BDF4B0924879831062C5 /* Release */,
-				4C2E010BE5AF4ED3A44D0859 /* MinSizeRel */,
-				7CDD35B3D97248469F5F06C4 /* RelWithDebInfo */,
+				E4A9E6EBDF23421496CB4FC0 /* Debug */,
+				80F8C4D82C064B2A8EC3DCEA /* Release */,
+				DF97B6E1661D4DB799BDC394 /* MinSizeRel */,
+				CAEAAF5DD11E4AD4BB65ECCA /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 9ED9191B64674D39BAD04B72;
+			mainGroup = A013D69F4A9544F1AB472637;
 			projectDirPath = "../../../../../cocos2d-x/external/clipper";
 			projectRoot = "";
 			targets = (
-				4E05448DDAD94E1496FAD6E5 /* ALL_BUILD */,
-				B91990054B9341078F5EA2D8 /* ZERO_CHECK */,
-				054BBC935B8F4B449EC8745C /* ext_clipper */,
+				23CD218E6D304D0D8D12BDC4 /* ALL_BUILD */,
+				BAC810648F63425F8717AEF6 /* ZERO_CHECK */,
+				77A1FCE24F774041AA803093 /* ext_clipper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C69DA0BAD904731915C89EF /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		55C07D51084D488890FDE517 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		7675AC15B66444B3B4A44EAA = {
+		2F9B90D472A249FEBF75497B = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,7 +225,18 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		9185CCF23545424F8A077AC0 = {
+		35F8A4AF754647DD89601177 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AC97F00B7DB54DDFA17B0724 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,41 +249,52 @@ exit 0";
 			shellPath = /bin/sh;
 			shellScript = "# shell script goes here
 exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C6BBFF5CA1F34F8489FC00C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper -f /Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E018A99D3A48418B98AE31B0 /* Sources */ = {
+		2F3381B7F0594DA1ACF74630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE1649983074D8AAD563BEB /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */,
+				B8776556B34245CD86AE1F55 /* /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/clipper.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		022F9819AB4E409B9E4F785E /* PBXTargetDependency */ = {
+		4A998ACB85034ED69546EF8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91990054B9341078F5EA2D8 /* ZERO_CHECK */;
-			targetProxy = 927D3CEA800046DAB09CCDD1 /* PBXContainerItemProxy */;
+			target = BAC810648F63425F8717AEF6 /* ZERO_CHECK */;
+			targetProxy = 25BDEBB3F6934DC2BBAA3C7D /* PBXContainerItemProxy */;
 		};
-		A3988D2193F342D09344C0A8 /* PBXTargetDependency */ = {
+		8482FC213B3C43B9BB70FD36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91990054B9341078F5EA2D8 /* ZERO_CHECK */;
-			targetProxy = FF7716A9843348E6B31F32E8 /* PBXContainerItemProxy */;
+			target = BAC810648F63425F8717AEF6 /* ZERO_CHECK */;
+			targetProxy = A27607C9ACC74A98831D8AF6 /* PBXContainerItemProxy */;
 		};
-		B3C3B21615274CAAB1D7F1F9 /* PBXTargetDependency */ = {
+		D309797ECD2948BEAED4586D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 054BBC935B8F4B449EC8745C /* ext_clipper */;
-			targetProxy = 42A0AF59D52145B4807CB62D /* PBXContainerItemProxy */;
+			target = 77A1FCE24F774041AA803093 /* ext_clipper */;
+			targetProxy = D8645317E30E45229AEAB463 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10FE4C09637F463383F6D9AE /* Release */ = {
+		09F4F0951F8D471AA23B5CA3 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -308,27 +308,57 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1F7D098A9B3A4458BF87114C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		11D64AE4D056499DB02CE423 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper/build";
-			};
-			name = Debug;
-		};
-		12E4B4B7EC3F4BAEB7BC34BA /* Debug */ = {
+		2060108AFB9A4DD283C9A119 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/Debug";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2397F9ED61BE4B0EA7F7A5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/Debug";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -344,69 +374,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_clipper;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		1ACD4B1423C94B11BC146915 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper/build";
-			};
-			name = Release;
-		};
-		323E89E25DB2464385B2CCAA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		371F732742C244CABBBD7432 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_clipper;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		3AADB4E8D5B749579695F5C6 /* RelWithDebInfo */ = {
+		511250E1EC734E6EB1283BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -420,119 +394,33 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3AC567A1220E435496E3F34E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_clipper;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		4E62B232D55F42448831CFE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		526C4BA9A6944BD499823F26 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		64243D98009345AEB5A0C243 /* MinSizeRel */ = {
+		56060E7CA1D44B00A2E01E5A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper/build";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper/build";
 			};
 			name = MinSizeRel;
 		};
-		8FBF1AF457BF4280AE637B9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B065D8AE3B444E3A9074C844 /* RelWithDebInfo */ = {
+		6AE7CF351EA249A19A03BB5E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper/build";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper/build";
 			};
 			name = RelWithDebInfo;
 		};
-		BA46CA6C2E59490A940B4191 /* Debug */ = {
+		7598FC3BA1BD49B69968E585 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -546,17 +434,67 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		76158B4B015745578A1CF355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		D9034EB0F2814A8E9A388AEA /* RelWithDebInfo */ = {
+		7F84A02A07174F629A335E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper/build";
+			};
+			name = Debug;
+		};
+		83C0E15788704A399749582B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/lib/RelWithDebInfo";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AC97E3CBC5554EE0B4ADA499 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/RelWithDebInfo";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -572,13 +510,75 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_clipper;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		DF4124AAEF1C422DB4D13BE1 /* MinSizeRel */ = {
+		B1EBE5E875704C6CB851F61C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA853541BC414215AB7E7235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper/build";
+			};
+			name = Release;
+		};
+		CD8DCCC1D0204A0B937D268B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/include","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/dummy","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/cocos/libpomelo2/src/tr/uv","/Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/clipper/.");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E44C4720B0624DD68D35780E /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -590,9 +590,9 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/engine/external/clipper";
+				SYMROOT = "/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/engine/external/clipper";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
@@ -601,51 +601,51 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E5E49D5A72B44D4942888DA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0F2096A9C203427B87269A17 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA46CA6C2E59490A940B4191 /* Debug */,
-				4E62B232D55F42448831CFE7 /* Release */,
-				DF4124AAEF1C422DB4D13BE1 /* MinSizeRel */,
-				3AADB4E8D5B749579695F5C6 /* RelWithDebInfo */,
+				76158B4B015745578A1CF355 /* Debug */,
+				511250E1EC734E6EB1283BC0 /* Release */,
+				2060108AFB9A4DD283C9A119 /* MinSizeRel */,
+				7598FC3BA1BD49B69968E585 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		375F3CDE207F4F4AB2719ADB /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+		27EBBB3ACFD749DD95C2E448 /* Build configuration list for PBXProject "clipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12E4B4B7EC3F4BAEB7BC34BA /* Debug */,
-				3AC567A1220E435496E3F34E /* Release */,
-				371F732742C244CABBBD7432 /* MinSizeRel */,
-				D9034EB0F2814A8E9A388AEA /* RelWithDebInfo */,
+				7F84A02A07174F629A335E22 /* Debug */,
+				BA853541BC414215AB7E7235 /* Release */,
+				56060E7CA1D44B00A2E01E5A /* MinSizeRel */,
+				6AE7CF351EA249A19A03BB5E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6B53ABE3F7784577AC2BBB50 /* Build configuration list for PBXProject "clipper" */ = {
+		95B3AD215DBB4A43A8E6DBFD /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11D64AE4D056499DB02CE423 /* Debug */,
-				1ACD4B1423C94B11BC146915 /* Release */,
-				64243D98009345AEB5A0C243 /* MinSizeRel */,
-				B065D8AE3B444E3A9074C844 /* RelWithDebInfo */,
+				2397F9ED61BE4B0EA7F7A5CD /* Debug */,
+				CD8DCCC1D0204A0B937D268B /* Release */,
+				B1EBE5E875704C6CB851F61C /* MinSizeRel */,
+				AC97E3CBC5554EE0B4ADA499 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E6DEA3ECB5114892978CB832 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		E7791AE2F2634BC3985A250C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FBF1AF457BF4280AE637B9B /* Debug */,
-				10FE4C09637F463383F6D9AE /* Release */,
-				323E89E25DB2464385B2CCAA /* MinSizeRel */,
-				526C4BA9A6944BD499823F26 /* RelWithDebInfo */,
+				83C0E15788704A399749582B /* Debug */,
+				1F7D098A9B3A4458BF87114C /* Release */,
+				E44C4720B0624DD68D35780E /* MinSizeRel */,
+				09F4F0951F8D471AA23B5CA3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 01931AE60C4C4469B915D49A /* Project object */;
+	rootObject = D786D79FABF0402AB1E4E137 /* Project object */;
 }

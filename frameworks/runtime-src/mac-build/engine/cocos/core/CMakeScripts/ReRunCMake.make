@@ -54,5 +54,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/xxtea/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lijingping/gamerboom/test/PA_Client/frameworks/cocos2d-x/external/zlib/CMakeLists.txt))
 
-/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/bin/cmake -H/Users/lijingping/gamerboom/test/PA_Client -B/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build
+/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/bin/cmake -H/Users/lijingping/gamerboom/test/PA_Client -B/Users/lijingping/gamerboom/test/PA_Client/frameworks/runtime-src/mac-build1
