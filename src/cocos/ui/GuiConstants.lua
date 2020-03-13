@@ -152,6 +152,8 @@ ccui.ScrollviewEventType = {
     bounceBottom = 6,
     bounceLeft = 7,
     bounceRight = 8,
+    containerMoved = 9,
+    autoscrollEnded = 10,
 }
 
 ccui.ListViewDirection = {
@@ -217,4 +219,11 @@ ccui.LayoutComponent.VerticalEdge = {
     Bottom = 1,
     Top = 2,
     Center = 3,
+}
+
+ccui.VideoPlayerEvent = {
+    PLAYING = 0,
+    PAUSED = 1,
+    STOPPED= 2,
+    COMPLETED =3,
 }

@@ -27,6 +27,7 @@ THE SOFTWARE.
 #include "2d/CCSpriteFrameCache.h"
 #include "base/CCDirector.h"
 #include "renderer/CCRenderer.h"
+#include "renderer/CCTextureCache.h"
 
 #include "editor-support/cocostudio/CCSkin.h"
 #include "editor-support/cocostudio/CCTransformHelp.h"
@@ -97,6 +98,8 @@ bool Skin::initWithSpriteFrameName(const std::string& spriteFrameName)
     if (pFrame != nullptr)
     {
         ret = initWithSpriteFrame(pFrame);
+        //_quadCommand.getPipelineDescriptor() pointer is null--lijingping
+        _quadCommand.getPipelineDescriptor() = _trianglesCommand.getPipelineDescriptor();
     }
     else
     {

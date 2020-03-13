@@ -101,7 +101,7 @@ require "cocos.network.DeprecatedNetworkFunc"
 -- register_ui_moudle
 if nil ~= ccui then
     require "cocos.ui.DeprecatedUIEnum"
-    --require "cocos.ui.DeprecatedUIFunc"
+    require "cocos.ui.DeprecatedUIFunc"
 end
 
 -- cocosbuilder

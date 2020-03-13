@@ -31,7 +31,7 @@ function Audio:preloadMusic(name, path)
 		return
 	end	
 
-	self.audioEngine.preload(path)
+	--self.audioEngine.preload(path)
 	self.musics[name] = path
 end
 
@@ -72,7 +72,7 @@ function Audio:preloadEffect(name, path)
 		return
 	end
 
-	self.audioEngine.preload(path)
+	--self.audioEngine.preload(path)
 	self.effects[name] = path
 end
 

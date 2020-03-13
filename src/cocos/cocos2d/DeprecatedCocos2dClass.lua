@@ -1757,8 +1757,8 @@ _G["cc.EGLView"] = DeprecatedClass.EGLView()
 
 --ShaderCache class will be Deprecated,begin
 function DeprecatedClass.ShaderCache()
-    deprecatedTip("cc.ShaderCache","cc.GLProgramCache")
-    return cc.GLProgramCache
+    deprecatedTip("cc.ShaderCache","ccb.ProgramState")
+    return ccb.ProgramState
 end
 cc.ShaderCache = DeprecatedClass.ShaderCache()
 --ShaderCache  class will be Deprecated,end
