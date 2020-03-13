@@ -44,6 +44,8 @@ using namespace cocos2d::experimental;
 USING_NS_CC;
 using namespace std;
 
+extern "C" int luaopen_libpower(lua_State *L);
+
 AppDelegate::AppDelegate()
 {
 }
@@ -142,6 +144,7 @@ std::vector<std::string> getAllFileNameByDirectory(std::string filePath)
             {
                 continue;
             }
+            CCLOG("%s",filePath.c_str());
             path_vec.push_back(d_name);
         }
     }
@@ -204,8 +207,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     //LuaStack* stack = engine->getLuaStack();
     //register_custom_function(stack->getLuaState());
 
-    lua_State* l = stack->getLuaState();
-    register_all_pomelo(l);
+    register_all_pomelo(L);
+    luaopen_libpower(L);
     
 #if CC_64BITS
     FileUtils::getInstance()->addSearchPath("src/64bit");
