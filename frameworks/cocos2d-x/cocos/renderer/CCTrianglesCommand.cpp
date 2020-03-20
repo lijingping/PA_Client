@@ -53,6 +53,7 @@ void TrianglesCommand::init(float globalOrder, Texture2D* texture, const BlendFu
         _blendType != blendType)
     {
         _programType = _pipelineDescriptor.programState->getProgram()->getProgramType();
+
         _texture = texture->getBackendTexture();
         _blendType = blendType;
         

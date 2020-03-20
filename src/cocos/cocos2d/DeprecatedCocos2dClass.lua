@@ -1499,7 +1499,7 @@ _G["CCRemoveSelf"] = DeprecatedClass.CCRemoveSelf()
 
 --CCLabelTTF class will be Deprecated,begin
 function DeprecatedClass.CCLabelTTF()
-    deprecatedTip("CCLabelTTF","cc.LabelTTF")
+    deprecatedTip("CCLabelTTF","CCLabelTTF")
     return cc.LabelTTF
 end
 _G["CCLabelTTF"] = DeprecatedClass.CCLabelTTF()
